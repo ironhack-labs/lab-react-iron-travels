@@ -3,8 +3,48 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
 }
 
+.card {
+  border: 2px solid black;
+  width: 80%;
+  display: flex;
+}
+.card img {
+  height: 300px;
+  margin: 20px;
+}
+.card div {
+  text-align: left;
+}
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.badge {
+  margin: 20px;
+  padding: 2px;
+  border-radius: 0.5rem;
+}
+.green {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.03rem;
+  background-color: rgba(40, 156, 40, 0.768);
+}
+.blue {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.03rem;
+  background-color: rgba(24, 95, 165, 0.768);
+}
 .logo {
   height: 5em;
   padding: 0.1rem 1.5em;
