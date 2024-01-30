@@ -5,6 +5,26 @@
   text-align: center;
 }
 
+body {
+  background-color: white;
+}
+
+.card {
+  display: flex;
+  padding: 16px;
+  margin: 24px 0;
+  color: black;
+  border: 1px solid black;
+  .image {
+    width: 50%;
+  }
+}
+
+.label {
+  border-radius: 8px;
+  padding: 4px;
+}
+
 .logo {
   height: 5em;
   padding: 0.1rem 1.5em;
