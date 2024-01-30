@@ -19,6 +19,12 @@ const TravelList = () => {
     return { costLabel, isGreen };
   };
 
+  const deletePlan = (planIdNeedToBeDeleted) => {
+    setTravelPlans(
+      travelPlans.filter((item) => planIdNeedToBeDeleted !== item.id)
+    );
+  };
+
   return (
     <div>
       <h2>Travel Plans</h2>
@@ -27,18 +33,21 @@ const TravelList = () => {
         return (
           <div key={plan.id} className="card">
             <img className="image" src={plan.image} alt={plan.destination} />
-            <div>
+            <div className="cardDetails">
               <h3>
                 {plan.destination} ({plan.days} Days)
               </h3>
-              <p>Price: ${plan.totalCost}</p>
-              {labelProps.costLabel.length > 0 && (
-                <Label isGreen={labelProps.isGreen}>
-                  {labelProps.costLabel}
-                </Label>
-              )}
-              {plan.allInclusive && <Label>All-inclusive</Label>}
               <p>{plan.description}</p>
+              <p>Price: ${plan.totalCost}</p>
+              <div className="labelsWrapper">
+                {labelProps.costLabel.length > 0 && (
+                  <Label isGreen={labelProps.isGreen}>
+                    {labelProps.costLabel}
+                  </Label>
+                )}
+                {plan.allInclusive && <Label>All-inclusive</Label>}
+              </div>
+              <button onClick={() => deletePlan(plan.id)}> Delete </button>
             </div>
           </div>
         );
