@@ -3,14 +3,27 @@ import logo from "./assets/logo.png";
 import data from './assets/travel-plans.json'
 
 import "./App.css";
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import TravelList from "./Components/TravelList";
 
 function App() {
 
+  const [travel, setTravel] = useState([])
+
   useEffect(() => {
+    try {
     console.log(data)
+      setTravel(data)
+    } catch (error) {
+      console.log(error)
+    }
   }, [])
+
+  const onHandleDelete = (id) => {
+    console.log(id)
+    const newTravel = travel.filter((travel) => travel.id !== id)
+    setTravel(newTravel)
+  }
 
   return (
     <>
@@ -22,15 +35,12 @@ function App() {
 
 
       {
-        data.map((travel) => {
+        travel.map((travel) => {
           return (
             <TravelList
               key={travel.id}
-              image={travel.image}
-              destination={travel.destination}
-              days={travel.days}
-              description={travel.description}
-              totalCost={travel.totalCost}
+              travel={travel}
+              onHandleDelete={onHandleDelete}
             />
           );
         })
