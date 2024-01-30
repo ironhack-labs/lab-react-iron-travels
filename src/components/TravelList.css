@@ -1,0 +1,63 @@
+.trip-div {
+  border: 1px solid black;
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.text-div {
+  text-align: left;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trip-pic {
+  width: 300px;
+  margin-right: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  background-color: #77bc76;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.blue,
+.inclusive {
+  background-color: #366aca;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  margin: 3px;
+  height: 20px;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.delete-button {
+  background-color: #aba9ab;
+  margin-top: 10px;
+  width: 90px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
