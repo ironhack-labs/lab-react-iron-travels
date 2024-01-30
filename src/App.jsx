@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <>
+    <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
       <div>        
         <img src={logo} className="logo" alt="App logo" />
       </div>
@@ -46,7 +46,7 @@ function App() {
         })
         }
       
-    </>
+    </div>
   );
 }
 
