@@ -36,3 +36,14 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travelcard {
+  display: flex;
+  flex-direction: column;
+}
+
+.destination {
+  display: flex;
+  border: 1px solid black;
+
+}
