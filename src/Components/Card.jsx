@@ -20,6 +20,8 @@ const Card = ({
             paddingBottom: '20px',
             paddingLeft: '30px',
             paddingRight: '30px',
+            marginTop: '20px',
+            marginBottom: '20px',
             display: 'flex',
             justifyContent: 'center',
             flexDirection: 'row',
