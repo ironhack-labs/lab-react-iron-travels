@@ -1,68 +1,152 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+div,
+section,
+main {
+  box-sizing: border-box;
+}
+
+nav {
+  background: #cec8db;
+  color: white;
+  padding: 0px 20px;
+  box-shadow: 0px 1px 2px gray;
   display: flex;
-  min-width: 320px;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+nav p {
+  color: white;
+  margin-left: 0px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h2 {
+  padding: 15px 30px;
+  border: 1px solid #6d6d6d;
+  background: lightcyan;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+h3 {
+  padding: 5px 50px;
+  display: inline-block;
+}
+
+button,
+select {
+  padding: 3px 10px;
+  min-width: 50px;
+  height: 40px;
+  margin: 5px;
+  font-size: 1rem;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.list {
+  width: 400px;
+  padding: 10px;
+  box-shadow: 0px 2px 3px grey;
+  margin-bottom: 20px;
+  background: white;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.list > li,
+.list > p,
+.list > div {
+  margin: 10px;
+  border: 1px solid #f98a8a;
+}
+.destination-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  width: 40%;
+  margin: 10px auto; /* Center the card horizontally */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex-wrap: wrap; /* Allow content to wrap to the next line if needed */
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+}
+
+.card-content img {
+  max-width: 150px;
+  margin-right: 20px;
+}
+
+.destination-card h3,
+.destination-card p {
+  margin: 0;
+}
+.label {
+  padding: 8px 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  display: block; /* Change to block */
+  background-color: #3498db;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #3498db;
+  border-radius: 5px;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.AllInclusiveLabel {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.GreatDealLabel {
+  background-color: #27ae60;
+  border-color: #27ae60;
+}
+
+.PremiumLabel {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.StandardLabel {
+  background-color: #333;
+  border-color: #333;
+  color: white;
+}
+
+.label:hover {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+  color: #ffffff;
 }
