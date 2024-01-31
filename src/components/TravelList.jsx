@@ -14,6 +14,14 @@ const getLabel = (travel) => {
 export default function TravelList() {
   const [travelData, setTravelData] = useState(travelPlansData);
 
+  const onClick = (clickedId) => {
+    setTravelData((preTravelData) => {
+      return preTravelData.filter((travel) => {
+        return clickedId !== travel.id;
+      });
+    });
+  };
+
   return (
     <>
       {travelData.map((travel) => {
@@ -30,6 +38,7 @@ export default function TravelList() {
             {travel.totalCost <= 350 ? <span>Great Deal</span> : null} */}
             {getLabel(travel)}
             {travel.allInclusive ? <span>All-inclusive</span> : null}
+            <button onClick={() => onClick(travel.id)}>Delete</button>
           </div>
         );
       })}
