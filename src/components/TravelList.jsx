@@ -11,15 +11,20 @@ export default function TravelList() {
     setTravels(filteredList);
   };
   const getCostLabel = (totalCost, allInclusive) => {
+    let labels = [];
     if (allInclusive) {
-      return <label className="AllInclusiveLabel">All Inclusive</label>;
-    } else if (totalCost <= 350) {
-      return <label className="GreatDealLabel">Great Deal</label>;
-    } else if (totalCost >= 1500) {
-      return <label className="PremiumLabel">Premium</label>;
-    } else {
-      return <label className="StandardLabel">Standard</label>;
+      labels.push(<label className="AllInclusiveLabel">All Inclusive</label>);
     }
+    if (totalCost <= 350) {
+      labels.push(<label className="GreatDealLabel">Great Deal</label>);
+    } else if (totalCost >= 1500) {
+      labels.push(<label className="PremiumLabel">Premium</label>);
+    }
+    return labels.length > 0 ? (
+      labels
+    ) : (
+      <label className="StandardLabel">Standard</label>
+    );
   };
 
   return travels.map((travel) => (
