@@ -1,6 +1,16 @@
 import travelPlansData from "../assets/travel-plans.json";
 import { useState } from "react";
 
+const getLabel = (travel) => {
+  let label;
+  if (travel.totalCost >= 1500) {
+    label = <span>Premium</span>;
+  } else if (travel.totalCost <= 350) {
+    label = <span>Great Deal</span>;
+  }
+  return label;
+};
+
 export default function TravelList() {
   const [travelData, setTravelData] = useState(travelPlansData);
 
@@ -15,8 +25,10 @@ export default function TravelList() {
             <p>
               <b>Price: {travel.totalCost} €</b>
             </p>
-            {travel.totalCost >= 1500 ? <span>Premium</span> : null}
-            {travel.totalCost <= 350 ? <span>Great Deal</span> : null}
+            {/* Another way to do it: */}
+            {/* {travel.totalCost >= 1500 ? <span>Premium</span> : null}
+            {travel.totalCost <= 350 ? <span>Great Deal</span> : null} */}
+            {getLabel(travel)}
             {travel.allInclusive ? <span>All-inclusive</span> : null}
           </div>
         );
