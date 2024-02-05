@@ -54,3 +54,16 @@
 .TravelList .info {
   margin: 0 1vh;
 }
+
+button {
+  margin: 0.5vh;
+}
+
+.blue {
+  background-color:lightskyblue;
+  color: white;
+}
+
+.green {
+  background-color:green;
+}
