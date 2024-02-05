@@ -1,8 +1,10 @@
 #root {
   width: 100%;
-  margin: 0 auto;
-  padding: 1.5rem;
-  text-align: center;
+  margin: 0;
+  padding: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -35,4 +37,20 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.TravelList {
+  display: flex;
+  margin: 1vh;
+  padding: 2vh;
+  width: 70vw;
+  border: 1px solid black;
+}
+
+.TravelList img {
+  width: 50%;
+}
+
+.TravelList .info {
+  margin: 0 1vh;
 }
