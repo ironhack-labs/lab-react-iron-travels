@@ -1,6 +1,7 @@
 import logo from "./assets/logo.png";
 import "./App.css";
 import TravelList from "./components/TravelList";
+import TravelPlanCard from "./components/TravelPlanCard";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
       {/* RENDER YOUR LIST COMPONENT HERE */}
       <TravelList />
+      {/* <TravelPlanCard plan={plan}/> */}
     </>
   );
 }

@@ -2,7 +2,7 @@ import { useDebugValue, useState } from "react";
 import travelPlansData from "../assets/travel-plans.json";
 import "./travelList.css";
 
-function TravelList() {
+function TravelPlanCard({plan}) {
   const [travelDataToDisplay, setTravlePlansData] = useState(travelPlansData);
 
   const deleteTravel = (id) => {
@@ -48,4 +48,4 @@ function TravelList() {
   );
 }
 
-export default TravelList;
+export default TravelPlanCard;
