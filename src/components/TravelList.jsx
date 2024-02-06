@@ -1,6 +1,14 @@
 import React, { useState } from "react";
-import travelData from "../assets/travel-plans.json";
+import travelDatas from "../assets/travel-plans.json";
 let TravelList = () => {
+  const [travelData, setTravelData] = useState(travelDatas);
+
+  const deleteBtn = (id) => {
+    // Filter out the item with the specified id
+    const updatedTravelData = travelData.filter((elem) => elem.id !== id);
+    setTravelData(updatedTravelData);
+  };
+
   let mappedData = travelData.map((elem) => {
     return (
       <div key={elem.id} className="travelList">
@@ -22,6 +30,15 @@ let TravelList = () => {
             </div>
           )}
         </section>
+        <div className="deletBtnContainer">
+          <button
+            onClick={() => {
+              deleteBtn(elem.id);
+            }}
+          >
+            Delete
+          </button>
+        </div>
       </div>
     );
   });

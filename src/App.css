@@ -83,3 +83,6 @@
   align-items: center;
   width: 100px;
 }
+.deletBtnContainer {
+  margin-left: 20px;
+}
