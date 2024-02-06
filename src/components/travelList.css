@@ -1,0 +1,29 @@
+.travelList {
+  /* background-color: aqua; */
+  color: #050e61;
+  display: flex;
+  padding: 20px 20px;
+  margin: 20px 0;
+  border: 1px solid #050e61;
+}
+.travelList__imgcontainer {
+  width: 250px;
+  height: 180px;
+  overflow: hidden;
+}
+
+.travelList img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.travelList__details {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.travelList__details h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
