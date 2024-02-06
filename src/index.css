@@ -3,9 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -40,9 +38,9 @@ button {
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: bold;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: gray;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -54,15 +52,83 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.Plan {
+  display: flex;
+  border: 1px solid black;
+  padding: 20px;
+  gap: 20px;
+}
+
+.VerticalImage {
+  width: 100%;
+}
+
+.HorizontalImage {
+  width: 50%;
+}
+
+.Favorite {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border: 1px solid black;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Labels {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.BlueLabel {
+  background-color: cornflowerblue;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.GreenLabel {
+  background-color: forestgreen;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.MainDiv {
+  display: flex;
+
+  gap: 20px;
+}
+
+.List {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Favorites {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Info {
+  text-align: left;
+  width: 100%;
+}
+
+.InfoFavorite {
+  text-align: center;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
 }
