@@ -29,13 +29,13 @@ function TravelList () {
                 <p>{travelPlan.description}</p>
                 <span>Price: {travelPlan.totalCost} $</span>
                 
-                {travelPlan.totalCost <= 350 && <span className="green label">Great Deal</span>}
-               
-                {travelPlan.totalCost > 350 && <span className="blue label">Premium</span>}
+                {travelPlan.totalCost <= 350 ? <span className="green label">Great Deal</span> : <span className="blue label">Premium</span>}
                
                 {travelPlan.allInclusive  === true && <span className="blue label">All Inclusive</span>}
 
                 <button onClick = {() =>  {deleteButton(travelPlan.id)}}>Delete</button>
+
+               
 
               </li>
             ))}
