@@ -25,10 +25,10 @@ export default function TravelList() {
   return (
     <div className="MainDiv">
       <div className="List">
-        {plansArray.map((plan, index) => (
+        {plansArray.map((plan) => (
           <TravelPlanCard
             plan={plan}
-            key={index}
+            key={plan.id}
             removeElement={() => removePlan(plan.id)}
             addToFavorites={() => addToFavorites(plan.id)}
           />

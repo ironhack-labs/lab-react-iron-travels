@@ -31,9 +31,9 @@ export default function TravelPlanCard({
             {" "}
             <div className="Labels">
               {totalCost <= 350 ? (
-                <div className="BlueLabel">Premium</div>
-              ) : (
                 <div className="GreenLabel">Great Deal</div>
+              ) : (
+                <div className="BlueLabel">Premium</div>
               )}
 
               {allInclusive ? (
