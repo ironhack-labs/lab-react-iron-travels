@@ -3,7 +3,7 @@ import places from "../assets/travel-plans.json";
 
 function TravelList(){
 
-const [placesToDisplay, setPlacesToDisplay] = useState(placesToDisplay);
+const [placesToDisplay, setPlacesToDisplay] = useState(places);
 
 const deletePlace = (id) => {
     setPlacesToDisplay(placesToDisplay.filter(item => item.id !== id));
