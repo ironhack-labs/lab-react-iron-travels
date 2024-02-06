@@ -1,0 +1,16 @@
+.travelDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+.travelsContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.imgs {
+  width: 400px;
+  height: 300px;
+}
