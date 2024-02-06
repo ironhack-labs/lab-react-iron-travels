@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import TravelCard from './TravelCard';
+import TravelPlanCard from './TravelPlanCard';
 
 import travelPlansData from '../data/travel-plans.json';
 
@@ -17,7 +17,9 @@ function TravelList() {
     <div className="travel-cards">
       {data.map((plan, index) => {
         console.log(plan);
-        return <TravelCard plan={plan} onDelete={() => deleteCard(index)} />;
+        return (
+          <TravelPlanCard plan={plan} onDelete={() => deleteCard(index)} />
+        );
       })}
     </div>
   );

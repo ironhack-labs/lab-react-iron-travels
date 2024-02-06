@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TravelCard({ plan, onDelete }) {
+function TravelPlanCard({ plan, onDelete }) {
   return (
     <div className="travel-cards__card" id={plan.id}>
       <img src={plan.image} alt="" />
@@ -26,4 +26,4 @@ function TravelCard({ plan, onDelete }) {
   );
 }
 
-export default TravelCard;
+export default TravelPlanCard;
