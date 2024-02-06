@@ -67,3 +67,8 @@ button {
 .green {
   background-color:green;
 }
+
+.delete-btn {
+  color: white;
+  background-color: red;
+}
