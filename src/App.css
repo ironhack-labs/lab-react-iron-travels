@@ -45,11 +45,35 @@
 }
 
 .destination > img {
-  width: 300px;
+  width: 400px;
   padding: 20px;
 }
 
 .destinationInfo {
   text-align: left;
   padding-left: 20px;
+}
+.greate-deal {
+  background-color: lightseagreen;
+  pointer-events: none;
+  color: black;
+}
+.premium {
+  background-color: lightskyblue;
+  pointer-events: none;
+  color: black;
+  margin-right: 10px;
+}
+.delete {
+  background-color: gray;
+  margin-top: 10px;
+}
+.favorite {
+  background-color: gray;
+  margin-top: 10px;
+  float: right;
+}
+.two-columns {
+  display: flex;
+  justify-content: space-evenly;
 }
