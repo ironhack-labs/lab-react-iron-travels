@@ -7,15 +7,15 @@ const [placesToDisplay, setPlacesToDisplay] = useState(places);
 
 const deletePlace = (id) => {
     const updatePlaces = placesToDisplay.filter(item => item.id !== id);
-    setPlacesToDisplay(updatePlaces);
+    setPlacesToDisplay(placesToDisplay.filter(item => item.id !== id));
 }
 return(
     <section>
 
-    {placesToDisplay.map((element, index) => {
+    {placesToDisplay.map((element) => {
     
         return(
-    <div className= "destination-div" key={index}>
+    <div className= "destination-div" key={element.id}>
         <div className= "img"><img src={element.image}/></div>
         <div className="description">
         <h1>{element.destination}, ({element.days} days)</h1>
