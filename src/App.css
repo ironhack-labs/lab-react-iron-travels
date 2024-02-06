@@ -36,3 +36,31 @@
 .text-iron {
   color: #0a035a;
 }
+
+.destination {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 25px 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.destination__image {
+  width: 300px;
+  height: auto;
+}
+
+.destination__text {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+}
+
+.destination p {
+  display: flex;
+  gap: 7px;
+  flex-direction: column
+}
