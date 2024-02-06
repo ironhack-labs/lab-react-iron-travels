@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white;
 }
 
 .logo {
@@ -35,4 +36,20 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.travelDisplayed {
+  display: column;
+  background-color: white;
+  color: black;
+}
+
+.travelX {
+  border: 3px solid black;
+  margin: 50px;
+}
+
+.travelImg {
+  height: 25%;
+  width: 50%;
 }
