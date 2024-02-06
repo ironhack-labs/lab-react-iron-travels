@@ -12,22 +12,38 @@ export default function TravelPlanCard({
         className={isFavorite ? "VerticalImage" : "HorizontalImage"}
         src={image}
       />
-      <div>
+      <div className={isFavorite ? "InfoFavorite" : "Info"}>
         <h3>
-          {destination}({days} days)
+          {destination} ({days} days)
         </h3>
-        {!isFavorite && <p>{description}</p>}
+        {!isFavorite && <i>{description}</i>}
 
-        <p>Price: {totalCost}</p>
+        {isFavorite ? (
+          <b>{totalCost} €</b>
+        ) : (
+          <p>
+            <b>Price:</b> {totalCost} €
+          </p>
+        )}
+
         {!isFavorite && (
           <>
             {" "}
             <div className="Labels">
-              <div>{totalCost <= 350 ? "Great Deal" : "Premium"}</div>
-              {allInclusive ? <div>All-Inclusive</div> : null}
+              {totalCost <= 350 ? (
+                <div className="BlueLabel">Premium</div>
+              ) : (
+                <div className="GreenLabel">Great Deal</div>
+              )}
+
+              {allInclusive ? (
+                <div className="BlueLabel">All-Inclusive</div>
+              ) : null}
             </div>
-            <button onClick={removeElement}>Delete</button>
-            <button onClick={addToFavorites}>♡</button>{" "}
+            <div className="Buttons">
+              <button onClick={removeElement}>Delete</button>
+              <button onClick={addToFavorites}>♡</button>{" "}
+            </div>
           </>
         )}
       </div>

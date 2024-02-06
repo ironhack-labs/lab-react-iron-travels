@@ -39,7 +39,7 @@ button {
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: bold;
   font-family: inherit;
   background-color: gray;
   cursor: pointer;
@@ -56,7 +56,7 @@ button:focus-visible {
 .Plan {
   display: flex;
   border: 1px solid black;
-  padding: 10px;
+  padding: 20px;
   gap: 20px;
 }
 
@@ -71,16 +71,37 @@ button:focus-visible {
 .Favorite {
   display: flex;
   flex-direction: column;
+  width: 80%;
+  border: 1px solid black;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .Labels {
   display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.BlueLabel {
+  background-color: cornflowerblue;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.GreenLabel {
+  background-color: forestgreen;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .MainDiv {
   display: flex;
 
-  justify-content: space-between;
+  gap: 20px;
 }
 
 .List {
@@ -89,4 +110,23 @@ button:focus-visible {
 
 .Favorites {
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Info {
+  text-align: left;
+  width: 100%;
+}
+
+.InfoFavorite {
+  text-align: center;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
 }

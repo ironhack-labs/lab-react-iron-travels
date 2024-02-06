@@ -17,7 +17,9 @@ export default function TravelList() {
   const addToFavorites = (id) => {
     const favorite = plansArray.find((plan) => plan.id === id);
 
-    setFavorites((current) => [...current, favorite]);
+    if (!favorites.includes(favorite)) {
+      setFavorites([...favorites, favorite]);
+    }
   };
 
   return (
