@@ -6,7 +6,6 @@ function TravelList(){
 const [placesToDisplay, setPlacesToDisplay] = useState(places);
 
 const deletePlace = (id) => {
-    const updatePlaces = placesToDisplay.filter(item => item.id !== id);
     setPlacesToDisplay(placesToDisplay.filter(item => item.id !== id));
 }
 return(
