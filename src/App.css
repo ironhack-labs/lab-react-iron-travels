@@ -36,3 +36,21 @@
 .text-iron {
   color: #0a035a;
 }
+img{
+  width:20%;
+}
+.travel{
+  border: 1px solid;
+  width:80%
+}
+.label{
+  background-color: blue;
+  color: white;
+  margin:10px;
+}
+.deal{
+  background-color: green;
+  color: black;
+  margin:10px;
+  font-weight: 700;
+}
