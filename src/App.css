@@ -36,3 +36,50 @@
 .text-iron {
   color: #0a035a;
 }
+.travelList {
+  margin: 5px;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 20vw;
+}
+.myImg {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+.travenInfo {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.labelContainer label {
+  background-color: rgb(28, 75, 185);
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+.greatDeal {
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
