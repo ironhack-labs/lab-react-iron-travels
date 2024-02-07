@@ -22,17 +22,19 @@ function TravelList(){
         <div>
             {newPlans.map((plan)=>{
                 return (
-                    <div key={plan.id}>
+                    <div key={plan.id} className="TripPlan">
                         <img src={plan.image} />
+                        <div className="tripInfo">
                         <h3>{plan.destination}</h3>
                         <p>{plan.description}</p>
                         <p>Price: {plan.totalCost} €</p>
                         <div>
-                            {plan.totalCost <= 350 ?  <p><strong>Great Deal</strong></p> : null}
-                            {plan.totalCost >= 1500 ?  <p><strong>Premium</strong></p> : null}
-                            {plan.allInclusive && <p><strong>All Inclusive</strong></p>}
+                            {plan.totalCost <= 350 ?  <p className="GreatDeal"><strong>Great Deal</strong></p> : null}
+                            {plan.totalCost >= 1500 ?  <p className="Premium"><strong>Premium</strong></p> : null}
+                            {plan.allInclusive && <p className="Premium"><strong>All Inclusive</strong></p>}
                         </div>
                         <button onClick={() => deletePlan(plan.id)}>Delete Plan</button>
+                        </div>
                     </div>   
                     )
                 })}
