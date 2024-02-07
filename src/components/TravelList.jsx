@@ -1,31 +1,33 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import travels from "../src/assets/travel-plans.json"
+import travelPlansData from "../assets/travel-plans.json"
 
 
-function TravelList({ travelPlans }) {
-    const [selectedPlan, setSelectedPlan] = useState(0); 
-
-    const handlePlanClick = (index) => {
-        setSelectedPlan(index);
+const TravelList = () => {
+    const [travelPlans, setTravelPlans] = useState(travelPlansData);
+  
+    const deleteItems = (index) => {
+      const updatedTravelPlans = [...travelPlans];
+      updatedTravelPlans.splice(index, 1);
+      setTravelPlans(updatedTravelPlans);
     };
-
+  
     return (
-        <div>
-            {travelPlans.map((plan, index) => (
-                <div key={index} onClick={() => handlePlanClick(index)} style={{ cursor: 'pointer' }}>
-                    <h3>{plan.destination}</h3>
-                    <p>Total Cost: ${plan.totalCost}</p>
-                    {plan.totalCost <= 350 && <span>Great Deal</span>}
-                    {plan.totalCost >= 1500 && <span>Premium</span>}
-                    {plan.allInclusive && <span>All Inclusive</span>}
-                </div>
-            ))}
-            <div>
-                <h4>Selected Plan: {travelPlans[selectedPlan].destination}</h4>
-                <p>Total Cost: ${travelPlans[selectedPlan].totalCost}</p>
-            </div>
-        </div>
+      <div>
+        <h2>Travel Plans</h2>
+        <ul>
+          {travelPlans.map((plan, index) => (
+            <li key={index}>
+              {plan.destination} - ${plan.totalCost}
+              {plan.allInclusive ? " (All Inclusive)" : ""}
+              {plan.totalCost <= 350 && <span> - Great Deal</span>}
+              {plan.totalCost >= 1500 && <span> - Premium</span>}
+              <button onClick={() => deleteItems(index)}>Delete</button>
+            </li>
+          ))}
+        </ul>
+      </div>
     );
-}
+  };
+
 export default TravelList;
