@@ -36,3 +36,13 @@
 .text-iron {
   color: #0a035a;
 }
+
+.trip-image {
+  height: 400px;
+  width: 600px;
+}
+
+.div-travel{
+  margin: 10px;
+  margin-bottom: 40px;
+}
