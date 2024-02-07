@@ -12,39 +12,31 @@ function TravelList() {
   };
 
   return (
-    <div className="travelDiv">
+    <div className="travelListContainer" 
+    style={{display:"flex" , flexDirection: "column" , alignItems: "center"}}>
       <h2>Travel List</h2>
       {travels.map((travel) => {
         return (
-          <div
+          <div key={travel.id}
+            className="travel.Div"
             style={{ 
             display: "flex",
-            alignContent: "center",
-            alignItems: "center",
             border: "solid" ,
             width: "600px",
             height: "251px" ,
             margin: "20px",
-
-            }}
-            key={travel.id}
-            className="travelId"
-          >
+            }}>
             <img
               style={{
-                justifyContent: "left",
-                border: "1px solid",
                 width: "250px",
                 height: "250px",
-                alignItems: "center",
               }}
-              className="travelimg"
+              className="travilImg"
               src={travel.image}
               alt={`Travel to ${travel.destination}`}
             />
 
             <spam style={{
-                alignItems: "left" ,
                 margin: "20px" ,
                 textAlign: "left"
             }}>

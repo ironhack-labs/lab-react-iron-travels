@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  align-content: center;
 }
 
 .logo {
@@ -36,8 +37,8 @@
 .text-iron {
   color: #0a035a;
 }
-
-.travelDiv{
-  display: "flex",
-
-}
+ 
+#travelId{
+  display: flex;
+  justify-content: center;
+} 
