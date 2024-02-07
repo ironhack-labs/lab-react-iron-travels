@@ -7,10 +7,10 @@ function TravelList() {
 
     const travelPackage = travelItem.map((travelDetails) => (   // Note to myself: parentheses for implicit return
         <div key={travelDetails.id} className="TravelInfos">
-            <img src={travelDetails.image} alt="{travelDetails.destination}" />
-            <h2>{travelDetails.destination} ({travelDetails.days} Days)</h2>
-            <p>{travelDetails.description}</p>
-            <p><strong>Price: </strong>{travelDetails.totalCost} €</p>
+            <img src={travelDetails.image} alt="travelDetails.destination" />
+            <h2>travelDetails.destination (travelDetails.days Days)</h2>
+            <p>travelDetails.description</p>
+            <p><strong>Price: </strong>travelDetails.totalCost €</p>
 
             {travelDetails.totalCost <= 350 && <p>Great Deal</p>}
             {travelDetails.totalCost >= 1500 && <p>Premium</p>}
