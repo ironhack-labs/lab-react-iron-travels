@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.travellist {
+  display: flex;
+  align-items: center;
+  /* task for later */
+}
+
 .logo {
   height: 5em;
   padding: 0.1rem 1.5em;
@@ -27,11 +33,6 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 .text-iron {
   color: #0a035a;
