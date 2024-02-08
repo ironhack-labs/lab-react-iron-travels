@@ -36,3 +36,32 @@
 .text-iron {
   color: #0a035a;
 }
+
+
+#image{
+  display: flex;
+  width: 390px;
+  height: 300px;
+  margin-top: 1px;
+}
+
+.travel-list{
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+#premium{
+  color: blue;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-weight: bold;
+}
+
+#greatdeal{
+  color: blue;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-weight: bold;
+}
