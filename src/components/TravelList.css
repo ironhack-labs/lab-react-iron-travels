@@ -1,0 +1,31 @@
+.card-images{
+    width: 300px;
+    height: 200px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.card-description{
+    text-align: left;
+    margin-left: 20px ;
+}
+.cards{
+    /* width: 800px; */
+    text-align: center;
+}
+.card-tags{
+    display: flex;
+}
+.tag{
+    margin-right: 20px;
+    border: solid 2px rgb(54, 54, 182);
+    border-radius: 6px;
+    background-color: rgb(111, 85, 208);
+    color: black;
+    padding: 10px;
+}
