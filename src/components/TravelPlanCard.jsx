@@ -14,7 +14,8 @@ const TravelPlanCard = ({ plan, onRemove }) => {
 
 
       {/* i found that short-circuit evaluation in more concise and works in this case
-      but according to some research */}
+      but according to some research the ternary operador offers minor error margin compared to short-circuit evaluation
+      */}
       {allInclusive && <p>All Inclusive</p>}
       <button onClick={onRemove}>Delete</button>
     </div>
