@@ -50,7 +50,7 @@ function TravelList() {
                 {eachObject.totalCost <= 350 ? "Great Deal" : null}
               </p>
             </div>
-            <button onClick={() => handleRemoveTravelPlan(index)}>
+            <button id= "button"onClick={() => handleRemoveTravelPlan(index)}>
               Borrar
             </button>
           </div>

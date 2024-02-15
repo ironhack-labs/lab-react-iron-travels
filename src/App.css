@@ -108,3 +108,8 @@ text-align: left;
   margin-right: 5px;
 }
 
+#button{
+  padding: 10px;
+  background:rgb(163, 162, 162);
+  border-radius: 4px;
+}
