@@ -3,6 +3,10 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  display:block;
+  justify-content:center;
+  background-color:white;
+  color:black
 }
 
 .logo {
@@ -35,4 +39,31 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.TripPlan{
+  display:flex;
+  border: 1px solid grey;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 25px;
+  border-radius: 4px;
+  width:800px
+}
+
+.TripPlan img{
+  width:400px
+}
+
+.Premium {
+  margin-top: 10px; 
+  border: 1px solid darkblue;
+  background-color: darkblue;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  width: 80px;
+  height: 40px;
+  color: white;
 }
