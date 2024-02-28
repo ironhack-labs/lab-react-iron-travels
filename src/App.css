@@ -36,3 +36,66 @@
 .text-iron {
   color: #0a035a;
 }
+
+.list-container {
+  width: 900px;
+  margin-inline: auto;
+}
+
+.card-container {
+  display: flex;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 0px 50px 20px 50px;
+  color: black;
+}
+
+.card-container img {
+  width: 400px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.card-data-wrapper {
+  text-align: left;
+}
+
+.card-data-wrapper h1 {
+  font-size: 30px;
+}
+
+.great-deal {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 8px; 
+}
+
+.premium-deal {
+  background-color: rgb(0, 102, 255);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 8px; 
+}
+
+.all-inclusive {
+  background-color: rgb(0, 102, 255);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 8px; 
+  margin: 10px;
+}
+
+.delete-button {
+  display: block;
+  background-color: #858285;
+  color: black;
+  font-weight: bold;
+  cursor:pointer;
+  border-radius: 5px;
+  padding: 5px 8px; 
+  margin: 10px 0px;
+}
