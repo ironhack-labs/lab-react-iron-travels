@@ -12,52 +12,56 @@ const TravelList = () => {
   };
 
   return (
-    <ul>
+    <ul className="travel-list">
       {travelList.map((item) => {
         return (
           <li key={item.id}>
             <div className="flex-container">
               <div className="image-div">
                 <img
-                  className="image"
+                  className="listing-image"
                   src={item.image}
                   alt={item.destination}
                 />
               </div>
 
               <div className="content-div">
-                <h3>
-                  {item.destination} ({item.days} Days)
-                </h3>
+                <div className="listing-info">
+                  <h3 className="listing-title">
+                    {item.destination} ({item.days} Days)
+                  </h3>
 
-                <p>
-                  <i> {item.description} </i>
-                </p>
+                  <p>
+                    <i> {item.description} </i>
+                  </p>
 
-                <p>
-                  <strong> Price </strong> {item.totalCost} <strong>€</strong>{" "}
-                </p>
-
-                {/* Premium Label  */}
-                {item.totalCost > 1500 && (
-                  <div className="premium"> Premium </div>
-                )}
-                {/* Great Deal Label */}
-                {item.totalCost < 350 && (
-                  <div className="great-deal"> Great Deal </div>
-                )}
-                {/* All Inclusive  */}
-                {item.allInclusive && (
-                  <div className="all-inc"> All-Inclusive </div>
-                )}
-
+                  <p>
+                    <strong> Price </strong> {item.totalCost} <strong>€</strong>{" "}
+                  </p>
+                  <div className="label-set">
+                    {/* Premium Label  */}
+                    {item.totalCost > 1500 && (
+                      <div className="premium"> Premium </div>
+                    )}
+                    {/* Great Deal Label */}
+                    {item.totalCost < 350 && (
+                      <div className="great-deal"> Great Deal </div>
+                    )}
+                    {/* All Inclusive  */}
+                    {item.allInclusive && (
+                      <div className="all-inc"> All-Inclusive </div>
+                    )}
+                  </div>
+                </div>
                 {/* Delete button  */}
-                <button
-                  className="delete-button"
-                  onClick={() => deleteTravelCard(item.id)}
-                >
-                  Delete
-                </button>
+                <footer className="footer-base">
+                  <button
+                    className="delete-button"
+                    onClick={() => deleteTravelCard(item.id)}
+                  >
+                    Delete
+                  </button>
+                </footer>
               </div>
             </div>
           </li>
