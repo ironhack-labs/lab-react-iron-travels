@@ -28,6 +28,8 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  background-color: white;
+  color: #747bff;
 }
 
 h1 {
@@ -66,3 +68,42 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* added css*/
+
+
+.label {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.great-deal {
+  background-color: #4caf50; 
+  color: white;
+}
+
+.premium {
+  background-color: #2196f3; 
+  color: white;
+}
+
+.all-inclusive {
+  background-color: #2196f3;
+  color: white;
+}
+
+.travel-plan {
+  margin-top: 20px;
+  background-color: white;
+  color: #747bff;
+
+}
+
+.button-delete {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
