@@ -5,6 +5,7 @@
     "image": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-iron-travels/paris.jpg",
     "days": 7,
     "allInclusive": true,
+    "isFavorite": false,
     "totalCost": 2200,
     "description": "Explore the romantic streets of Paris.",
     "parts": [
@@ -21,6 +22,7 @@
     "image": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-iron-travels/tokyo.jpeg",
     "days": 7,
     "allInclusive": false,
+    "isFavorite": false,
     "totalCost": 1866,
     "description": "Discover the vibrant culture of Tokyo.",
     "parts": [
@@ -42,6 +44,7 @@
     "image": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-iron-travels/rome.jpeg",
     "days": 3,
     "allInclusive": false,
+    "isFavorite": false,
     "totalCost": 346,
     "description": "Experience the rich history of Rome.",
     "parts": [
@@ -68,6 +71,7 @@
     "image": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-iron-travels/barcelona.jpeg",
     "days": 3,
     "allInclusive": false,
+    "isFavorite": false,
     "totalCost": 349,
     "description": "Enjoy the vibrant culture of Barcelona.",
     "parts": [
@@ -89,6 +93,7 @@
     "image": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-iron-travels/bangkok.jpeg",
     "days": 7,
     "allInclusive": false,
+    "isFavorite": false,
     "totalCost": 992,
     "description": "Experience Bangkok and Thailand.",
     "parts": [
@@ -110,6 +115,7 @@
     "image": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-iron-travels/athens.jpg",
     "days": 3,
     "allInclusive": false,
+    "isFavorite": false,
     "totalCost": 341,
     "description": "Discover the ancient history of Athens.",
     "parts": [
@@ -131,6 +137,7 @@
     "image": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-iron-travels/prague.jpg",
     "days": 3,
     "allInclusive": false,
+    "isFavorite": false,
     "totalCost": 360,
     "description": "Explore the charming streets of Prague.",
     "parts": [
