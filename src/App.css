@@ -34,5 +34,25 @@
 }
 
 .text-iron {
-  color: #0a035a;
+  color: #410ae7;
+}
+
+img{
+
+  display: flex;
+  align-self: flex-start;
+  margin-right: 15px;
+  height: 250px;
+  /* padding: 1px 10px 1px 1px; */
+  
+}
+
+
+div .travels{
+
+  display: flex;
+  border: 2px solid black;
+  padding: 1px 1px;
+  margin: 100px;
+
 }
