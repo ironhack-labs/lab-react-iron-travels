@@ -6,15 +6,18 @@ export const TravelList = () => {
   let [travelArray, setTravelArray] = useState(travelPlansData);
 
   return (
-    <div>
-      {/* <img src="./assets/logo.png" />
-      <h1>Iron Travels</h1>
-      <h3>Tailored Travel Plans for Ironhackers</h3> */}
+    <div className="tripContainer">
       <ul>
         {travelArray.map((city, index) => (
-          <li key={index}>
-            {city.destination}, {city.days}, {city.decription}
-            {city.totalCost}
+          <li className="list" key={index}>
+            <img className="photos" src={city.image} />
+            <div className="display">
+              <div className="bold">
+                {city.destination}, ({city.days} Days)
+              </div>
+              <div className="italics">{city.description}</div>
+              <div className="bold">Price: {city.totalCost} €</div>
+            </div>
           </li>
         ))}
       </ul>
