@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -44,8 +47,27 @@
 
 .trip-boxes{
   width:500px;
+  border-radius: 5px;
+  border: solid 1.5px black;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
 }
 
 .trip-boxes img{
-  width: 400px;
+  width: 250px;
 }
+
+.trip-text{
+  text-align: start;
+  padding-left: 20px;
+  }
+
+  .greatDeal{
+    background-color: rgb(54,107,202);
+    color: white;
+  }
+
+  .premium{
+    background-color: rgb(119,188,119);
+  }

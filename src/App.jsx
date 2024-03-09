@@ -14,7 +14,8 @@ function App() {
       <h1 className="text-iron">Iron Travels</h1>
       <h3 className="text-iron">Tailored Travel Plans for Ironhackers</h3>
 
-      <TravelList className="travelList" travelList = {travelListState} 
+      <TravelList className="travelList" 
+                  travelList = {travelListState} 
                   setTravelListState = {setTravelListState}/>
       
     </>
