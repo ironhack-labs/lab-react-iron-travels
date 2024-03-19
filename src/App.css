@@ -36,3 +36,19 @@
 .text-iron {
   color: #0a035a;
 }
+
+.App {
+  display: flex;
+}
+
+.left-container {
+  width: 60%;
+}
+
+.right-container {
+  width: 40%;
+  left: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

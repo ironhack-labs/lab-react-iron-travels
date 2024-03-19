@@ -1,0 +1,58 @@
+.travel-list {
+  height: fit-content;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+.image {
+  width: 50%;
+  padding: 10px;
+}
+
+.picture {
+  width: 100%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 50%;
+  padding: 10px;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.tags {
+  display: flex;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.great-deal {
+  background-color: rgb(135, 186, 125);
+  color: black;
+}
+
+.premium,
+.all-inclusive {
+  background-color: rgb(67, 105, 195);
+  color: white;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.delete,
+.favorite {
+  background-color: rgb(174, 172, 172);
+  margin-top: 20px;
+}
