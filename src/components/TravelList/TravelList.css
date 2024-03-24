@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.image {
+  width: 400px;
+  border-radius: 8px;
+}
+
+.info {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.labels {
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+
+.deal {
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.blueLabel {
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.delete {
+  border: transparent;
+  border-radius: 8px;
+  margin: 1rem 0;
+  font-size: 1rem;
+  background-color: darkgrey;
+  padding: 0.5rem;
+}
