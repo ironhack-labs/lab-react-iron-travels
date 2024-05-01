@@ -36,3 +36,72 @@
 .text-iron {
   color: #0a035a;
 }
+
+.main-container {
+border: 1px solid black;
+padding: 20px;
+display: flex;
+margin: 20px;
+width: 100%;
+}
+
+.main-container img {
+  width: 50%;
+  height: auto;
+}
+
+.information {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+}
+.extra-labels {
+  display: flex;
+  font-weight: 600;
+  color: black;
+}
+
+.label {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#final-buttons{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;  
+ }
+
+.extra-btn {
+  background-color: rgb(182, 181, 181);
+  width: 100px;
+  height: 40px;
+}
+
+.full-container {
+  display: flex;
+
+}
+#plans-column {
+  width: 70%;
+
+}
+#favorites {
+  width: 300px;
+  margin-left: 80px;
+}
+.fav-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.fav-box img {
+  width: 300px;
+  height: auto;
+}
