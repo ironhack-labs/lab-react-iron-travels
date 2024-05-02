@@ -1,0 +1,102 @@
+.travel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    width: 800px;
+    border: 1px solid rgb(2, 2, 107)
+}
+
+.travel-container img{
+width: 400px;
+padding-right: 40px;
+}
+
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(2, 2, 107);
+    width: 300px
+}
+
+.info-container span{
+font-weight: bold;
+}
+
+.label-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.delete-button {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(208, 208, 208);
+    font-weight: bold;
+}
+
+.premium {
+    background-color: rgb(56, 102, 240);
+    color: white;
+}
+
+.great-deal {
+    background-color: rgb(89, 182, 89);
+    font-weight: bold;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items:start;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 1600px;
+}
+
+.container-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.favorites-container h2 {
+    color: #0a035a;
+    width: 400px;
+}
+
+.container1{
+    width: 800px;
+}
+
+.fav-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.fav-container img {
+    width: 400px;
+    height: 200px;
+}
+
+.fav-container p {
+    color: black;
+    padding: 5px;
+    margin: 0px;
+}
