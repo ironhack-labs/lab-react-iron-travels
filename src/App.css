@@ -36,3 +36,21 @@
 .text-iron {
   color: #0a035a;
 }
+
+#costs {
+  position:absolute;
+  left: 57%;
+  
+}
+
+.greatDeal{
+  background-color: rgb(31, 173, 33);
+}
+
+.premium{
+  background-color: rgb(95, 64, 162);
+}
+
+.allInclusive {
+  background-color: rgb(95, 64, 162);
+}
