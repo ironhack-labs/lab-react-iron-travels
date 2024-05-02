@@ -1,0 +1,45 @@
+.lists {
+  display: flex;
+  flex-direction: column;
+}
+.divisions {
+  border: 1px solid white;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.divisions > img {
+  width: 500px;
+  height: 400px;
+}
+
+article {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.greatDeal {
+  background-color: green;
+  width: 80px;
+  align-self: center;
+}
+
+.premium {
+  background-color: brown;
+  width: 80px;
+  align-self: center;
+}
+
+article > button {
+  background-color: grey;
+  width: 90px;
+  margin-top: 20px;
+  align-self: center;
+}
