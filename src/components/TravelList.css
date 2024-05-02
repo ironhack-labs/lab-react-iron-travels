@@ -1,0 +1,67 @@
+.TravelList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+.Card{
+  border: solid 3px;
+  margin-bottom: 40px;
+  padding: 50px 40px;
+  display: flex;
+  align-items: flex-start;
+}
+#cardImg{
+  width: 400px;
+  height: 300px;
+}
+#cardSection{
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+#cardSection > h2{
+  margin: 0;
+}
+#cardSection > p{
+  margin: 10px 0px;
+}
+#price{
+  display: flex;
+  align-items: center;
+}
+#price > h4,p{
+  margin: 0 5px 0 0
+}
+#labels{
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.premium{
+  background-color: rgb(66, 66, 255);
+  color: white;
+  padding: 0 7px;
+  border-radius: 6px;
+}
+.all-inclusive{
+  background-color: rgb(66, 66, 255);
+  color: white;
+  padding: 0 7px;
+  border-radius: 6px;
+}
+.deal{
+  background-color: rgb(15, 179, 42);
+  color: white;
+  padding: 0 7px;
+  border-radius: 6px;
+}
+#delete-btn{
+  margin-top: 10px;
+  padding: 5px 20px;
+  background-color: rgb(222, 222, 222);
+}
