@@ -1,0 +1,26 @@
+.ContainerDestination {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.ContainerDestination img {
+    display: flex;
+    justify-content: left;
+    width: 40%;
+    height: 33%;
+}
+
+.oferts {
+    border: 1px solid blue;
+    background-color: gray;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
