@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white;
 }
 
 .logo {
@@ -35,4 +36,80 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.cards-total{
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.card{
+  padding: 30px;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+  
+}
+
+.cardImg{
+  
+}
+
+.cardContent{
+ padding-left: 20px;
+text-align: left;
+}
+
+.etiquetas{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.premium{
+  padding: 10px;
+  background: #007fff;
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  height: 5px;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.package{
+  padding: 10px;
+  background: #007fff;
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  height: 5px;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.deal{
+  padding: 10px;
+  background: rgb(35, 168, 35);
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  height: 5px;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#button{
+  padding: 10px;
+  background:rgb(163, 162, 162);
+  border-radius: 4px;
 }
