@@ -1,0 +1,42 @@
+label {
+    background-color: rgb(62, 120, 245);
+    border-radius: 7%;
+    padding: .50%;
+    margin: 1.5% 1.5% 1.5% 1.5%;
+    color: white;
+    
+}
+
+button {
+    background-color:antiquewhite;
+    margin: 1.5% 1.5% 1.5% 1.5%;
+}
+
+.Container {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 1.5%;
+    border: 1px solid black;
+    margin: 1% 0 1% 0;
+    width: 70%;
+    height: auto;
+
+}
+
+#description {
+font-style: italic;
+}
+
+.TravelList img {
+width: 50%;
+padding-right: 5%;
+height: auto;
+border-radius: 5%;
+}
