@@ -1,0 +1,61 @@
+
+
+.card {
+    border: 2px solid black;
+    margin-bottom: 2rem;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.imageContainer {
+    width: 400px;
+    margin-right: 2rem;
+}
+
+.cardImage {
+    width: 100%;
+}
+
+.description {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.price {
+    font-weight: 500;
+}
+
+.label {
+    margin-right: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.label:hover {
+    opacity: .8;
+}
+.labelPrimary {
+    background-color: rgb(64, 172, 208);
+    color: white;
+
+}
+.labelSecondary {
+    background-color: lightgreen;
+    color: black;
+}
+
+.premuimContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    margin: 1.5rem 0;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+.btn:hover {
+    opacity: .8;
+}
