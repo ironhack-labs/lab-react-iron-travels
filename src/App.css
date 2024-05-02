@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -35,4 +38,50 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.card {
+  width: 80vw;
+  height: 40vh;
+  border: 1px solid;
+  margin-bottom: 5vh;
+  display: flex;
+}
+
+.texte {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.card > img {
+  width: auto;
+  height: 80%;
+  margin: 2vw;
+}
+
+.texte > h1 {
+  font-size: 2rem;
+  color: rgb(38, 38, 38);
+}
+
+.texte > h2 {
+  font-size: 1rem;
+  color: rgb(62, 58, 58);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.greatDeal {
+  width: 10vw;
+  height: 4vh;
+  background-color: rgb(52, 122, 52);
+  color: black;
+}
+
+.prenium {
+  width: 10vw;
+  height: 4vh;
+  background-color: rgb(70, 93, 244);
+  color: black;
 }
