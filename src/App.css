@@ -33,6 +33,52 @@
   }
 }
 
-.text-iron {
+/*.text-iron {
   color: #0a035a;
+}*/
+
+.card-cointainer{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  
+  
+}
+.main-card{
+  display: flex;
+  justify-content: space-between;
+  color: #0a035a;
+  padding: 10px;
+  border: solid 1px #0a035a;
+  min-width: 600px;
+  align-items: flex-start;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.card-details{
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+.deals{
+  background-color: rgb(58, 136, 246);
+  color: rgb(255, 255, 255);
+  border: solid 2px rgb(30, 30, 161);
+  border-radius: 5px;
+  padding: 3px
+}
+.chips{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+.delete{
+  background-color: rgba(128, 128, 128, 0.749);
+  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  max-width: 100px
+
 }
