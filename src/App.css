@@ -36,3 +36,86 @@
 .text-iron {
   color: #0a035a;
 }
+
+h2 {
+  margin-bottom: 0;
+}
+.tag {
+  width: 7rem;
+  height: 2rem;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenu {
+  width: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.premium {
+  background-color: #6a5cff;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.all-inclusive {
+  background-color: #6a5cff;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.great-deal {
+  background-color: rgb(84, 168, 84);
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.list {
+  margin-left: 20rem;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  width: 50rem;
+}
+
+.contenu-one {
+  width: 20rem;
+}
+
+.contenu-one img {
+width: 10rem;
+}
+
+.contenu-two {
+  border-left: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 2rem;
+}
+
+
+.list img {
+  width: 20rem;
+  height: 15rem;
+  
+}
+
+.button-coast{
+display: flex;
+}
+
+.delete {
+  background-color: gray;
+}
