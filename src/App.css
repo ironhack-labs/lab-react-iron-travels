@@ -36,3 +36,35 @@
 .text-iron {
   color: #0a035a;
 }
+
+.plan-card {
+  display: flex;
+  text-align: left;
+  gap: 2rem;
+  padding: 2rem;
+  outline: 2px solid #000;
+  margin-top: 2rem;
+}
+
+.plan-card > img {
+  max-width: 15rem;
+}
+
+.tag {
+  padding: 0.25rem 0.5rem;
+  width: max-content;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+}
+
+.deal.tag {
+  background-color: green;
+}
+
+.premium.tag {
+  background-color: #3322eb;
+}
+
+button {
+  margin-top: 2rem;
+}
