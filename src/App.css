@@ -36,3 +36,7 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-card {
+  border: red 1px solid;
+}
