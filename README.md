@@ -139,7 +139,6 @@ Update the `TravelList` component to display labels based on the cost (`totalCos
 
   <br>
 
-  
 
 Additionally, if the travel plan includes an all-inclusive package (`allInclusive` property), render a label **All Inclusive** in addition to the cost label.
 
