@@ -127,7 +127,7 @@
   },
   {
     "id": 7,
-    "destination": "Prague, Czech Republic",
+    "destination": "Prague",
     "image": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-iron-travels/prague.jpg",
     "days": 3,
     "allInclusive": false,
