@@ -36,3 +36,129 @@
 .text-iron {
   color: #0a035a;
 }
+
+.TravelPlanCard {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 300px;
+  padding: 10px 25px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.right-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 20px;
+  position: relative;
+}
+
+.TravelPlanCard img {
+  width: 350px;
+  height: 250px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.sub-heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #306abb  ;
+}
+
+.destination-description {
+  padding: 0;
+  margin: 0;
+}
+
+.labels {
+  display: flex;
+  height: 40px;
+}
+
+.label-green {
+  max-height: 24px;
+  box-sizing: content-box;
+  background-color: #77bc77;
+  color: #000;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 5px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.label-blue {
+  max-height: 24px;  
+  box-sizing: content-box;
+  background-color: #246aca;
+  color: #fff;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 5px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.button-container {
+  height: 50px;
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #b6b6b6;
+  padding: 10px 16px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.TravelList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.list {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.FavoritesList {
+  width: 400px;
+  padding-top: 15px;
+}
+
+.FavoritePlanCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.top-section {
+  width: 100%;
+}
+.FavoritePlanCard img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}

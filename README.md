@@ -80,16 +80,15 @@ Inside of the `src/` folder, create a new folder named `components`.
 Use the `components` folder to store all the components that you create in the following iterations.
 
 
-----
 
-<br>
+----
 
 ### Iteration 1 | List and Keys - `TravelList`
 
 Create a `TravelList` component that displays the list of all the items coming from the file `src/data/travel-plans.json`. Remember to import the json data in the component:
 
 ```js
-import travelPlansData from "../assets/travel-plans.json";
+import travelPlansData from "./data/travel-plans.json";
 ```
 
 <br>
@@ -159,6 +158,7 @@ Additionally, if the travel plan includes an all-inclusive package (`allInclusiv
 
 </details>
 
+<br>
 
 ----
 
@@ -166,7 +166,7 @@ Additionally, if the travel plan includes an all-inclusive package (`allInclusiv
 
 ### Iteration 3 | Removing Items - Delete Button
 
-Update the `TravelList` component and display a delete button on each list item. When the user clicks on the button, the corresponding travel plan should be removed from the list.
+Update the `TravelList` component and display a **delete button** on each list item. When the user clicks on the button, the corresponding travel plan should be removed from the list.
 
 <br>
 
@@ -195,7 +195,6 @@ Update the `TravelList` component and display a delete button on each list item.
 
 ----
 
-<br>
 
 ### Bonus: Iteration 4 | Extract Component
 
@@ -214,8 +213,6 @@ The component should take 1 prop:
 <br>
 
 ----
-
-<br>
 
 ### Bonus: Iteration 5 | Favorites
 
@@ -250,10 +247,10 @@ Additionally, the background color of the button should change with each click. 
 
 </details>
 
+<br>
 
 ----
 
-<br>
 
 
 Happy coding! :blue_heart:
