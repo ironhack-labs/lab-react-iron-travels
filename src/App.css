@@ -36,3 +36,28 @@
 .text-iron {
   color: #0a035a;
 }
+
+#apartados{
+  display:flex;
+  border: solid rgb(7, 7, 7) 1px;
+  color:black;
+  margin:auto;
+  flex-direction: column;
+
+
+  
+}
+
+body{
+  background-color: white;
+}
+
+#btnclr1{
+  background-color: blue;
+}
+#btnclr2{
+  background-color: rgb(78, 172, 10);
+}
+#del{
+  background-color: gray;
+}
