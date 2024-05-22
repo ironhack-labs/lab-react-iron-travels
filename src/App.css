@@ -36,3 +36,28 @@
 .text-iron {
   color: #0a035a;
 }
+
+.plan-img {
+  width: 350px;
+  
+
+}
+
+.plan-div {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: black 1px solid;
+  margin: 10px;
+  width: 600px;
+ 
+  
+}
+
+.plan-list-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
