@@ -66,3 +66,34 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.travel-card {
+  padding: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid black;
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 4em;
+  text-align: left;
+}
+
+.travel-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.blue-label,
+.green-label {
+  background-color: rgb(82, 181, 214);
+  width: fit-content;
+  padding: 0.25em;
+  border-radius: 4px;
+}
+
+.green-label {
+  background-color: green;
+}
