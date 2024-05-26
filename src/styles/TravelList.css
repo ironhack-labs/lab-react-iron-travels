@@ -1,0 +1,64 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+.cardTravel{
+   
+   
+    width: 60%;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-bottom: 5vh;
+    
+}
+.description-container{
+    width: 400px;
+   margin-right:  650px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+   
+
+
+}
+
+.image-container{
+
+    margin: 1.5vw;
+
+
+    
+
+
+
+}
+.cardTravel img{
+    
+    width: 25vw;
+    height: 45vh;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+
+}
+.cardTravel button{
+    margin-bottom: 1.5vh;
+    border-color: gray;
+}
+.cardTravel label{
+    border: 1px solid blue;
+    background-color: rgb(82, 191, 231);
+    padding: 5px;
+    margin-bottom: 1.5vh;
+    border-radius: 0.5vw;
+}
