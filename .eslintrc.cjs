@@ -15,4 +15,5 @@ module.exports = {
     'react-refresh/only-export-components': 'warn',
     "react/prop-types": "off"
   },
+  "react/prop-types": false,
 }
