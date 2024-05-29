@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white;
 }
 
 .logo {
@@ -35,4 +36,60 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.travel-plan-card {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  margin: 60px 200px;
+  padding: 2em;
+
+}
+
+.travel-plan-card img {
+  width: 450px;
+  height: auto;
+  margin-right: 4em;
+
+}
+
+.travel-plan-info {
+  align-self: flex-start;
+  text-align: left;
+  color: #0a035a
+
+}
+
+
+.label {
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  margin-right: 0.5em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.great-deal {
+  background-color: #28a745; 
+}
+
+.premium {
+  background-color: #ffc107;
+}
+
+.all-inclusive {
+  background-color: #007bff;
+}
+
+.delete-button {
+  padding: 0.3em 0.6em;
+  margin-right: 0.5em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: bold;
+  background-color: rgb(138, 137, 137);
+  color:rgb(0, 0, 0);
 }
