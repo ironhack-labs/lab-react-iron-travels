@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: rgb(230, 227, 227);
 }
 
 .logo {
@@ -36,3 +37,23 @@
 .text-iron {
   color: #0a035a;
 }
+ .plan-card {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   text-align: left;
+   border: black 2px solid;
+   padding: 20px;
+   margin: 20px 600px;
+ }
+ .lable {
+  padding: 5px;
+  color: black;
+  width: 100px;
+  background-color: green;
+  border-radius: 3px;
+  text-align: center;
+ }
+ button {
+  background-color: rgb(177, 173, 173);
+ }
