@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white;
 }
 
 .logo {
@@ -35,4 +36,54 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+#travel-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#travel-item {
+  width: 50vw;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#travel-item img {
+  width: 50%;
+  margin-right: 10px;
+}
+
+#travel-info {
+  padding: 0px;
+  width: 50%;
+  margin-left: 10px;
+  text-align: left;
+}
+
+#travel-info h3 {
+  margin-top: 0px;
+}
+
+#labels {
+  display: flex;
+}
+
+.label {
+  padding: 2px 7px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+#label-blue {
+  background-color: rgba(0, 0, 255, 0.6);
+}
+
+#label-green {
+  background-color: rgba(0, 128, 0, 0.6);
 }
