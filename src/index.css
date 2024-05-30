@@ -66,3 +66,25 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.plan-card{
+  border:  2px solid white;
+}
+
+.inner-container {
+  background-color: blue;
+  display: flex;
+  margin-left 0 0 0 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+span{
+  font-weight: bold;
+}
