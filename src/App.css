@@ -36,3 +36,22 @@
 .text-iron {
   color: #0a035a;
 }
+
+.label {
+  background-color: green;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border: #242424 3px solid;
+  color: black;
+}
+html {
+  background-color: #242424;
+}
+
+#travel-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
