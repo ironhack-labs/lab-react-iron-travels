@@ -1,0 +1,18 @@
+.label {
+    color: white;
+    background: rgb(39, 39, 221);
+    padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+}
+.great {
+    color: white;
+    background: rgb(31, 133, 53);
+}
+.prenium {
+    color: black;
+    background: rgb(214, 188, 41);
+}
+.inclusive {
+    color: white;
+    background: rgb(124, 39, 221);
+}
