@@ -1,0 +1,55 @@
+.travelCard {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 15px;
+  border-radius: 1%;
+  color: black;
+  border: 2px solid black;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile {
+  max-width: 90%;
+  display: flex;
+  margin: 10px;
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.subdetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.details {
+  font-weight: bold;
+}
+
+.image {
+  max-width: 50%;
+  display: flex;
+  align-self: center;
+}
+
+p {
+  margin: 1px;
+}
+
+.priceName {
+  font-weight: bold;
+}
