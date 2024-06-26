@@ -1,8 +1,14 @@
-#root {
+/* src/App.css */
+
+.container {
   width: 100%;
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+}
+
+.header {
+  margin-bottom: 2rem;
 }
 
 .logo {
@@ -35,4 +41,129 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.lists-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Ensure lists wrap on smaller screens */
+}
+
+.list-wrapper {
+  flex: 1;
+  margin: 0 1rem;
+  width: 100%; /* Ensure full width on smaller screens */
+  max-width: 400px; /* Limit width for each list */
+}
+
+.travel-plan-card {
+  width: 600px;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column; /* Ensure buttons appear underneath */
+}
+
+.card-image {
+  margin-bottom: 1rem;
+}
+
+.card-image img {
+  width: 100%; /* Use full width of container */
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-details {
+  flex: 1;
+}
+
+.labels {
+  margin-top: 0.5rem;
+}
+
+.label {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.great-deal {
+  background-color: #3cb371; /* Light green */
+  color: white;
+}
+
+.premium {
+  background-color: #ff6347; /* Tomato red */
+  color: white;
+}
+
+.all-inclusive {
+  background-color: #4682b4; /* Steel blue */
+  color: white;
+}
+
+.card-actions {
+  margin-top: 0.5rem;
+}
+
+.delete-btn,
+.favorite-btn {
+  background-color: #dc3545; /* Red */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover,
+.favorite-btn:hover {
+  background-color: #c82333; /* Darker red */
+}
+
+/* Styles specifically for Favorites List */
+
+.favorites-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.favorite-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px; /* Adjust width as needed */
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.favorite-item img {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.favorite-details h3 {
+  margin-bottom: 0.5rem;
+}
+
+.favorite-details p {
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
