@@ -1,5 +1,6 @@
 import logo from "./assets/logo.png";
 import "./App.css";
+import TravelPlans from "./components/TravelList.jsx"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       </div>
       <h1 className="text-iron">Iron Travels</h1>
       <h3 className="text-iron">Tailored Travel Plans for Ironhackers</h3>
+      <TravelPlans />
 
       {/* RENDER YOUR LIST COMPONENT HERE */}
       

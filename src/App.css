@@ -36,3 +36,48 @@
 .text-iron {
   color: #0a035a;
 }
+.destinationImage {
+  width: 280px;
+  margin: 15px;
+  height: 200px;
+}
+.destination {
+  display: flex;
+  border: 2px solid black;
+  margin: 15px auto;
+  width: 590px;
+  align-items: center;
+}
+.content {
+  text-align: left;
+  margin: 10px;
+  width: 260px;
+}
+h3 {
+  margin-top: 0px;
+}
+
+.blueLabel{
+width:fit-content;
+color: white;
+background-color: #366BCA;
+font-weight: 600;
+padding: 2px 5px;
+border: 1px solid #366BCA;
+border-radius: 5px;
+margin-right: 5px;
+}
+.greenLabel {
+  width:fit-content;
+color: black;
+background-color: #77BC77;
+font-weight: 700;
+padding: 2px 5px;
+border: 1px solid #77BC77;
+border-radius: 5px;
+margin-right: 5px;
+}
+.buttonsDiv {
+  display: flex;
+  justify-content: space-between;
+}
