@@ -36,3 +36,27 @@
 .text-iron {
   color: #0a035a;
 }
+
+.premiumLabel {
+  background-color: #0a035a;
+  color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.dealLabel {
+  background-color: green;
+  color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.allInclusive {
+  background-color: goldenrod;
+  color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
