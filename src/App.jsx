@@ -1,19 +1,30 @@
-import logo from "./assets/logo.png";
-import "./App.css";
+import React, { useState } from 'react';
+import travelPlans from '../travel-plans.json';
 
-function App() {
+const TravelList = () => {
+  const [plans, setPlans] = useState(travelPlans);
+
+  const handleDelete = (id) => {
+    setPlans(plans.filter(plan => plan.id !== id));
+  };
+
+  const getLabel = (cost) => {
+    if (cost < 500) return 'Cheap';
+    if (cost < 1000) return 'Moderate';
+    return 'Expensive';
+  };
+
   return (
-    <>
-      <div>
-        <img src={logo} className="logo" alt="App logo" />
-      </div>
-      <h1 className="text-iron">Iron Travels</h1>
-      <h3 className="text-iron">Tailored Travel Plans for Ironhackers</h3>
-
-      {/* RENDER YOUR LIST COMPONENT HERE */}
-      
-    </>
+    <div>
+      {plans.map(plan => (
+        <div key={plan.id} style={{ border: '1px solid black', margin: '10px', padding: '10px' }}>
+          <h2>{plan.destination}</h2>
+          <p>Cost: ${plan.cost} - <strong>{getLabel(plan.cost)}</strong></p>
+          <button onClick={() => handleDelete(plan.id)}>Delete</button>
+        </div>
+      ))}
+    </div>
   );
-}
+};
 
-export default App;
+export default TravelList;
