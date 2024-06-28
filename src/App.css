@@ -36,3 +36,29 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-plan {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  /*
+  display: grid;
+  gap: 30px;
+  grid-template: 1fr / 1fr 1fr; */
+}
+
+.image-div{
+  width:50%;
+}
+.travel-plan img {
+  width:100%;
+}
+
+.info-div {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
