@@ -36,3 +36,87 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.travel-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.travel-card {
+  display: flex;
+  flex-direction: row;
+  width: 500px; /* adjust the width to your liking */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 60%;
+  height: 20%;
+}
+
+.travel-card img {
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+.travel-card-info {
+  padding: 10px;
+  flex: 1; /* take up the remaining space */
+}
+
+.travel-card-info h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.great-deal {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #77bc76; /* green color */
+  color: black;
+  margin-left: 10px;
+}
+
+.premium {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #366ac9; /* green color */
+  color: white;
+  margin-left: 10px;
+}
+
+.travel-card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.travel-card button {
+  padding: 0.5rem;
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px 8px 8px 8px;
+  width: 50%;
+}
