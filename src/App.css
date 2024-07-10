@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white;
 }
 
 .logo {
@@ -36,3 +37,60 @@
 .text-iron {
   color: #0a035a;
 }
+
+#destinos-container{
+  border: 1.75px solid black;
+  display: flex;
+  padding: 30px 20px;
+  height: 220px;
+  margin: 0 70px 20px 70px;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#destinos-container img{
+  height: 100%;
+}
+
+#destino-info{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 5px;
+  width: 50%;
+  margin-left: 10px;
+}
+#name-destino{
+  font-weight: 700;
+  font-size: 20px;
+}
+#destino-info span{
+  font-weight: bold;
+}
+
+#description{
+  font-style: italic;
+}
+
+#labels{
+  margin-top: 5px;
+}
+
+#labels label{
+  margin: 10px 5px 0 0;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+#destino-info button{
+  margin: 30px 0 0 0;
+  background-color: darkgrey;
+  width: 30%;
+  text-align: center;
+  color: black;
+}
+
+
