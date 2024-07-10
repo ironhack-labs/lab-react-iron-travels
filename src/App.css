@@ -36,3 +36,50 @@
 .text-iron {
   color: #0a035a;
 }
+#marco {
+  border: solid 1px;
+  display: flex;
+  text-align: left;
+  width: 700px;
+  margin: 10px;
+}
+#marco img {
+  margin: 20px;
+  width: 350px;
+}
+#web {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#greatDeal {
+  background-color: lightskyblue;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 8px;
+}
+#premium {
+  background-color: lightcoral;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  padding: 0 8px;
+}
+#allin {
+  margin-left: 10px;
+  background-color: lightcoral;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  padding: 0 8px;
+}
+#deleteBtn {
+  font-weight: bold;
+  background-color: lightgrey;
+  padding: 5px;
+  margin: 10px;
+}
