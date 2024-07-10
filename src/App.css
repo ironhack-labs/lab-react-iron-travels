@@ -18,6 +18,41 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.travelCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 10px;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.travelCard > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.travelCard img {
+  width: 40vw;
+  margin: 10px;
+}
+
+label {
+  padding: 8px;
+  background-color: darkcyan;
+  color: white;
+  border-radius: 5px;
+}
+
+button {
+  margin: 20px 0;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
