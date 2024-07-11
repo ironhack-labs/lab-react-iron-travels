@@ -66,3 +66,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.deleteBtn {
+  color: rgb(94, 44, 8);
+  background-color: brown;
+  padding: 10px;
+}
+
+.deleteBtn:hover {
+  color: rgb(230, 141, 77);
+  background-color: rgb(85, 12, 12);
+  padding: 10px;
+}
