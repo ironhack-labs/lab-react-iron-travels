@@ -36,3 +36,18 @@
 .text-iron {
   color: #0a035a;
 }
+
+.card-place{
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  color: black;
+ margin: 5px;
+ text-align: center;
+}
+.card-place text{
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
