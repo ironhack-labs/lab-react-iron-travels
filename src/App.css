@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white;
+  color: #0a035a;
 }
 
 .logo {
@@ -16,6 +18,72 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.travel-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.travel-card {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #0a035a;
+  border-radius: 10px;
+}
+
+.city__img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.travel-details {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: left;
+}
+
+h2 {
+  margin: 0;
+}
+
+.great-deal,
+.premium,
+.all-inclusive,
+.delete-btn {
+  margin: 3px;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.delete-btn {
+  background-color: grey;
+  color: white;
+  height: 40px;
+  margin: auto auto 0 0;
+}
+
+.labels {
+  display: flex;
+}
+
+.great-deal {
+  background-color: green;
+  color: #0a035a;
+}
+
+.premium,
+.all-inclusive {
+  background-color: rgb(0, 55, 151);
+  color: white;
 }
 
 @keyframes logo-spin {
