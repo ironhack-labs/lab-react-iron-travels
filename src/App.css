@@ -1,10 +1,13 @@
+body {
+  background-color: white;
+  padding: 2rem 10rem;
+}
 #root {
   width: 100%;
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
 }
-
 .logo {
   height: 5em;
   padding: 0.1rem 1.5em;
@@ -17,7 +20,6 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -26,13 +28,52 @@
     transform: rotate(360deg);
   }
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
-
 .text-iron {
   color: #0a035a;
+}
+.list-item-wrapper {
+  padding: 2rem;
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-start;
+  gap: 1rem;
+  color: #0a035a;
+  border: 1px solid #0a035a;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.thumbnail-wrapper {
+  width: 50%;
+}
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blue-btn {
+  background-color: blue;
+  color: white;
+  padding: 0.5rem;
+}
+.green-btn {
+  background-color: green;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.btn-wrapper {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.travel-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  height: 100%;
 }
