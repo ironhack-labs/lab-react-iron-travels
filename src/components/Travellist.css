@@ -1,0 +1,105 @@
+#card-container {
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+
+
+}
+
+#card {
+    img {
+        width: 50%;
+        height: 90%;
+        object-fit: cover;
+    }
+
+    border: 1px black solid;
+    width: 60vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#card h4 {
+    color: rgb(38, 54, 70);
+}
+
+.info-container {
+    width: 35%;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    flex-direction: column;
+   
+    margin-left: 20px;
+    
+}
+
+.title-card {
+    color: rgb(38, 54, 70);
+
+}
+
+.label-button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.great-deal {
+    background-color: green;
+}
+
+.premium {
+    background-color: gold;
+}
+
+.all-inclusive {
+    background-color: blue;
+}
+
+.delete-button-container {
+    border: red solid 1px;
+    /* width: 20vw;
+    height: 10vh; */
+    padding: 5px 10px;
+   
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-right: 20px;
+    
+
+}
+
+.delete-button {
+    width: 85px;
+    display: inline-block;
+    padding: 5px 10px;
+    
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    
+}
