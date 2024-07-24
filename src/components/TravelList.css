@@ -1,0 +1,58 @@
+.product-card {
+  background-color: white;
+  width: 30rem;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+
+  img {
+    width: 15rem;
+    padding-bottom: 1rem;
+    margin: 30px 10px;
+  }
+  .description {
+    text-align: left;
+  }
+}
+
+.product-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+h2 {
+  margin: 0;
+}
+.great-deal {
+  background-color: rgb(23, 155, 23);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 20%;
+  position:relative;
+  margin: 2px;
+  left: 0;
+}
+.premium {
+  background-color: rgb(53, 40, 232);
+  color: white;
+  padding: 2px 10px;
+  margin: 2px;
+  border-radius: 20%;
+
+}
+button{
+    background-color:rgb(161, 159, 159);
+  color:black;
+  padding: 2px 10px;
+  margin: 5px;
+  border-radius: 20%;
+  align-content: flex-start;
+}
