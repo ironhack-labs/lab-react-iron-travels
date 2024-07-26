@@ -36,3 +36,22 @@
 .text-iron {
   color: #0a035a;
 }
+
+.card{
+  display: flex;
+  border: 1px solid black;
+  text-align:left;
+  padding: 20px;
+}
+
+.card-content {
+  padding-left: 20px;
+}
+
+.card-content h3{
+  font-size: 18px;
+}
+
+.card-content p{
+  font-size: 12px;
+}
