@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: gray;
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,6 +20,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -46,22 +48,179 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.travelCardBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.travelsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.travelCard {
+  color: black;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 32px;
+  width: 612px;
+  height: 220px;
+}
+
+.travelCardText {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.titleTravelCard {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  font-size: large;
+}
+
+.textTravelCard {
+  margin: 0;
+  padding: 0;
+}
+
+.priceTotalCost {
+  margin: 0;
+  padding: 0;
+}
+
+.priceTotalCost {
+  margin-bottom: 10px;
+}
+
+.titleTravelCard {
+  font-weight: bold;
+}
+
+.textTravelCard {
+  margin-bottom: 20px;
+}
+
+.imageTravelCard {
+  width: 300px;
+  height: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favoriteTravelsCardList {
+  display: flex;
+}
+
+.greatDealBox {
+  width: 101px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.premiumBox {
+  width: 101px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.allInclusiveBox {
+  width: 101px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.tagBox {
+  display: flex;
+  margin-right: 10px;
+}
+
+.deleteTravelCardBox {
+  display: flex;
+  padding-left: 40px;
+}
+
+.MainTravels {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mainFavoriteTravelList {
+  display: flex;
+  flex-direction: column;
+}
+
+.favoriteTravelsCardList {
+  display: flex;
+  flex-direction: column;
+}
+
+.favoriteTravelCard {
+  border: 2px solid black;
+  width: 400px;
+}
+
+.imageFavoriteTravelList {
+  width: 100%;
+  height: 160px;
+}
+
+.titleFavorites {
+  color: #09115A;
+}
+
+
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
