@@ -36,3 +36,29 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+}
+
+.flex-page {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.travelList-div {
+  display: flex;
+  flex-direction: row;
+  border: 2px;
+  border-style: groove;
+  width: 800px;
+  height: 300px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+}
