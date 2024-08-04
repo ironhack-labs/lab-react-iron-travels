@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.travel-list,
+.favorites-list {
+  flex: 1;
+  padding: 20px;
+}
+
+.travel-list h2,
+.favorites-list h2 {
+  text-align: center;
+}
