@@ -36,3 +36,19 @@
 .text-iron {
   color: #0a035a;
 }
+
+img{
+  max-height: 150px;
+}
+
+.card{
+  padding: 10px;
+  display: flex;
+  width: 60vw;
+}
+
+.card p{
+  padding: 20px;
+  padding-top: 0;
+  margin-top: 0;
+}
