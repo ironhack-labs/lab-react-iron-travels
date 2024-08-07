@@ -36,3 +36,21 @@
 .text-iron {
   color: #0a035a;
 }
+.card {
+  border: 1px solid #1f1919;
+  padding: 10px;
+  margin: 10px;
+}
+
+.labels {
+  margin-top: 10px;
+}
+
+.labels {
+  display: inline-block;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
