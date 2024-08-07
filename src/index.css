@@ -54,6 +54,11 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+span {
+  border: 2px solid black;
+  margin: 10px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -65,4 +70,27 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.TravelList {
+  border: 2px solid black;
+  display: flex;
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.TravelList img{
+  height: 25vh;
+  padding: 10px;
+}
+
+.TravelList p{
+  text-align: left;
+}
+
+.TravelListContent {
+  display: flex;
+  flex-direction: column;
 }
