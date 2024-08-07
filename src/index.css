@@ -12,6 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -65,4 +68,46 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.destinationCard {
+  width: 45vw;
+  border: 1px solid black;
+  padding: 1vw;
+  margin: 20px;
+  display: flex;
+
+}
+
+.destinationCard img {
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+.destinationCard h3, p {
+  text-align: left;
+}
+
+.greatDeal, .premium, .allInclusive, .deleteButton {
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.greatDeal {
+  background-color: greenyellow;
+}
+
+.premium {
+  background-color: lightblue;
+}
+
+.allInclusive {
+  background-color: burlywood;
+}
+
+.deleteButton {
+  
 }
