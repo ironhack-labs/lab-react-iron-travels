@@ -36,3 +36,60 @@
 .text-iron {
   color: #0a035a;
 }
+
+.TravelList {
+  margin: 4vh;
+}
+.travel-card {
+  display: flex;
+  border: 1px solid black;
+  margin: 2vh;
+}
+
+.travel-card img {
+  width: 30vw;
+  height: 20vh;
+  margin: 3vh;
+}
+
+.travel-information {
+  text-align: left;
+}
+
+.labels {
+  display: flex;
+}
+
+.label-cheap,
+.label-expensive {
+  margin-right: 3vh;
+  margin-bottom: 1vh;
+  border: 1px solid black;
+  border-radius: 2vh;
+  padding: 1vh;
+  font-weight: bold;
+}
+
+.label-cheap {
+  background-color: rgb(125, 239, 125);
+}
+
+.label-expensive {
+  background-color: blue;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button {
+  border: 1px solid black;
+  background-color: grey;
+}
+
+.favorite-button {
+  border: 1px solid black;
+  background-color: grey;
+}
