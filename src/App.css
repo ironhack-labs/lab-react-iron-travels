@@ -36,3 +36,17 @@
 .text-iron {
   color: #0a035a;
 }
+
+.card {
+  border: 1px solid #1f1919;
+  padding: 10px;
+  margin: 10px;
+  text-align:right 20%;
+}
+
+.images {
+  padding-right: 50rem;
+  height: 500%;
+  width: 50%;
+  
+}
