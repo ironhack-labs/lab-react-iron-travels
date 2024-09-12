@@ -1,0 +1,46 @@
+.plan-block {
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 30px;
+    width: 700px;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .plan-img {
+    width: 300px;
+    padding-right: 20px;
+  }
+  
+  .plan-block h4 {
+    margin: 0;
+  }
+  
+  .description {
+    font-style: italic;
+  }
+  
+  .label {
+    display: inline-block;
+    width: 110px;
+    background-color: #2986cc;
+    margin: 20px 10px 0 0;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+  }
+  
+  .bgcolor-green {
+    background-color: green;
+  }
+  
+  .btn {
+    margin-top: 40px;
+    display: block;
+    background-color: darkgrey;
+  }
