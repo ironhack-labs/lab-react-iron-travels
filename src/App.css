@@ -10,6 +10,8 @@
   padding: 0.1rem 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  width: 5%;
+  height: auto;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -35,4 +37,8 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+img {
+  width: 100%;
 }
