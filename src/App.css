@@ -36,3 +36,15 @@
 .text-iron {
   color: #0a035a;
 }
+
+.imagen-destino {
+  width: 350px;
+  padding: 20px;
+}
+#container {
+  margin: 0 auto;
+  border: 3px solid black;
+  margin-top: 40px;
+  display: flex;
+  width: 800px;
+}
