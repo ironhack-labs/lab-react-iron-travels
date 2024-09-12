@@ -36,3 +36,42 @@
 .text-iron {
   color: #0a035a;
 }
+
+.container {
+  display: inline-block;
+}
+
+.cityCard {
+  border: 1px solid black;
+  height: 250px;
+  width: 750px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.cityImage {
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+}
+
+.labelDeal {
+  background-color: green;
+  margin: 10px;
+}
+
+.labelPremium {
+  background-color: blue;
+  margin: 10px;
+}
+
+.allLabel {
+  background-color: blue;
+  margin: 10px;
+}
+
+.btn-delete {
+  background-color: grey;
+  margin: 30px 10px 20px 10px;
+}
