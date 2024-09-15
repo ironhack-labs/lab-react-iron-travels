@@ -66,3 +66,103 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Added CSS  */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 1000px;
+  /* height: 351px; */
+}
+
+.image-div,
+.content-div {
+  flex: 1;
+}
+
+.image-div {
+  max-height: 313px;
+}
+
+.content-div {
+  padding: 0 20px 10px;
+  text-align: left;
+}
+
+.listing-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* max-height: 313px; */
+}
+
+.travel-list {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* width: 100%; */
+}
+
+.label-set {
+  display: flex;
+  padding: 0 0 10px;
+  gap: 15px;
+}
+
+.listing-info {
+  height: 250px;
+}
+
+.listing-title {
+  font-size: 32px;
+  margin-top: 0;
+  line-height: 1;
+}
+
+.premium, .great-deal, .delete-button, .all-inc {
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  line-height: normal;
+  width: fit-content;
+}
+
+.all-inc {
+  color: white;
+  background-color: rgb(112, 161, 235);
+}
+
+.premium {
+  color: white;
+  background-color: rgb(112, 161, 235);
+}
+
+.great-deal {
+  color: black;
+  background-color: rgb(147, 220, 147);
+}
+
+/* Delete button  */
+
+.delete-button {
+  color: black;
+  background-color: gray; 
+}
+
+/* .footer-base {
+  height: 100%;
+} */
