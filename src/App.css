@@ -17,7 +17,6 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +34,44 @@
 
 .text-iron {
   color: #0a035a;
+}
+.travel-list{
+   width: 75vw;
+ text-align: left;
+}
+
+.travel-item{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: 20px 0px;
+  padding: 20px;
+ /* width: 100vw;; */  
+}
+.travel-image{
+  width: 25rem;
+  height: 25rem;
+  padding-right: 20px;
+}
+
+.premium{
+  background-color: rgb(7, 65, 153);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.deal{
+  background-color: rgb(1, 49, 1);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.deleteBtn{
+  background-color: grey;
+  border-radius: 5px;
+  margin: 40px 10px;
+  /* bottom: 0; */
+  
 }
