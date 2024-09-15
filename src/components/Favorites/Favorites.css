@@ -1,0 +1,15 @@
+.favorite-list {
+  width: 300px;
+  height: fit-content;
+  border: 1px solid black;
+  background-color: white;
+  margin: 10px;
+}
+
+.picture-favorite {
+  width: 100%;
+}
+
+.title-favorite {
+  font-size: 1rem;
+}
