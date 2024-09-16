@@ -1,0 +1,61 @@
+img {
+    width: 100%;
+}
+
+.TravelList {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.TravelList .container {
+    display: flex;
+    border: 1px solid rgb(4, 4, 4);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.TravelList .container img {
+    width: 55%;
+    height: 250px;
+}
+
+.TravelList .info-container {
+    margin-left: 10px;
+    text-align: start;
+}
+
+.TravelList .info-container h2 {
+    margin: 0;
+}
+
+.TravelList .info-container .plan-description {
+    font-style: italic;
+}
+
+.TravelList .info-container .aditional-info {
+    display: flex;
+}
+
+.info {
+    background-color: rgb(43, 86, 150);
+    color: white;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.greatDeal {
+    background-color: green;
+}
+
+.btn-delete {
+    border: none;
+    background-color: gray;
+    color: black;
+    padding: 12px;
+    font-weight: 400;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 30px;
+}
