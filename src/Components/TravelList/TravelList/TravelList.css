@@ -1,0 +1,25 @@
+.TravelList {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  border: solid 1px black;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.imageDesti {
+  margin: 0;
+  width: 50%;
+  aspect-ratio: 1.5;
+}
+.greatDeal {
+  background-color: green;
+  height: 1.5rem;
+  padding: 0;
+}
+.Premium {
+  color: white;
+  background-color: blue;
+}
+span {
+  margin-right: 10px;
+}
