@@ -1,0 +1,15 @@
+.TravelCard img{
+    width: 300px;
+}
+
+.TravelCard{
+    display: flex;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.TravelCardText{
+    flex-direction: column;
+    margin-left: 100px;
+}
