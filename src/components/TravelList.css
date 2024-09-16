@@ -1,0 +1,68 @@
+.leftTravel {
+    width: 50%;
+}
+
+.TravelList {
+    border: 2px solid black;
+    border-bottom: 0;
+    padding: 35px;
+    margin: 40px 0;
+    margin-bottom: 0;
+    display: flex;
+    text-align: end;
+}
+
+.TravelList img {
+    height: 300px;
+    width: 60%;
+    padding-right: 10px;
+}
+
+.TravelList-Info {
+    text-align: center;
+    width: 40%;
+}
+
+.TravelList-Box-Blue {
+    display: inline-block;
+    padding: 4px;
+    margin: 10px;
+    background-color: #366bca;
+    font-weight: 500;
+    border-radius: 0.4em;
+    color: white;
+}
+
+.TravelList-Box-Green {
+    display: inline-block;
+    padding: 4px;
+    margin: 10px;
+    background-color: #77bc77;
+    font-weight: 500;
+    border-radius: 0.4em;
+}
+
+.TravelList-Div-Btn-Delete {
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.TravelList-Btn-Delete {
+    height: 45px;
+    background-color: gray;
+    text-align: start;
+}
+
+.TravelList-Plan {
+    border: 2px solid black;
+    padding: 35px;
+    margin: 0 0 40px;
+    text-align: start;
+}
+
+.Favorites {
+    width: 50%;
+}
