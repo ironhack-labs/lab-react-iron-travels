@@ -1,0 +1,160 @@
+/* GPT area :) */
+
+
+.travel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Adjust the gap as needed */
+    align-items: center; /* This will center the cards in the list */
+  }
+  
+  .travel-plan-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    max-width: 800px; /* Set a max-width for the size of the cards */
+    width: 100%; /* Make the cards use full width up to the max-width */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Optional: adds shadow for depth */
+  }
+  
+  .travel-image {
+    max-width: 200px; /* Adjust the width as needed */
+    object-fit: cover;
+    margin: 16px; /* Adds margin around the image */
+  }
+  
+  .travel-info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start; /* Aligns text to the start */
+    flex-grow: 1; /* Allows the info section to fill the rest of the card */
+  }
+  
+  .travel-price {
+    color: green;
+    font-weight: bold;
+    margin-top: auto; /* Pushes the price to the bottom of the card */
+  }
+  
+  .label {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 4px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  .premium {
+    background-color: #1b2979; /* gold */
+    color: #fff;
+  }
+  
+  .great-deal {
+    background-color: #008000; /* green */
+    color: #fff;
+  }
+  
+  .all-inclusive {
+    background-color: #0000ff; /* blue */
+    color: #fff;
+  }
+  
+
+  .delete-button {
+    
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #818181;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .delete-button:hover {
+    background-color: #ff3333; /* slightly darker on hover */
+  }
+  
+  .app-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .favorites-list {
+    width: 200px; /* Adjust width as needed */
+    margin-left: 20px; /* Give some space between the lists */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+
+  .favorite-button {
+    padding: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .favorite-button.is-favorite {
+    color: red;
+  }
+
+  .card-bottom-buttons{
+    display :flex;
+    flex-direction : row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+
+  .travel-container {
+    display: flex;
+    justify-content: center; /* Center the main content and the favorites */
+    gap: 20px; /* Adds space between the lists */
+  }
+  
+  .travel-list, .favorites-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .favorites-section {
+    min-width: 200px;
+    margin-left: 20px;
+  }
+  
+  .favorites-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the space between favorite items */
+  }
+  
+  .favorite-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f0f0f0; /* Light gray background */
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .favorite-image {
+    width: 100%; /* Adjust as needed */
+    object-fit: cover; /* Adjust as needed */
+  }
+  
+  .favorite-details {
+    text-align: center;
+    padding: 5px;
+  }
