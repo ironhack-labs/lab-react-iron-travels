@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  justify-content: center;
 }
 
 .logo {
@@ -35,4 +36,35 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+#general-box {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  width: 700px;
+}
+
+#general-box img {
+  height: 300px;
+  width: 400px;
+  margin: 10px;
+}
+
+#text-content {
+  margin: 10px;
+}
+
+#span-deal {
+  display: none;
+}
+
+#span-premium {
+  display: none;
+}
+
+#span-allInclusive {
+  display: none;
 }
