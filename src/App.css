@@ -36,3 +36,56 @@
 .text-iron {
   color: #0a035a;
 }
+
+.destination {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.info-container h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.info-container p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.info-container button {
+  margin-top: 10px;
+}
+
+.premium-label {
+  background-color: rgb(39, 112, 196);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.great-deal-label {
+  background-color: rgb(39, 112, 196);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
