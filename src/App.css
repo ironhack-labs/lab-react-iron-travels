@@ -36,3 +36,73 @@
 .text-iron {
   color: #0a035a;
 }
+.images{
+  width: 300px;
+  height: 200px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemContainer{
+  width: 600px;
+  border: solid 2px black;
+  margin: 15px 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.item-info {
+  padding: 0  15px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+align-items: flex-start;
+justify-content: start  ;
+text-align: start;
+}
+.item-destination{
+  font-weight: 700;
+}
+.price{
+  font-weight: 700;
+  padding: 10px 0;
+}
+.labels{
+  display: flex;
+  gap: 5px;
+  
+}
+.label{
+  background-color: #366AC9;
+  color: white;
+  margin: 5px 0;
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+.greatDeal{
+  background-color: #77BC76;
+}
+.deleteBtn{ 
+  background-color: #B6B6B6;
+  padding: 5px  15px;
+  justify-content: start  ;
+  text-align: start;
+}
+.btnContainer{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;  
+}
+.description{
+
+  font-style: italic;
+  font-size: 12px;
+  padding: 10px 0;
+}
