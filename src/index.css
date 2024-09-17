@@ -12,6 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -26,6 +28,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  width: 99vw;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -65,4 +68,119 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.travel-list {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.travel-card {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  margin-bottom: 2%;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.travel-card > img {
+  max-height: 90%;
+  overflow-y: hidden;
+  min-width: 46%;
+  max-width: 46%;
+}
+
+.travel-card > div{
+  width: 46%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.travel-container {
+  width: 99%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.travel-details {
+  width: 100%;
+  height: 95%;
+  max-height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+span.green,
+span.blue {
+
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 3px;
+
+  font-weight: 600;
+}
+
+.green {
+  background: rgb(2, 181, 2);
+  color: black;
+}
+
+.blue {
+  background: blue;
+  color: white;
+
+}
+
+.destination-buttons {
+  background-color: gray;
+  padding: 0.4em 1em;
+  margin: 2% 0%
+  
+}
+
+.travel-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.favorites-container {
+  width: 30%
+}
+
+.favorite {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+  width: 90%;
+  border: 1px solid black;
+  /* justify-content: space-around; */
+  align-items: flex-start;
+}
+
+.favorite-image {
+  width: 100%;
+  max-height: 50%;
+  object-fit: contain;
+
+  /* max-height: 50%; */
 }
