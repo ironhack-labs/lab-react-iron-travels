@@ -36,3 +36,17 @@
 .text-iron {
   color: #0a035a;
 }
+
+.tralvellist {
+  display: flex;
+  border-width: 3px;
+  border-color: black;
+  margin: 20px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+}
