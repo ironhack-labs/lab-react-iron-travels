@@ -1,4 +1,5 @@
 #root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   width: 100%;
   margin: 0 auto;
   padding: 1.5rem;
@@ -35,4 +36,62 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px
+}
+
+.travel-container {
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+  border: 1px solid black;
+  padding: 30px 20px;
+  width: 700px;
+}
+
+.travel-container img {
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.travel-right {
+  width: 400px;
+  text-align: left;
+  padding-left: 4%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.travel-info h2, p, h4 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.labels {
+  display: flex;
+  gap: 8px;
+}
+
+.price-label {
+  text-align: center;
+  padding: 4px 8px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background-color: #ACAAAB;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  width: 72px;
 }
