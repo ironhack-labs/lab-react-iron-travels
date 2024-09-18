@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -35,4 +38,85 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.country {
+  border: 2px solid #0a035a;
+  width: 58vw;
+  height: 19vw;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.img-country {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  line-height: 10px;
+  text-align: left;
+  margin-left: 10px;
+  color: #0a035a;
+
+}
+
+.smallText {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #0a035a;
+}
+
+.great {
+  border-radius: 5px;
+  padding: 5px;
+  width: 65px;
+  font-size: 10px;
+  background-color: rgb(98, 172, 98);
+  border-style: none;
+}
+
+.all-inclusive {
+  border-radius: 5px;
+  padding: 5px;
+  width: 69px;
+  font-size: 10px;
+  background-color: rgb(57, 76, 220);
+  border-style: none;
+  color: white;
+  display: inline;
+}
+
+.premium {
+  border-radius: 5px;
+  padding: 5px;
+  width: 53px;
+  font-size: 10px;
+  background-color: rgb(57, 76, 220);
+  border-style: none;
+  text-align: center;
+  color: white;
+
+  margin-right: 10px;
+}
+
+.delete {
+  border-radius: 5px;
+  padding: 10px;
+  width: 48px;
+  font-size: 10px;
+  border-style: none;
+  text-align: center;
+  color: #0a035a;
+  margin-bottom: 10px;
+  background-color: rgb(146, 145, 145);
 }
