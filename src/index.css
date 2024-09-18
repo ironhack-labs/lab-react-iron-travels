@@ -22,7 +22,11 @@ a {
 a:hover {
   color: #535bf2;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   display: flex;
@@ -52,6 +56,90 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+.main {
+  display: flex;
+  gap: 35px;
+}
+.trips_wrapper {
+  width: 70vw;
+  margin: 0 auto;
+}
+.favorite_trips_wrapper {
+  width: 30vw;
+}
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid black;
+  gap: 15px;
+  margin: 15px 0;
+  max-height: 250px;
+}
+.cardContainer figure {
+  flex: 1;
+}
+.cardContainer figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.descrWrapper {
+  text-align: left;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.descrWrapper_header {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.descrWrapper_tripDescr {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+.descrWrapper_total {
+  margin-bottom: 15px;
+}
+.descrWrapper_total span {
+  font-weight: 700;
+  padding-right: 5px;
+}
+.premium {
+  background-color: blue;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.great_deal {
+  background-color: green;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.buttons_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.remove_button {
+  width: 80px;
+  background-color: grey;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.favorite_button {
+  width: 35px;
+  background-color: grey;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 15px;
 }
 
 @media (prefers-color-scheme: light) {
