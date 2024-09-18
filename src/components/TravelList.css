@@ -1,0 +1,56 @@
+.viajes {
+  display: flex;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  padding: 10px;
+  margin-left: 20px;
+  width: 600px;
+  height: 200px;
+}
+
+.viajesCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.viajes img {
+  width: 250px;
+  display: flex;
+}
+
+.texto {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.dealz {
+  font-size: 12px;
+  width: 70px;
+  border-radius: 15px;
+}
+
+.allInclusive {
+  font-size: 12px;
+  background-color: blue;
+  width: 80px;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+
+.dealzContainer {
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+.deleteBtn {
+  border-radius: 5px;
+  background-color: rgb(165, 160, 160);
+  height: 30px;
+  border: none;
+  font-weight: bold;
+}
+
+
