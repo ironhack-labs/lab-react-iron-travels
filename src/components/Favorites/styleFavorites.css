@@ -1,0 +1,8 @@
+.containerFavorites {
+  border: 2px solid black;
+  width: 300px;
+  font-size: 0.9rem;
+}
+.containerFavorites img {
+  width: 300px;
+}

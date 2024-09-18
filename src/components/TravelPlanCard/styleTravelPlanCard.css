@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.containerCard {
+  border: 2px solid black;
+  width: 800px;
+  display: flex;
+}
+.containerImg img {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  margin: 15px;
+}
+.containerInfo {
+  text-align: left;
+  line-height: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px;
+}
+.containerInfo h2 {
+  margin-top: 0;
+}
+.acces {
+  display: flex;
+  gap: 15px;
+}
+.acces p {
+  background-color: #366bca;
+  color: white;
+  border-radius: 5px;
+
+  padding: 5px;
+}
+.containerInfo button img {
+  width: 15px;
+  background-color: rgb(207, 203, 203);
+  padding: 5px;
+}
+.containerInfo button {
+  padding: 5px 15px;
+  background-color: rgb(207, 203, 203);
+  height: 40px;
+}
+.btnCard {
+  display: flex;
+  justify-content: space-between;
+}
+.containerFavList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
