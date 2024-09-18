@@ -18,6 +18,75 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  list-style: none;
+  border: 2px solid black;
+  padding: 30px 150px 30px 30px;
+  gap: 20px;
+  max-width: 550px;
+  margin: 10px 0;
+
+}
+
+.contenido li {
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+
+.texto p {
+  width: 300px;
+}
+
+.premium {
+  background-color: rgb(48, 136, 236);
+  display: inline;
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.great-deal{
+  background-color: rgb(61, 184, 45);
+  display: inline;
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.label{
+  display: flex;
+  gap: 10px;
+}
+
+.delete {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.delete button {
+  background-color: darkgray;
+}
+
+.delete button:hover {
+  border: 2px solid darkblue;
+}
+
+#like {
+  background-color: lightcoral;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
