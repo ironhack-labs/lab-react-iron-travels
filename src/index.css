@@ -66,3 +66,77 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.travelContainer {
+  border : 1px solid black;
+  
+  display: flex;
+  margin :10px;
+  align-items: flex-start;
+  align-content: center;
+  padding: 10px;
+}
+.travelContainer img {
+  width: 80%;
+  padding: 10px;
+  
+}
+
+.travelContainer h3, p {
+ margin:0;
+}
+
+.imgContainer {
+  
+  width: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.infoContainer {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#travelList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+
+}
+
+#favsSection {
+  width: 40%;
+}
+
+.greatDeal{
+background-color: green;
+color: white;
+
+padding: 2px;
+text-align: center;
+border-radius: 10px;
+}
+
+.blueLab {
+  background-color: blue;
+color: white;
+
+padding: 2px;
+text-align: center;
+border-radius: 10px;
+}
+
+label{
+
+  margin: 5px;
+  width: 200px;
+}
+
+.mainSect {
+  display: flex;
+}
