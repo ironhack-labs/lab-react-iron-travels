@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+* {
+  background-color: rgb(41, 41, 41);
+
+}
+
 .logo {
   height: 5em;
   padding: 0.1rem 1.5em;
@@ -17,6 +22,98 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
+.Header {
+  padding-top: 25px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 15px;
+  max-width: 1200px;
+}
+
+.travel-list, .fav-list {
+  /* display: grid; */
+  gap: 15px;
+  padding: 10px;
+}
+
+.travel-list, .fav-list {
+  width: 49%;
+}
+
+.travel-item {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.travel-item img {
+  border-radius: 15px;
+}
+
+.travel-info {
+  text-align: left;
+  line-height: 20px;
+  margin-left: 20px;
+}
+
+.tag {
+  padding: 2px 5px;
+  margin: 5px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.great-deal {
+  background-color: #4CAF50;
+}
+
+.premium {
+  background-color: #f44336;
+}
+
+.all-inclusive {
+  background-color: #2196F3;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: rgb(112, 112, 112);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-container {
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+.favorite-btn {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorite-btn {
+  background-color: #ff4081;
+  margin: 5px;
+}
+
+
 
 @keyframes logo-spin {
   from {
