@@ -5,17 +5,111 @@
   text-align: center;
 }
 
+.travel-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.travel-plan {
+  background: #ffffff;
+  margin-bottom: 2rem;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.travel-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.travel-info {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.travel-info span {
+  margin-right: 0.5rem;
+}
+
+h2 {
+  margin: 1rem 0 0.5rem;
+}
+
+p {
+  margin: 0 1rem 1rem;
+}
+
+.label {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.3em 0.6em;
+  border: 1px solid transparent;
+  border-radius: 2em;
+}
+
+.great-deal {
+  background-color: #4caf50;
+  color: white;
+}
+
+@keyframes premium-bg-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.premium {
+  background: linear-gradient(45deg, #fddd08, #8207e0);
+  background-size: 200% 200%;
+  animation: premium-bg-animation 3s ease infinite;
+  color: black;
+  border: none;
+}
+
+.all-inclusive {
+  background-color: #2196f3;
+  color: white;
+}
+
+.delete-button {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
 .logo {
   height: 5em;
   padding: 0.1rem 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
+
+.logo:hover,
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 @keyframes logo-spin {
@@ -35,4 +129,10 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+@media (max-width: 768px) {
+  .travel-plan {
+    flex: 1 1 100%;
+  }
 }
