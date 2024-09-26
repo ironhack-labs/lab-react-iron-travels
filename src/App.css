@@ -36,3 +36,42 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-plan {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 300px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.travel-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.label {
+  display: inline-block;
+  margin: 4px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.great-deal {
+  background-color: #28a745;
+  color: white;
+}
+
+.premium {
+  background-color: #007bff;
+  color: white;
+}
+
+.all-inclusive {
+  background-color: #ffc107;
+  color: black;
+}
