@@ -36,3 +36,71 @@
 .text-iron {
   color: #0a035a;
 }
+
+#travel-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#travel-card img {
+  width: 300px;
+}
+
+#travel-card {
+  display: flex;
+  align-items: start;
+  border: 1px solid white;
+  width: 50%;
+  min-height: 250px;
+  margin: 10px;
+}
+
+#travel-card > div {
+  margin: 20px;
+}
+
+#card-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+#card-description > * {
+  margin-bottom: 5px;
+}
+
+#labels {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  margin-top: 15px;
+}
+
+#labels > div {
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 3px 7px;
+}
+
+.premium-label,
+.all-inclusive-label {
+  background-color: #366bc9;
+}
+
+.great-deal-label {
+  background-color: #77bd77;
+  color: black;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background-color: grey;
+  color: black;
+  font-weight: bold;
+}
+
+.delete-btn-container {
+  margin-top: 15px;
+}
