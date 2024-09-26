@@ -36,3 +36,28 @@
 .text-iron {
   color: #0a035a;
 }
+
+.img {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+}
+.cardContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.info{
+  justify-content: left;
+  text-align: left;
+  margin: 10px;
+}
+.mainContainer{
+  border: solid 1px black;
+  margin: 20px;
+}
+.labels{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}

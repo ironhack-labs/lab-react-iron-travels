@@ -1,7 +1,10 @@
 import logo from "./assets/logo.png";
+import { useState } from "react";
 import "./App.css";
+import { TravelList } from "./components/TravelList.jsx";
 
 function App() {
+
   return (
     <>
       <div>
@@ -11,7 +14,7 @@ function App() {
       <h3 className="text-iron">Tailored Travel Plans for Ironhackers</h3>
 
       {/* RENDER YOUR LIST COMPONENT HERE */}
-      
+      <TravelList />
     </>
   );
 }
