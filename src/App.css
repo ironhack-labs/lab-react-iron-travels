@@ -34,5 +34,67 @@
 }
 
 .text-iron {
-  color: #0a035a;
+  color: #0e066a;
+}
+
+p {
+  color: blue;
+}
+
+h1 {
+  color: darkblue;
+}
+
+h2 {
+  color: darkblue;
+}
+
+h3 {
+  color: darkblue;
+}
+
+
+.div2 {
+  color: darkblue;
+}
+
+.travel-plan {
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 20px; 
+  padding: 10px;
+}
+
+.plan-image {
+  width: 300px; 
+  height: auto;
+  margin-right: 20px; 
+  object-fit: cover;
+}
+
+.plan-details {
+  flex: 1; /
+}
+
+
+
+.label {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.great-deal {
+  background-color: green ;
+}
+
+.premium {
+  background-color: blue ;
+}
+
+.all-inclusive {
+  background-color:blue ;
 }
