@@ -2,7 +2,12 @@
   width: 100%;
   margin: 0 auto;
   padding: 1.5rem;
-  text-align: center;
+  text-align: justify;
+  align-items: center;
+}
+
+#root h3, #root p {
+  margin-left: 20px; /* Adjust this value as needed */
 }
 
 .logo {
