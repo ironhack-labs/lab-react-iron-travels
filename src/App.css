@@ -18,6 +18,9 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.text-iron {
+  color: #0a035a;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -31,8 +34,4 @@
   .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.text-iron {
-  color: #0a035a;
 }
