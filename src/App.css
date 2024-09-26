@@ -36,3 +36,61 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.travel-cards__card {
+  display: flex;
+  margin: 30px;
+  padding: 50px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.travel-cards__card h1 {
+  font-size: 40px;
+}
+
+.travel-cards__card > img {
+  width: 50vh;
+  height: 40vh;
+  padding: 20px;
+}
+
+.travel-cards__infos {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.travel-cards__labels {
+  display: flex;
+}
+
+.travel-cards__labels p {
+  padding: 3px 10px 3px 10px;
+  border-radius: 7px;
+  margin-right: 9px;
+}
+
+.great-deal {
+  background-color: #32cd32;
+}
+
+.premium {
+  background-color: #7cb9e8;
+}
+
+.all-inclusive {
+  background-color: #007fff;
+}
+
+.delete-button {
+  background-color: grey;
+  margin-top: 150px;
+}
