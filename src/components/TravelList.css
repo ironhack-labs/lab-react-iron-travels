@@ -1,0 +1,17 @@
+.travel-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 50vw;
+  height: 40vh;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  position: relative;
+}

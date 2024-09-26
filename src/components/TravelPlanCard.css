@@ -1,0 +1,48 @@
+img {
+  height: 300px;
+  width: 250px;
+  padding: 25px;
+}
+
+.right-side {
+  text-align: left;
+}
+
+.great-deal {
+  height: 30px;
+  width: 100px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.premium-deal,
+.all-inclusive {
+  height: 30px;
+  width: 110px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.delete-btn {
+  background-color: grey;
+  position: absolute;
+  bottom: 25px;
+}
+
+.fav-btn {
+  background-color: grey;
+  position: absolute;
+  bottom: 25px;
+  right: 10px;
+}
