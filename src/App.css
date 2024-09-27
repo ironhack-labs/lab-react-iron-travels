@@ -36,3 +36,13 @@
 .text-iron {
   color: #0a035a;
 }
+
+.mainimg {
+  width: 20%;
+}
+
+.card {
+  border: 1px solid black;
+  max-width: 50%;
+  margin: 0 auto;
+}
