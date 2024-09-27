@@ -36,3 +36,7 @@
 .text-iron {
   color: #0a035a;
 }
+
+.Components {
+  display: flex;
+}
