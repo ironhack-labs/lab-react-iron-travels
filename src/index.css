@@ -66,3 +66,48 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+.travel-block {
+  display: flex;
+  justify-content: center;
+  margin: 40px 20px;
+  text-align: left;
+}
+
+.travel-img {
+  width: 300px;
+  padding-right: 20px;
+}
+
+.travel-block h4 {
+  margin: 0;
+}
+
+.travel-block p {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.label {
+  display: inline-block;
+  width: 110px;
+  background-color: blue;
+  margin: 20px 10px 0 0;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.bgcolor-green {
+  background-color: #0caf3d;
+}
+
+.btn {
+  margin-top: 10px;
+  display: block;
+}

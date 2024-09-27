@@ -1,0 +1,42 @@
+.plan-block {
+  display: flex;
+  justify-content: center;
+  margin: 40px 20px;
+  text-align: left;
+}
+
+.plan-img {
+  width: 300px;
+  padding-right: 20px;
+}
+
+.plan-block h4 {
+  margin: 0;
+}
+
+.plan-block p {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.label {
+  display: inline-block;
+  width: 110px;
+  background-color: blue;
+  margin: 20px 10px 0 0;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.bgcolor-green {
+  background-color: #0caf3d;
+}
+
+.btn {
+  margin-top: 10px;
+  display: block;
+}
