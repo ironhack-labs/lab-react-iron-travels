@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white;
 }
 
 .logo {
@@ -35,4 +36,32 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.placeCard {
+  display: flex;
+  border: 2px solid #040304;
+  color: #040304;
+  font-style: inherit;
+  padding: 10px;
+}
+
+.place-image {
+  width: 450px;
+}
+
+.place-label {
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  justify-content: space-around;
+}
+.place-label p {
+  background-color: #5b86ea;
+  margin: 5px;
+  border-radius: 5px;
+  width: 125px;
+  height: 26px;
 }
