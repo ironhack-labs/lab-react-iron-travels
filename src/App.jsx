@@ -1,7 +1,16 @@
 import logo from "./assets/logo.png";
 import "./App.css";
+import React from 'react';
+import TravelList from './components/TravelList'; 
+import "./index.css";
 
 function App() {
+  const travelPlans = [
+    { destination: "Paris", totalCost: 300, allInclusive: true },
+    { destination: "Tokyo", totalCost: 2000, allInclusive: false },
+    { destination: "New York", totalCost: 1200, allInclusive: false }
+  ];
+
   return (
     <>
       <div>
@@ -11,7 +20,7 @@ function App() {
       <h3 className="text-iron">Tailored Travel Plans for Ironhackers</h3>
 
       {/* RENDER YOUR LIST COMPONENT HERE */}
-      
+      <TravelList travelPlans={travelPlans} />
     </>
   );
 }
