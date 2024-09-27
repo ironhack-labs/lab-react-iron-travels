@@ -35,4 +35,95 @@
 
 .text-iron {
   color: #0a035a;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.travelCard {
+  border: 1px solid grey;
+  box-shadow: 0px 2px 3px grey;
+  width: 600px;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.travelCard h4 {
+  margin-top: 0;
+}
+
+.travelCard p {
+  margin-top: 0;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.travelInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 10px;
+  height: 230px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-container img {
+  float: left;
+  width: 280px;
+  height: 230px;
+  object-fit: cover;
+  padding: 20px 10px;
+}
+
+.great-deal {
+  border: black solid 1px;
+  background-color: rgb(134, 199, 134);
+  color: black;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: small;
+}
+
+.premium {
+  border: black solid 1px;
+  background-color: rgb(255, 241, 159);
+  color: black;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: small;
+}
+
+.allIncl {
+  border: black solid 1px;
+  background-color: rgb(231, 159, 255);
+  color: black;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: small;
+}
+
+.btn-delete {
+  border: rgb(121, 121, 121) solid 1px;
+  background-color: rgb(209, 207, 207);
+  color: rgb(65, 65, 65);
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-top: auto;
+  font-size: small;
 }
