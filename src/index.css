@@ -2,10 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size:larger;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,12 +14,17 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+*{
+  padding: 0;
+  margin: 0;
+}
 
 a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -29,10 +35,66 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+.travel-list {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.offer-list-element {
+  border: #1a1a1a 1px solid;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  height: auto;
+  align-content:center;
+  text-align: left;
+}
+
+.offer-img {
+  width: 45%;
+  height: auto;
+}
+
+.offer-text {
+  padding-left:20px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 20px;
+  border-radius: 8px;
+}
+
+.premium-tag {
+  background-color: #000bde;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.budget-tag {
+  background-color: #00de38;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.all-inclusive-tag {
+  background-color: #fe08e6;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 button {
@@ -46,8 +108,12 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
-  border-color: #646cff;
+  background-color: #0060de;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
 }
 button:focus,
 button:focus-visible {
