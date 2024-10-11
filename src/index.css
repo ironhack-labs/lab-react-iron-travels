@@ -54,6 +54,99 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.AllBoxes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.holidayCard {
+  margin: 30px;
+  border: 1px solid black;
+  display: flex;
+  padding: 30px;
+  width: 1100px;
+}
+
+.holidayImage {
+  float: left;
+  height: 350px;
+  width: 500px;
+}
+
+.cardText {
+  float: left;
+  padding-left: 80px;
+  text-align: left;
+}
+
+.cardText h1 {
+  font-size: 40px;
+}
+
+.cardText h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.cardText h3 span {
+  font-weight: bold;
+}
+
+.description {
+  font-style: italic;
+}
+
+.greenButton {
+  background-color: #52c470e4;
+  color: #1a1a1a;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.blueButton {
+  background-color: #535bf2;
+  color: #f9f9f9;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.greyButtonBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleteButton {
+  background-color: #8f9ba4;
+  color: #1a1a1a;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 15px 5px;
+}
+
+.favoritesButton {
+  background-color: #8f9ba4;
+  color: #1a1a1a;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 15px 5px;
+}
+
+.favorites {
+  float: right;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
