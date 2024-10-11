@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -54,6 +54,74 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+#travel-cards-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#travel-card{
+  display: flex;
+  border: 1px solid black;
+  max-width:800px;
+  color: black;
+  margin: 2%;
+
+}
+
+#destination-image{
+  width: 500px;
+}
+
+#destination-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px
+}
+
+#destination-info-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+#destination-name{
+  font-size: 25px;
+}
+
+.destination-info{
+  margin-left: 12px;
+}
+
+#premium-deal-container{
+  display: flex;
+  gap: 5px;
+  margin-left: 12px;
+  cursor: default;
+}
+
+#great-deal-button{
+margin-left: 12px;
+cursor: default;
+background-color: green;
+}
+
+
+.premium-deal-buttons{
+  cursor: default;
+  background-color: blue;
+}
+
+#hide-button{
+  margin-left: 12px;
+  margin-top: 10px;
+  }
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -66,3 +134,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
