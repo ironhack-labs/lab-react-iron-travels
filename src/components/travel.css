@@ -1,0 +1,60 @@
+.card {
+  display: flex;
+  border: 1px solid black;
+  padding: 5px;
+}
+.img-frame {
+  width: 30%;
+}
+.img-frame img {
+  width: 100%;
+}
+.description-frame {
+  text-align: left;
+  padding: 20px;
+}
+.labels {
+  display: flex;
+  justify-content: space-between;
+}
+.label {
+  background-color: blue;
+  color: white;
+  border: 1px solid navy;
+  border-radius: 3px;
+  padding: 3px 8px;
+}
+.travel-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.travel-list,
+.favorites-list {
+  width: 45%;
+}
+
+.card,
+.favorite-card {
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.labels {
+  margin-top: 0.5rem;
+}
+
+.buttons button {
+  margin-right: 0.5rem;
+}
+
+.favorites-list h2 {
+  margin-bottom: 1rem;
+}
+
+.favorite-card {
+  background-color: #f3f3f3;
+  padding: 0.5rem;
+}
