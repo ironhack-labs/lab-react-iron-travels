@@ -18,6 +18,44 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.travel-plan {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.plan-image {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.plan-info {
+  flex: 1;
+}
+
+.label, .deal-label, .premium-label {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: lightblue; 
+  width: 150px;
+  margin-right: 10px;
+}
+
+.deal-label {
+  background-color: lightyellow;
+}
+
+.premium-label {
+  background-color: lightcoral;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
