@@ -54,15 +54,51 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.image {
+  width: 30vw;
+  height: auto;
+  margin-top: auto;
+  padding-top: 20px ;
+  padding-bottom: 20px;
+  padding-left: 20px;  
+}
+
+.travelPlan{
+  width: 70vw;
+  height: auto;
+  border: solid 1px white;
+  border-radius: 3px;
+  margin-top: 20 px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 20 px;
+  margin: 20px;
+  align-items: center;
+
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.labelGD{
+  background-color: rgba(8, 124, 22, 0.87);
+  text-align: center;
+  color: aliceblue;
+  width: auto;
+  height: auto;
+  border-radius: 2px;
+}
+
+.labelPremium{
+  background-color: rgba(18, 12, 192, 0.87);
+  text-align: center;
+  color: aliceblue;
+  width: auto;
+  height: auto;
+  border-radius: 2px;
 }
