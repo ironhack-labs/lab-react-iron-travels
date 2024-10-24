@@ -18,6 +18,37 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.card {
+  max-width: 100%;
+  border: 1px solid blue;
+  padding: 1rem;
+  margin: 1rem;
+  align-items: center;
+}
+
+.destination-image {
+  height: 8em;
+  width: 10em;
+  
+  
+}
+
+.gdeal {
+  background-color: green;
+  color: antiquewhite;
+
+}
+
+.premiumdeal {
+  background-color: rgb(27, 100, 156);
+  color: silver;
+}
+
+.all-inclusive {
+  background-color: goldenrod;
+  color: black;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
