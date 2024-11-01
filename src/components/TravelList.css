@@ -1,0 +1,81 @@
+ul {
+  list-style: none;
+}
+li {
+  display: flex;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 70%;
+}
+img {
+  display: flex;
+  width: 40%;
+  margin-right: 20px;
+}
+.details {
+  display: inline-block;
+  flex: 1;
+  text-align: left;
+}
+.price {
+  font-weight: bold;
+}
+.description {
+  font-style: italic;
+}
+.label {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: rgb(68, 68, 226);
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+.label-great-deal {
+  background-color: #38914d;
+  color: black;
+}
+
+.label-premium {
+  background-color: rgb(68, 68, 226);
+  color: #fff;
+}
+.all-inclusive {
+  background-color: rgb(68, 68, 226);
+  color: white;
+  margin-left: 5px;
+}
+.delete-btn {
+  display: flex;
+  text-align: left;
+  background-color: grey;
+  margin-top: 60px;
+  padding: 5px 10px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+.favorite-btn {
+  background-color: grey;
+  margin-top: 60px;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+.travel-container {
+  display: flex;
+  justify-content: space-between;
+}
+.travel-list {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.favorites {
+  width: 30%;
+  padding-left: 0px;
+}
