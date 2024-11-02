@@ -36,3 +36,16 @@
 .text-iron {
   color: #0a035a;
 }
+
+#plan-card {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+}
+
+#plan-card img {
+  width: 150px;
+  height: 100px;
+  margin-right: 20px;
+}
