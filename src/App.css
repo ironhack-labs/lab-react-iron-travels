@@ -1,38 +1,117 @@
-#root {
-  width: 100%;
+.container {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo styling */
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Header text styles */
+.text-iron {
+  font-size: 2rem;
+  color: #1a1a1a;
   text-align: center;
 }
 
-.logo {
-  height: 5em;
-  padding: 0.1rem 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.text-iron + .text-iron {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Travel list styling */
+.travel-list-container {
+  width: 100%;
+  max-width: 800px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.travel-list-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
 }
 
-.text-iron {
-  color: #0a035a;
+.travel-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.travel-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Destination title */
+.travel-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Description text */
+.travel-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* Label styles for tags */
+.labels {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.label {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.label.deal {
+  background-color: #28a745; /* Green for "Great Deal" */
+}
+
+.label.premium {
+  background-color: #007bff; /* Blue for "Premium" */
+}
+
+.label.inclusive {
+  background-color: #6c757d; /* Grey for "All Inclusive" */
+}
+
+/* Delete button styling */
+.delete-button {
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #dc3545; /* Red for delete */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
 }
