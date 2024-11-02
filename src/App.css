@@ -36,3 +36,56 @@
 .text-iron {
   color: #0a035a;
 }
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 25px;
+  text-align: left;
+  border: 1px solid #FFF;
+  border-radius: 15px;
+  width: 60vw;
+}
+
+.card img {
+  width: 60%;
+  margin: 30px 20px
+}
+
+.text {
+  font-size: 1.5rem;
+  width: 40%;
+  text-align: left;
+  
+}
+
+.greatDeal {
+  background-color: rgb(55, 194, 85);
+  border-radius: 15px;
+  padding: 9px
+}
+
+.premium {
+  background-color: gold;
+  border-radius: 15px;
+  padding: 9px
+}
+
+.allInclusive {
+  background-color: rosybrown;
+  border-radius: 15px;
+  padding: 9px;
+  margin-left: 5px;
+}
+button {
+  margin-left: 15px;
+  border-radius: 50px;
+}
