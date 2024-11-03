@@ -36,3 +36,122 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-page{
+  display: flex;
+}
+
+.travel-plans{
+  flex-basis: 100%;
+}
+
+.fav{
+  flex-basis: 40%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+  border: solid 1px black;
+  display: flex;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.dest-image{
+  width: 300px;
+  height: 200px;
+}
+
+.dest-data{
+  text-align: left;
+  margin-left: 20px;
+  width: 300px;
+  height: 200px;
+
+  h3, h4{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+#travel-desc{
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#travel-price{
+  display: flex;
+  align-items: center;
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+#travel-labels{  
+  display: flex;
+}
+
+.travel-label{
+  margin-right: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.t-blue{
+  background-color: rgb(81, 185, 219);
+  color: white;
+}
+
+.t-green{
+  background-color: rgb(16, 136, 16);
+  color: black;
+}
+
+.action-buttons{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.delete-button{
+  color: black;
+  background-color: rgb(185, 181, 181);
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+.like-button{
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.fav-card{
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 20px 20px;
+  align-items: center;
+  width: 200px;
+
+  h4, h5{
+    margin: 10px 0 10px 0;
+  }
+}
+
+.dest-fav-image{
+  width: 100%;
+}
