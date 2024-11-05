@@ -1,0 +1,56 @@
+.TravelPlan {
+    width: 600px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10px 0px;
+}
+
+article {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+article img {
+    width: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+
+article .info {
+    height: auto;
+    text-align: left;
+    color: #242424
+}
+
+article .info .description {
+    font-style: italic;
+}
+
+article .info .labels {
+    display: flex;
+    align-items: center;
+}
+
+article .info .labels p {
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.great-deal {
+    background-color: green;
+}
+
+.premium {
+    background-color: #646cff;
+}
+
+.all-inclusive {
+    background-color: #646cff;
+}
