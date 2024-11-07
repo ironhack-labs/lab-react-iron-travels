@@ -5,15 +5,21 @@
   text-align: center;
 }
 
+* {
+  color: #000000;
+}
+
 .logo {
   height: 5em;
   padding: 0.1rem 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +28,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -35,4 +42,50 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.label {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #ffd700;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.travel-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.travel-item {
+  border: 1px solid #000000;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.travel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+ul {
+  text-align: left;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
 }
