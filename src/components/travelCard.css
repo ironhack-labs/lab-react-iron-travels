@@ -1,0 +1,53 @@
+
+
+.TravelCard {
+    width: 100%;
+    padding: 5% 5%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TravelCard img {
+    width: 100%;
+}
+
+.TravelCard .travelInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    gap: 5px;
+    width: 100%;
+}
+
+.TravelCard .labels {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.TravelCard button {
+    background-color: #ca3636;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 550px) {
+    .TravelCard {
+        flex-direction: row;
+    }
+
+    .TravelCard img {
+        width: 50%;
+    }
+
+    .TravelCard .travelInfo {
+        width: 50%;
+        margin-left: 5%;
+    }
+}

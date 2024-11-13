@@ -35,4 +35,13 @@
 
 .text-iron {
   color: #0a035a;
+  margin-bottom: 40px;
+}
+
+.TravelListContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
