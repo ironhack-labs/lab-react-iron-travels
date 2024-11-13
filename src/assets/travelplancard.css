@@ -1,0 +1,127 @@
+.travel-plan-card{
+    height: 30vh;
+    width: 50vw;
+    margin: 0 0 0 5vw;
+    padding: 1.5rem;
+    display: flex;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.card-content {
+    position: relative;
+    text-align: left;
+    padding-left: 2rem;
+    width: 50%;
+   
+    
+    
+}
+
+.card-content h3 {
+    
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: black;
+}
+
+
+
+.card-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+
+.price {
+    font-weight:bolder;
+    margin-bottom: 12px;
+}
+
+
+.delete-button {
+    position: absolute;
+    bottom: 0;
+    width: 25%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #d3d3d3;
+    color: #333;
+}
+
+.favorite-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    background-color: transparent;
+    background-color: #d3d3d3;
+    color: #333;
+}
+
+.labels {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.label {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight:bolder;
+}
+
+.great-deal {
+    background-color: #4CAF50;
+    color: #000000;
+}
+
+.premium , .all-inclusive {
+    background-color: #1466be;
+    color: white;
+}
+
+
+.favorite-card{
+    height:25vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 5vw 0 ;
+    padding: 0;
+    gap: 5%;
+}
+
+.favorit-card-image{
+    width: 100%;
+    height: 50%;
+    
+}
+
+.favorite-card .card-content{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+ 
