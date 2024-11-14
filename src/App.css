@@ -1,38 +1,161 @@
 #root {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1.5rem;
-  text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1.5rem;
+	text-align: center;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo {
-  height: 5em;
-  padding: 0.1rem 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+	height: 5em;
+	padding: 0.1rem 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+	filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+	filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
 @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+	.logo {
+		animation: logo-spin infinite 20s linear;
+	}
 }
 
 .text-iron {
-  color: #0a035a;
+	color: #0a035a;
+}
+
+#listWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+ul#travelList {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	margin-top: 1rem;
+
+	& li {
+		display: flex;
+
+		padding: 1rem;
+		border: 1px solid black;
+
+		& > div {
+			width: 50%;
+		}
+
+		& > div:first-child {
+			height: 30vh;
+			overflow: hidden;
+
+			& img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		& > div#travelInfo {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 1rem;
+
+			padding-left: 1rem;
+
+			& p#description {
+				font-style: italic;
+			}
+
+			& #price {
+				font-weight: bold;
+
+				& span {
+					font-weight: normal;
+				}
+			}
+
+			& #labels {
+				display: flex;
+				gap: 0.5rem;
+
+				& label {
+					border-radius: 4px;
+					padding: 0.2rem 1rem;
+
+					&.label-great-deal {
+						background-color: rgb(91, 168, 91);
+						color: black;
+					}
+
+					&.label-premium,
+					&.label-all-inclusive {
+						background-color: rgb(79, 118, 202);
+						color: white;
+					}
+				}
+			}
+
+			& #buttonContainer {
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+			}
+		}
+	}
+}
+
+ul#favouritesList {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 15rem;
+
+	list-style: none;
+
+	& li {
+		border: 1px solid black;
+		width: 100%;
+		height: 10rem;
+
+		& #favouritesImageContainer {
+			width: 100%;
+			height: 50%;
+			overflow: hidden;
+
+			& img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		& #favouritesInfoContainer {
+			height: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
+	}
 }
