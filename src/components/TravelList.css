@@ -1,0 +1,154 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.travels-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.travel-image {
+  height: 200px;
+  width: 250px;
+  padding: 20px;
+  position: relative;
+}
+.travel-card {
+  border: black solid 1px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.hero-section {
+  padding: 0px;
+}
+
+.great-deal {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(49, 114, 69);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 0.8em;
+}
+
+.premium {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(34, 105, 220);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 0.8em;
+}
+.all-inclusive {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(34, 105, 220);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 0.8em;
+}
+.delete-btn {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(126, 126, 126);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 0.8em;
+}
+.fav-btn {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(126, 126, 126);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  margin: 40px auto 0px 200px;
+  font-size: 0.8em;
+}
+
+.favourites {
+  height: auto;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fav-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.fav-card {
+  border: black solid 1px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.fav-image {
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: black solid 1px ;
+}
+
+.fav-section {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+i,
+b,
+p,
+span {
+  font-size: 0.8em;
+}
