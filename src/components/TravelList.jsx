@@ -5,7 +5,7 @@ import "./TravelList.css";
 function TravelList () {
     const [travels, setTravels] = useState(travelPlansData);
 
-    function deleteTravel(travelId) {
+    function deleteTravel(travelId) {   /* Here travelId = travel.id , as we give this parameter in line 29 */
         const filteredTravels = travels.filter(travel => {
             return travel.id !==travelId;
         });
