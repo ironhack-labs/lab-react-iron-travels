@@ -1,0 +1,65 @@
+travel-card {
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  margin: 30px 90px;
+  padding: 30px;
+}
+
+.card-image {
+  width: 50%;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 50px;
+  color: black;
+}
+.description {
+  font-style: italic;
+  font-size: 25px;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+.great-deal {
+  border-radius: 8px;
+  width: 10%;
+  border: 1px solid transparent;
+  padding: 0.5em 0.8em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #449f66;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.premium-deal {
+  border-radius: 8px;
+  width: 10%;
+  border: 1px solid transparent;
+  padding: 0.5em 0.8em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2c6ba1;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.all-inclusive {
+  border-radius: 8px;
+  width: 10%;
+  border: 1px solid transparent;
+  padding: 0.5em 0.8em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #c3c57b;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}

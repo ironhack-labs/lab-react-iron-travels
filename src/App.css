@@ -36,3 +36,11 @@
 .text-iron {
   color: #0a035a;
 }
+
+h3 {
+  font-size: 50px;
+}
+.description {
+  font-style: italic;
+  font-size: 25px;
+}
