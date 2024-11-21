@@ -3,6 +3,11 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white;
+  color: #0a035a;
+
+
+
 }
 
 .logo {
@@ -11,9 +16,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +29,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -35,4 +43,41 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+img {
+  max-width: 60%;
+}
+
+.card {
+  display: flex;
+
+  border: 2px solid #0a035a;
+  margin: 12px;
+}
+
+.text-box {
+  display: block;
+  text-align: left;
+  padding: 16px;
+
+}
+
+.Deal {
+  background-color: green;
+  padding: 12px;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: Bold;
+
+}
+.Premium {
+  background-color: rgb(109, 109, 169);
+  padding: 12px;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: Bold;
+
 }
