@@ -1,0 +1,123 @@
+#root {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.logo {
+    height: 5em;
+    padding: 0.1rem 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.text-iron {
+    color: #0a035a;
+}
+
+.travel-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.travel-card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 550px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.travel-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel-img {
+    width: 250px;
+}
+
+.info-container {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    text-align: start;
+}
+
+.travel-destination {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.travel-description {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.travel-price {
+    font-size: 14px;
+}
+
+.travel-price span {
+    font-weight: bold;
+}
+
+.labels-container {
+    display: flex;
+    gap: 10px;
+}
+
+.great-deal-label,
+.premium-label,
+.all-inclusive-label {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(130, 130, 248);
+}
+
+.great-deal-label {
+    color: black;
+    background-color: rgb(25, 188, 25);
+}
+
+.delete-btn {
+    margin-top: 15px;
+    background-color: rgb(230, 230, 230);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 8px;
+}
