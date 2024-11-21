@@ -36,3 +36,28 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-details {
+  display: flex;
+  border: 1px solid black;
+  margin: .5rem;
+  padding: .5rem;
+  gap: 50px;
+
+}
+
+.img{
+  width: 400px;
+}
+
+.blueLabel{
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
+.greenLabel{
+  background-color: green;
+  color: black;
+  border-radius: 5px;
+}
