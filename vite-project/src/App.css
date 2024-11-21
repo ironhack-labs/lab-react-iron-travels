@@ -1,13 +1,13 @@
 #root {
-  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 2rem;
   text-align: center;
 }
 
 .logo {
-  height: 5em;
-  padding: 0.1rem 1.5em;
+  height: 6em;
+  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -28,11 +28,15 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .logo {
+  a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
-.text-iron {
-  color: #0a035a;
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
 }
