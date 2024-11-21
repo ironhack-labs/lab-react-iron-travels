@@ -1,0 +1,22 @@
+.TravelCard {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.TravelCard img {
+    width: 300px;
+
+}
+
+
+.TravelCard h3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: right;
+    font-size: 1.5em;
+}
