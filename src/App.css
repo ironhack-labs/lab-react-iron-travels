@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  width: 100vw;
 }
 
 .logo {
@@ -35,4 +36,52 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.destination{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: 20px;
+  width: 50vw;
+  align-items: center;
+}
+.destination img{
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+}
+.destination-description{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50vw;
+  height: 35vh;
+}
+.labels {
+  display: flex;
+  justify-content: space-around;
+  justify-content: left;
+}
+
+.labels p{
+  margin-right: 20px;
+  padding: 5px;
+  border-radius: 10%;
+  font-weight: 600;
+}
+
+.blue-label{
+  background-color: #366AC9;
+  color: aliceblue;
+}
+.green-label{
+  background-color: #77BC76;
+  color: rgb(13, 13, 13);
+}
+
+.destination button{
+  width: 100px;
+  background-color: rgb(148, 141, 141);
+  margin-bottom: 15px;
 }
