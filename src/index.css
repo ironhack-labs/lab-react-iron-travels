@@ -28,6 +28,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  background-color: white;
 }
 
 h1 {
@@ -65,4 +66,26 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.travelPlan {
+  width: 80%;
+  border: 1px solid black;
+  color: black;
+  display: flex;
+}
+
+.travelPlan h1 {
+  font-size: 1em;
+}
+
+.travelPlan img {
+  max-width: 30%;
+  position: relative;
+}
+
+.travelPlan .mainContent {
+  padding-left: 50px;
+  display: block;
+  text-align: left;
 }
