@@ -1,0 +1,31 @@
+.TravelCard {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 30%;
+        height: 20rem;
+        margin: 2rem auto;
+        padding: 1rem;
+        border: 1px solid #666;
+        box-shadow: 5px 5px 10px -5px;
+        transition: 0.4s;
+}
+
+.OneDestination {
+    display: inline-flex;
+}
+
+.OneDestination img{
+    position: relative;
+    width: 300px;
+    height: 189px;
+}
+
+
+.DestinationInfo {
+    margin: 0;
+}
+
+.DestinationInfo span{
+    font-weight: 900;
+}
