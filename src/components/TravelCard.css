@@ -1,0 +1,55 @@
+.travel-card {
+	color: #222;
+    width: auto;
+	padding: 3rem;
+	margin-bottom: 2rem;
+	border: 1px solid #222;
+	display: flex;
+	flex-direction: row;
+	div.img {
+		max-width: 60%;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	> div {
+		display: flex;
+		flex-direction: column;
+        justify-content: space-between;
+		gap: 0;
+		padding-left: 2rem;
+		text-align: left;
+		div.plan {
+            margin-bottom: 0.5rem;
+			h2 {
+				font-size: 2rem;
+				margin: 0 0 1rem 0;
+			}
+			p {
+				font-size: 1.1rem;
+				span {
+					font-weight: 700;
+				}
+			}
+			.labels {
+				display: flex;
+				gap: 1rem;
+				> div {
+					padding: 0.3rem 0.8rem;
+					border-radius: 0.3rem;
+					background-color: #366bca;
+					color: white;
+					&.great-deal {
+						background-color: #77bc77;
+					}
+				}
+			}
+		}
+		div.footer-buttons {
+			display: flex;
+			button {
+			}
+		}
+	}
+}
