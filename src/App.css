@@ -5,6 +5,31 @@
   text-align: center;
 }
 
+h2{
+
+}
+
+.destination{
+  border: 1px solid blue;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.destination img{
+  width: 308.1px;
+  height: 195px;
+  margin: 20px;
+}
+
+.destination button{
+  margin-bottom: 20px;
+}
+
+
 .logo {
   height: 5em;
   padding: 0.1rem 1.5em;
