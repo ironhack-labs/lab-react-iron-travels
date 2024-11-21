@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  color: #000;
+  background-color: #fff;
 }
 
 .logo {
@@ -35,4 +37,60 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.box{
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  margin: 30px 200px
+
+}
+
+.infos{
+  text-align: left;
+  
+}
+
+.infos h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.imgs {
+  width: 400px;
+  height: 300px;
+  padding: 20px 20px;
+}
+
+.label {
+  display: inline-block;
+  margin: 10px 15px 0 0 ;
+  text-align: left;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.greatDeal {
+  background-color: green;
+}
+
+.premium,
+.inclusive {
+  background-color: rgb(31, 87, 190);
+  color: white;
+}
+
+.delete {
+  margin-top: 45px;
+
+}
+
+.delete button {
+  height: 50px;
+  color: black;
+  background-color: gray;
 }
