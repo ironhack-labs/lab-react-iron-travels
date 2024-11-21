@@ -36,3 +36,79 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-card {
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  margin: 30px 90px;
+  padding: 30px;
+}
+
+.card-image {
+  width: 50%;
+  padding: 20px;
+}
+
+.travel-info {
+  padding: 0 20px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+.description {
+  font-style: italic;
+  font-size: 25px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.priceNumber {
+  font-weight: light;
+}
+
+.label1,
+.label2,
+.label3 {
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 0 20px 0 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.label2,
+.label3 {
+  background-color: blue;
+  color: white;
+}
+
+.label1 {
+  background-color: green;
+}
+
+.deleteButton {
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 0 20px 0 0;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: grey;
+}
+
+.button-container {
+  height: 50px;
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+}
