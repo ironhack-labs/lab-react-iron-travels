@@ -1,0 +1,89 @@
+.travel-list {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .travel-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #ccc;
+  
+    margin-bottom: 20px;
+    overflow: hidden;
+   ¡
+  }
+  
+  .travel-image {
+    width: 40%;
+    height: 200px;
+    object-fit: cover;
+    padding-left: 20px;
+  }
+  
+  .travel-content {
+    padding: 20px;
+    width: 60%;
+    
+  }
+  
+  .travel-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .travel-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  .travel-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .travel-labels {
+    margin-top: 10px;
+  }
+  
+  .label {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .label.deal {
+    background-color: #4caf50;
+    color: #000;
+  }
+  
+  .label.premium {
+    background-color:  #2196f3;
+  }
+  
+  .label.inclusive {
+    background-color: #2196f3;
+  }
+
+  .delete-button {
+    background-color: #707070;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
