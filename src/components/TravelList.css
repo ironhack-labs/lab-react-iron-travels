@@ -1,0 +1,102 @@
+
+.travel-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; 
+    background-color: #f9f9f9;
+  }
+  
+  
+  .travel {
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 300px; 
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .travel:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(148, 20, 20, 0.2);
+  }
+  
+  
+  .travel img {
+    border-radius: 4px; 
+    margin-bottom: 12px;
+    max-width: 100%; 
+    height: auto;
+    
+  }
+  
+  
+  .travel h2 {
+    font-size: 20px;
+    color: #333; 
+    margin-bottom: 8px;
+  }
+  
+
+  .travel div {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555; 
+  }
+  
+  
+  #deal {
+    background-color: #4caf50; 
+    color: white;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block; 
+    margin: 4px;
+  }
+  
+  #premium {
+    background-color: #2196f3;
+    color: white;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 4px;
+  }
+  
+  #allInclusive {
+    background-color: #ff5722;
+    color: white;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 4px;
+  }
+  
+  
+  .travel button {
+    background-color: #e53935; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .travel-list-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  }
