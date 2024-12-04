@@ -36,3 +36,99 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-info-container {
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.travel-info-container img {
+  width: 350px;
+}
+
+.info-subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.travel-info-container h1 {
+  font-size: 21px;
+}
+
+.travel-info-container p {
+  font-size: 15px;
+}
+
+#description-text {
+  font-style: italic;
+}
+
+.travel-info-container span {
+  font-weight: bold;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.great-deal-tag {
+  border: 1px solid #00df00;
+  border-radius: 5px;
+  padding: 2px 10px;
+  background-color: #00df00;
+}
+
+.great-deal-tag p {
+  padding: 0px;
+  margin: 0px;
+  color: #000;
+  font-weight: bold;
+}
+
+.premium-tag {
+  border: 1px solid #3474ff;
+  border-radius: 5px;
+  padding: 2px 10px;
+  background-color: #0075ff;
+}
+
+.premium-tag p {
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.all-inclusive-tag {
+  border: 1px solid #3474ff;
+  border-radius: 5px;
+  padding: 2px 10px;
+  background-color: #0075ff;
+}
+
+.all-inclusive-tag p {
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.delete-btn {
+  margin-top: 15px;
+  background-color: #aaa;
+  color: #000;
+}
+
+.delete-btn span {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
