@@ -1,0 +1,33 @@
+
+.favs-layout{
+    margin-top: 40px;
+}
+
+.favourite-box{
+    margin: 15px 15px 20px 20px;
+    border: 1px solid navy;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+.favourite-box h1{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.fav-img-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    min-width: 252px;
+    aspect-ratio: 1.5/1;
+    overflow: hidden;
+}
+.fav-img-container img{
+    min-width: 252px;
+}
+
+

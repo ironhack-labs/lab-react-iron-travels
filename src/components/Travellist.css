@@ -1,0 +1,113 @@
+.travel-layout{
+    display: flex;
+    flex-direction: row;
+}
+
+.favourites{
+    width: 400px;
+}
+
+p{
+    margin:0;
+    padding-bottom: 2px;
+}
+
+.travel-plans{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.travel-specs{
+    min-width: 180px;
+    max-width: 800px;
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid navy;
+}
+
+.img-container{
+    display:flex;
+    justify-content: center;
+    min-width: 5em;
+    width: 18em;
+    height: auto;
+    aspect-ratio: 1.5/1;
+    overflow: hidden;
+}
+
+
+.img-container img{
+    width: 20em;
+    height: auto;
+}
+
+.travel-text{
+    min-height: 192px;
+    margin-left: 1em;
+}
+
+.travel-text h1, .travel-text p{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.travel-text p{
+    padding-top: 0.5em;;
+}
+
+.description{
+    font-size: 11px;
+    font-style: italic;
+}
+
+.price{
+    font-size: 11px;
+}
+
+.price span{
+    font-weight: 600;
+}
+
+.labels{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2px;
+}
+
+.great-deal, .premium, .inclusive{
+    border-radius: 4px;
+    font-size: 9px;
+    padding: 5px;
+    font-weight: 600;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+
+.great-deal{
+    color: black;
+    background-color: rgb(17, 155, 17);
+}
+
+.premium{
+    color: white;
+    background-color: rgb(57, 111, 211);
+}
+
+.inclusive{
+    color: white;
+    background-color: rgb(57, 111, 211);
+}
+
+.content{
+    min-height: 75%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+}
