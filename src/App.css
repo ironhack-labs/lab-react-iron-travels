@@ -36,3 +36,37 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  width: 500px;
+  flex-direction: row;
+  border: 1px solid #0a035a;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+
+.card-image {
+  width: 200px;
+  height: auto;
+  margin: 16px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+  color: #0a035a;
+}
