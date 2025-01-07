@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white ;
 }
 
 .logo {
@@ -36,3 +37,98 @@
 .text-iron {
   color: #0a035a;
 }
+
+.image {
+ 
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 0%;
+}
+
+.box {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 100%;
+  max-width: 600px; /* Limit the container width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  gap: 20px; /* Add space between items */
+}
+
+
+.title{
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.description{
+  font-size: 14px;
+  color: black;
+}
+.price{
+  font-size: 14px bold;
+  font-weight: bold;
+  color: black;
+
+ }
+
+ .greatdeal{
+  font-size: 14px bold;
+  color: black;
+  background-color: rgb(113, 234, 113);
+  display: inline-block; 
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding: 2px 4px; /* Adds space around text */
+  border-radius: 4px; /* Optional: rounds corners */
+ }
+
+ .premium{
+  font-size: 14px bold;
+  color: black;
+  background-color: rgb(46, 118, 252);
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: inline-block; 
+  padding: 2px 4px; /* Adds space around text */
+  border-radius: 4px; /* Optional: rounds corners */
+ }
+
+ .labels {
+  margin-bottom: 10px;
+}
+
+button#delete {
+  padding: 10px 15px;
+  background-color: #8c8a89;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#delete:hover {
+  background-color: #4c4949;
+}
+
+
+
+
+
+
+
+
+
+
+
+
