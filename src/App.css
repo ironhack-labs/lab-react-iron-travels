@@ -36,3 +36,32 @@
 .text-iron {
   color: #0a035a;
 }
+
+.logo {
+  width: 150px;
+  margin: 20px auto;
+  display: block;
+}
+
+.text-iron {
+  text-align: center;
+  color: #3a3a3a;
+  font-family: "Arial", sans-serif;
+}
+
+.list {
+  margin: 20px auto;
+  padding: 0;
+  max-width: 500px;
+  list-style-type: none;
+}
+
+.list-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
