@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white;
 }
 
 .logo {
@@ -35,4 +36,75 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.box {
+  display: flex;
+  width: 500px;
+  border: 1px solid black;
+  background-color: white;
+  padding: 24px 16px;
+  gap: 12px;
+}
+
+.dest-img {
+  width: 250px;
+}
+
+.info {
+  display: flex;
+  align-items: start;
+  color: black;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  font-size: 15px;
+  gap: 16px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#deal {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+#premium {
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+#allInc {
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.deals {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#delete {
+  background-color: grey;
+  color: black;
+  font-size: 15px;
 }
