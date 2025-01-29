@@ -1,0 +1,36 @@
+#list-component {
+  display: flex;
+  padding: 1em;
+  margin: 2em;
+  border-style: solid;
+  border-color: black;
+}
+
+#list-component img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 1em;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+#list-component span {
+  font-weight: bold;
+}
+
+#text {
+  text-align: left;
+}
+
+h2 {
+  display: inline-block;
+}
+
+
+label {
+  color: white;
+  margin: 0 2px 0 0;
+  padding: 3px;
+  border-radius: 5px;
+}
