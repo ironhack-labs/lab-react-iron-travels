@@ -1,0 +1,6 @@
+const TravelPlanCard = ({ plan, handleDelete}) => {
+
+
+
+    
+}
