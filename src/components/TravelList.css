@@ -1,0 +1,6 @@
+.content{
+   max-width: "200 px"; 
+   justify-content: flex-start;
+   margin: auto;
+   justify-items: center;
+}
