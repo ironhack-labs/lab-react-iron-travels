@@ -36,3 +36,12 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travelPlan {
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.travelPlan img {
+  width: 50%;
+}
