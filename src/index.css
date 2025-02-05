@@ -66,3 +66,34 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.country{
+  border: 3px solid black;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.country img{
+  width:40%
+}
+.country div{
+  width: 40%;
+}
+.countries{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label{
+  background-color:#535bf2;
+  border-radius: 5px;
+}
+.greatdeal{
+  background-color: greenyellow;
+}
+.labels{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
