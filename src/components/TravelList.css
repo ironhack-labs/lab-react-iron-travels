@@ -1,0 +1,63 @@
+.travel-list {
+  max-width: 900px;
+  margin:  auto;
+  }
+.travel-plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.travel-image {
+  width: 300px;
+  height: 250px;
+  padding-left: 20px;
+}
+
+.travel-content {
+  padding: 20px;
+  width: 60%;
+}
+
+.travel-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.label {
+  margin-right: 10px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.label.deal {
+  background-color: #4caf50;
+  color: #000;
+}
+
+.label.premium {
+  background-color: #2196f3;  
+}
+
+.label-org{
+  display: flex;
+}
+
+.label.inclusive {
+  background-color: #2196f3;
+}
+
+.delete-button {
+  background-color: #b1a7a7;
+  color: #fff;
+  display: flex;
+  padding: 4px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+  
+}
