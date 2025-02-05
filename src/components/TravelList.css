@@ -1,0 +1,59 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 1rem;
+    text-align: left;
+    padding: 10px;
+}
+
+.card img{
+    width: 300px;
+    padding: 20px 10px;
+    
+}
+
+.premium{
+    background-color: rgb(49, 129, 156);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 10px 5px 0px;
+    font-size: smaller;
+
+}
+
+.all-inclusive{
+    background-color: rgb(156, 83, 49);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 10px 5px 0px;
+    font-size: smaller;
+
+}
+
+.deal{
+    background-color: rgb(33, 168, 89);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 10px 5px 0px;
+    font-size: smaller;
+
+}
+
+.card .button{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.card button{
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 0.2em 0.4em;
+    font-size: .8em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+   
+  }
