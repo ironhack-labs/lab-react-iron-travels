@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .logo {
@@ -35,4 +38,44 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+#containerTravels img {
+  height: 300px;
+  width: 500px;
+  margin: 20px;
+}
+
+#containerTravels {
+  width: 85%;
+  display: flex;
+  justify-content:space-around;
+  align-content: center;
+  margin: 150px;
+  border: solid 1px;
+}
+
+#containerTravels button {
+  margin-top: 40px;
+  background-color: gainsboro;
+}
+
+#premium, #allInclusive {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#greatDeal {
+  background-color: green;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+  font-weight: bold;
+  display: inline-block;
 }
