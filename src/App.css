@@ -4,6 +4,10 @@
   padding: 1.5rem;
   text-align: center;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .logo {
   height: 5em;
@@ -35,4 +39,51 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.plan {
+  border: 1px solid #ddd;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+.plan-image {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.plan-image img {
+  width: 400px;
+  object-fit: cover;
+}
+
+.data-body {
+  flex: 1;
+  text-align: left;
+}
+.premium,
+.all-inclusive {
+  background-color: #366bca;
+  color: white;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.deal {
+  background-color: #77bc77;
+  color: white;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.delete {
+  width: 25px;
+  height: 25px;
+  background-color: #d63e55;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: white;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
 }
