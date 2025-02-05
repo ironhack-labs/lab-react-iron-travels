@@ -1,0 +1,103 @@
+/* TravelList component styles */
+.TravelList {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column grid layout for each card */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    justify-items: center; /* Centers the cards in each column */
+  }
+  
+  /* Style for each travel card */
+  .travel-card {
+    display: flex;
+    align-items: center; /* Vertically align image and text in the center */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for card */
+    text-align: left; /* Left-align text inside the card */
+    transition: transform 0.3s ease-in-out; /* Hover effect */
+  }
+  
+  .travel-card:hover {
+    transform: translateY(-10px); /* Hover effect for card */
+  }
+  
+  .travel-image {
+    width: 150px; /* Fixed width for the image */
+    height: 100px; /* Fixed height for the image */
+    object-fit: cover; /* Ensure the image doesn't get distorted */
+    border-radius: 10px;
+    margin-right: 20px; /* Space between image and text */
+  }
+  
+  .travel-details {
+    display: flex;
+    flex-direction: column; /* Stack the text content vertically */
+  }
+  
+  .destination {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 1rem;
+    color: #2a9d8f; /* Price color */
+    font-weight: bold;
+  }
+  
+  /* Labels styles */
+  .labels {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .label {
+    background-color: #2a9d8f; /* Greenish background for the label */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* Delete button styles */
+  .delete-btn {
+    background-color: red; /* Red background for delete button */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: darkred; /* Darker red on hover */
+  }
+  
+  /* Media query for small screen responsiveness */
+  @media (max-width: 600px) {
+    .TravelList {
+      grid-template-columns: 1fr; /* Stack cards on top of each other */
+    }
+    .travel-card {
+      flex-direction: column; /* Stack image and text vertically on small screens */
+      text-align: center; /* Center-align text when stacked */
+    }
+    .travel-image {
+      width: 100px; /* Smaller image size */
+      height: 80px; /* Smaller height for mobile */
+      margin-right: 0; /* Remove margin between image and text */
+      margin-bottom: 10px; /* Add space below image */
+    }
+  }
+  
