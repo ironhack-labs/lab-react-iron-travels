@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -35,4 +38,73 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.travel {
+  width: 300px;
+  padding: 10px;
+}
+
+.vacation {
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+  width: 700px;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding:0px;
+}
+
+.content{
+ text-align: left;
+}
+
+.greatDeal{
+background-color: rgb(106, 190, 106);
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+width:100px;
+border-radius: 5px;
+padding:5px;
+margin: 5px;
+}
+.premium{
+background-color: rgb(54, 113, 201);
+color:white;
+font-size: 14px;
+font-weight:normal;
+text-align: center;
+width:100px;
+border-radius: 5px;
+padding:5px;
+margin: 5px;
+
+}
+.inclusive{
+  background-color: rgb(54, 113, 201);
+  color:white;
+  font-size: 14px;
+  font-weight:normal;
+  text-align: center;
+  width:10px;
+  border-radius: 5px;
+  padding:4px;
+  margin: 5px;
+
+}
+.btn{
+  background-color: rgb(161, 161, 161);
+  cursor: pointer;
+  color:black;
+  font-size: 14px;
+  font-weight:bold;
+  text-align: center;
+  width:50px;
+  border-radius: 5px;
+  padding:4px;
+  margin: 5px;
+}
+.btn:hover{
+  background-color: cadetblue;
 }
