@@ -36,3 +36,13 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-list{
+  display: flex;
+  text-align: left;
+  border-color:white;
+}
+.imgTravel{
+  width: 500px;
+  margin: 10px;
+}
