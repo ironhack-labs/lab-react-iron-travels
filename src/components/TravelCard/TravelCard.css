@@ -1,0 +1,61 @@
+span {
+  display: block;
+  text-align: left;
+}
+
+h4 {
+  text-align: left;
+}
+
+.img-travel {
+  width: 45%;
+  img {
+    width: 100%;
+  }
+}
+
+.info-travel {
+  width: 45%;
+}
+
+.description {
+  font-style: italic;
+  font-size: calc(.8rem + .2vw);
+}
+
+.price {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.price span {
+  font-weight: bolder;
+}
+
+.labels {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.label-two, .label-one {
+  padding: .1rem .4rem;
+  border: 1px solid #333;
+  font-size: calc(.5rem + .2vw);
+  font-weight: bolder;
+  border-radius: .2rem;
+  -webkit-border-radius: .2rem;
+  -moz-border-radius: .2rem;
+  -ms-border-radius: .2rem;
+  -o-border-radius: .2rem;
+}
+
+.label-two {
+  margin-right: 1rem;
+  background-color: #2e5dc1;
+  color: #fff;
+}
+
+.label-one {
+  background-color: #6eab60;
+}

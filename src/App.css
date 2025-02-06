@@ -36,3 +36,30 @@
 .text-iron {
   color: #0a035a;
 }
+
+/**** TRAVEL LIST ****/
+
+.travel-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2%;
+  border: 1px solid #333;
+  padding: 1rem;
+}
+
+.layout-button {
+  width: 100%;
+  text-align: right;
+}
+
+.delete-button {
+  width: 20%;
+}
