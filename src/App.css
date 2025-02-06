@@ -2,7 +2,10 @@
   width: 100%;
   margin: 0 auto;
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
 }
 
 .logo {
@@ -35,4 +38,47 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.travel-image {
+  width: 380px;
+  height: 270px;
+  border-radius: 4px;
+}
+
+.travel-card {
+  display: flex;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 16px 24px;
+  margin-bottom: 100px;
+  width: 680px;
+  height: 300px;
+  align-items: center;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 24px;
+}
+
+span {
+  background-color:#2C5CC2;
+  padding: 6px 16px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.tag-offer {
+  background-color: green;
+  
+}
+
+.tag-premium {
+  margin-right: 8px;
 }
