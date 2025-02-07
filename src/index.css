@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -65,4 +65,53 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.img{
+  width: 400px;
+}
+
+.travel-card{
+  border-style: solid;
+  border-color: black;
+  width: 400px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin:auto;
+  background-color: white;
+  
+}
+
+.description{
+  color: black;
+}
+
+.btn-delete{
+  width: 100px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.price{
+  color:black
+}
+
+.premium{
+  background-color: #535bf2;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+
+.great-deal{
+  background-color: green;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
+
 }
