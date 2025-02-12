@@ -36,3 +36,101 @@
 .text-iron {
   color: #0a035a;
 }
+
+.card-container {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: top;
+margin: 20px;
+padding: 16px;
+border: 2px solid black;
+width: 1000px;
+
+}
+
+.listado {
+  width: 1200px;
+}
+
+.info-container {
+text-align: left;
+
+}
+
+.card-image {
+  width: 500px;
+  height: 350px;
+  margin: 20px;
+
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -20px;
+}
+
+#premium, #all-inclusive {
+  background-color: rgba(54,107,202,255);
+  padding: 4px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10px;
+
+}
+
+#deal {
+  background-color: rgba(119,188,119,255);
+  padding: 4px;
+  border-radius: 5px;
+  color: black;
+}
+
+.btn-delete {
+  background-color: rgba(182,182,182,255);
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 103px;
+  width: 350px;
+}
+
+.btn-fav {
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+}
+
+.fav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: top;
+  margin: 20px;
+  padding: 16px;
+  border: 2px solid black;
+  width: 300px;
+
+}
+
+.fav-card-image {
+  width: 300px;
+  height: 150px;
+}
