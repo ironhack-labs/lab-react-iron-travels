@@ -36,3 +36,8 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-plan img{
+  width: 75%;
+  height: auto;
+}
