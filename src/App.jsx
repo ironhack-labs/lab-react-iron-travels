@@ -1,7 +1,11 @@
 import logo from "./assets/logo.png";
 import "./App.css";
+import TravelList from "./components/TravelList";
+import travelPlansData from "./assets/travel-plans.json";
+import { useState } from "react";
 
 function App() {
+  const [travelList, setTravelList] = useState(travelPlansData);
   return (
     <>
       <div>
@@ -10,8 +14,7 @@ function App() {
       <h1 className="text-iron">Iron Travels</h1>
       <h3 className="text-iron">Tailored Travel Plans for Ironhackers</h3>
 
-      {/* RENDER YOUR LIST COMPONENT HERE */}
-      
+      <TravelList state={travelList} setState={setTravelList} />
     </>
   );
 }

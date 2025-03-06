@@ -29,11 +29,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
+/* 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
+} */
 
 button {
   border-radius: 8px;
@@ -66,3 +66,75 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.page{
+  display: flex;
+}
+
+.layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  margin: 2rem;
+  padding: 2rem;
+  border: solid white;
+}
+
+.cardFavs{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  border: solid white;
+}
+
+.picture{
+  width: 500px;
+  padding-right: 10px;
+}
+
+.pictureFavs{
+  width: 300px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.text h1,p{
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.textFavs{
+  font-weight: bold;
+}
+
+.labels{
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+
+.deal{
+  background-color: dodgerblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.greatDeals{
+  background-color: green;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+}
+
