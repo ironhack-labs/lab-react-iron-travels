@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
@@ -35,4 +38,35 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.fullCard {
+  width: 800px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  border: 1px;
+  border-style: solid;
+  border-color: #1500ff;
+  border-radius: 5px;
+  color: #0a035a;
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.oneImage {
+  width: 400px;
+  margin: 10px;
+}
+
+.cardDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 10px;
+}
+
+.onePrice {
+  flex-direction: flex-start;
 }
