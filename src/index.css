@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(3, 3, 3, 0.87);
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,14 +35,52 @@ h1 {
   line-height: 1.1;
 }
 
+.plan-card {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.plan-card img {
+  max-width: 50%;
+  height: auto;
+  padding: 5px;
+  float: right;
+  /*display: flex;
+  align-items: flex-start;*/
+}
+
+.plan-card p {
+  float: left;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cote {
+  flex-direction: row;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 button {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #979393;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -52,6 +90,28 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+img {
+  height: 7rem;
+}
+
+.green-label {
+  background-color: green;
+  color: black;
+  width: 50%;
+  border-radius: 0.4rem;
+  margin: 5px;
+  padding: 5px;
+}
+
+.blue-label{
+  background-color: rgb(60, 60, 240);
+  color: white;
+  width: 50%;
+  border-radius: 0.4rem;
+  margin: 5px;
+  padding: 5px;
 }
 
 @media (prefers-color-scheme: light) {
