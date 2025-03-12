@@ -36,3 +36,12 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-image {
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
