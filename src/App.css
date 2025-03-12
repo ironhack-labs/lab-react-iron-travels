@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -35,4 +36,43 @@
 
 .text-iron {
   color: #0a035a;
+}
+.main-container{
+  display: flex;
+  width: 100vw;
+  gap: 20px;
+}
+.all-travel-container{
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
+.travel-container{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  text-align: left;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 30px;
+}
+.favorite-container .travel-container{
+  flex-direction: column;
+}
+
+.img-container{
+  width: 50%;
+}
+
+.img-container img{
+  object-fit: cover;
+  width: 100%;
+}
+
+.description{
+  font-style: italic;
+}
+
+p span{
+  font-weight: 900;
 }
