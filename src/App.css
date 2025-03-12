@@ -36,3 +36,171 @@
 .text-iron {
   color: #0a035a;
 }
+.subtitle{
+  margin-bottom: 1rem;
+}
+.fav-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  width: 100%;
+  gap: 1rem;
+}
+.fav-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+  height: 8rem;
+  text-align: center;
+  border: 2px solid #0a035a;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.fav-image-container{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.fav-image{
+  width: 100%;
+}
+.list-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  width: 100%;
+}
+.hr{
+  width: 80%;
+  align-self: center;
+  justify-self: center;
+}
+.card{
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 100%;
+  border: 2px solid #0a035a;
+  border-radius: 1.5rem;
+  text-align: left;
+}
+.card-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 50%;
+  height: 200px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.card-image{
+  height: 100%;
+  /* aspect-ratio: 1; */
+}
+.card-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: stretch;
+  width: 50%;
+  height:100%;
+  flex-grow: 1;
+}
+.card-title{
+  margin-bottom: 1rem;
+}
+.bold{
+  font-weight: 700;
+}
+.card-label-container{
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  min-height: 2rem;
+}
+.label{display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  padding: 0 0.75rem;
+  font-weight: 600;
+  background-color: white;
+  color: #0a035a;
+  border: 2px solid #0a035a;
+  border-radius: 0.5rem;
+}
+.label-blue{
+  background-color: #0a035a;
+  border: 2px solid #0a035a;
+  color: white;
+}
+.label-green{
+  background-color: #0e7427;
+  border: 2px solid #0e7427;
+  color: white;
+}
+.card-action-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-grow: 1;
+}
+.btn{
+  margin-right: 0.5rem;
+  background-color: rgb(214, 213, 213);
+  border: 2px solid black;
+  color: black;
+}
+.btn:hover, .btn:focus, .btn:focus-visible, .btn:active{
+  border: 2px solid #646cff;
+  color: #646cff;
+}
+
+.btn-danger{
+  background-color: white;
+  border: 2px solid #970909;
+  color: #970909;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:focus-visible, .btn-danger:active{
+  background-color: #970909;
+  border: 2px solid #970909;
+  color: white;
+}
+.btn-fav{
+  border: none;
+  font-size: 2rem;
+  line-height: 50%;
+  color: white;
+}
+.btn-fav:hover, .btn-fav:focus, .btn-fav:focus-visible, .btn-fav:active{
+  border: none;
+}
+.btn-fav
+/* ["purple", "blue", "green", "yellow", "orange", "red"] */
+.purple{
+  background-color: purple;
+}
+.blue{
+background-color: blue;
+}
+.green{
+background-color: green;
+}
+.yellow{
+background-color: yellow;
+}
+.orange{
+background-color: orange;
+}
+.red{
+background-color: red;
+}
