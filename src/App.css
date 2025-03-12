@@ -1,3 +1,11 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 16px;
+}
 #root {
   width: 100%;
   margin: 0 auto;
@@ -36,3 +44,48 @@
 .text-iron {
   color: #0a035a;
 }
+.list-container{
+  width: 80%;
+  padding: 16px;
+}
+.card{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 24px;
+  padding: 16px;
+  width: 100%;
+  border: 2px solid rgb(21, 0, 44);
+  border-radius: 2px;
+  text-align: left;
+}
+.card-image{
+  height: auto;
+  width: 50%;
+}
+.text-content{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card-title{
+  font-size: 32px;
+  font-weight: 700;
+}
+.card-subtitle{
+  font-style: italic;
+}
+.bold{
+  font-weight: 700;
+}
+.tag{
+  margin: 16px; 
+  padding: 16px;
+  color: white;
+  background-color: #0a035a;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
