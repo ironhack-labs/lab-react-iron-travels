@@ -36,3 +36,34 @@
 .text-iron {
   color: #0a035a;
 }
+.card {
+  border: 1px solid black;
+  width: 30%;
+  display: flex;
+  margin: 20px auto;
+}
+.card img {
+  width: 360px;
+}
+.content-card {
+  padding: 10px;
+}
+.content-card h3,
+.content-card p {
+  margin: 0px;
+  padding-bottom: 5px;
+}
+.deal {
+  background-color: #2e4fcc;
+  color: white;
+  padding: 6px 12px;
+  margin: 20px;
+  border-radius: 7px;
+}
+.delete {
+  background-color: gray;
+  padding: 6px 12px;
+}
+.all-deals {
+  display: flex;
+}
