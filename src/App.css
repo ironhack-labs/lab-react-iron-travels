@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo {
@@ -35,4 +38,61 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.TravelList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ListCard {
+  margin: 20px;
+  width : 70vw;
+  display: flex;
+  flex-direction: row;
+  border-radius: 1px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 10px;
+  padding: 20px;
+}
+
+.ListCard img {
+  width : 50%;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.L1-description {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 20px;
+  row-gap: 20px;
+  width:100%;
+}
+
+.deal {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.condition {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  width: 100px;
+  height: 30px;
+  background-color: grey;
+  border-style: none;
+  border-radius: 10px;
 }
