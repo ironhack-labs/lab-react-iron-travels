@@ -1,38 +1,66 @@
-#root {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1.5rem;
-  text-align: center;
-}
-
-.logo {
-  height: 5em;
-  padding: 0.1rem 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#main-container {
+  width: 90%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 50px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.text-iron {
-  color: #0a035a;
+#main-container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover; /* ensures the image covers the area while maintaining aspect ratio */
+}
+
+#text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  align-self: flex-start;
+}
+
+.labels-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.label {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.cost-label {
+  background-color: #4caf50;
+  color: white;
+}
+
+.inclusive-label {
+  background-color: #2196f3;
+  color: white;
 }
