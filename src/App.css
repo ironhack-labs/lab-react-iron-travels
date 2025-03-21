@@ -36,3 +36,131 @@
 .text-iron {
   color: #0a035a;
 }
+
+.trip-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.travel-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.trip {
+  width: 640px;
+  height: 300px;
+  display: flex;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.trip-details {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right: 10px;
+}
+
+.trip-details h3 {
+  margin: 15px 0;
+}
+
+.trip img {
+  padding: 20px;
+  width: 300px;
+}
+
+.trip-description {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.premium-deal,
+.great-deal,
+.all-inclusive-deal {
+  text-align: center;
+  border-radius: 5px;
+}
+
+.labels {
+  display: flex;
+  gap: 10px;
+}
+
+.premium-deal,
+.all-inclusive-deal {
+  background-color: #366bca;
+}
+
+.premium-deal {
+  width: 70px;
+}
+
+.great-deal {
+  background-color: #74bc74;
+  width: 90px;
+  color: black;
+  font-weight: bold;
+}
+
+.all-inclusive-deal {
+  width: 100px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.delete-btn,
+.add-to-favorite {
+  width: 60px;
+  text-align: center;
+  background-color: gray;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorites-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.favorites-list h2 {
+  padding-left: 50px;
+}
+
+.favorite-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.favorite-item {
+  width: 300px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+}
+
+.favorite-img {
+  width: 300px;
+  height: 130px;
+  object-fit: cover;
+  object-position: top;
+  overflow: hidden;
+}
