@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ffffff; 
+  color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,32 +26,55 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #ffffff;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin-top: 2rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.travel-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  max-width: 700px;
+  background-color: white;
 }
-button:hover {
-  border-color: #646cff;
+
+.travel-card img {
+  width: 250px;
+  height: auto;
+  margin-right: 1.5rem;
+  object-fit: cover;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+.travel-info {
+  text-align: left;
+  flex: 1;
+  padding-bottom: 5rem;
+}
+
+.travel-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+
+.all-inclusive {
+  color: green;
+  font-weight: bold;
 }
 
 @media (prefers-color-scheme: light) {
@@ -65,4 +88,32 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.labels {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.label {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+}
+
+.label-deal {
+  background-color: green;
+}
+
+.label-premium {
+  background-color: blue;
+}
+
+.label-inclusive {
+  background-color: blue;
 }
