@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+body {
+  background-color: white;
+}
+
 .logo {
   height: 5em;
   padding: 0.1rem 1.5em;
@@ -36,3 +40,161 @@
 .text-iron {
   color: #0a035a;
 }
+
+.offer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 300px;
+  margin: 20px auto;
+  gap: 15px;
+}
+
+.offer-img {
+  padding: 0;
+  width: 270px;
+  height: 200px;
+  bottom: 100px;
+}
+
+.text-container {
+  width: 290px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  vertical-align: text-top;
+  gap: 5px
+}
+
+.text-container p,
+.text-container h3 {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  line-height: 2em;
+  color: black;
+}
+
+.img-container {
+  width: 270px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px 0px;
+  padding: 0;
+}
+
+.label-container {
+  display: flex;
+  gap: 10px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 30px;
+  background-color: rgb(19, 92, 171);
+  color: white;
+  border-radius: 5%;
+  font-weight: 500;
+}
+
+.great-deal {
+  background-color: rgb(69, 204, 15);
+}
+
+.all-inc {
+  width: 110px;
+  background-color: rgb(19, 92, 171);
+}
+
+.delete-btn {
+  display: flex;
+  width: 80px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(165, 154, 154, 0.704);
+  color: black;
+}
+
+.fav {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+#fav-btn {
+  display: flex;
+  width: 20px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(165, 154, 154, 0.704);
+  color: black;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 90%;
+  color: black;
+  padding-top: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.fav-container {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  height: 140px;
+  width: 200px;
+}
+
+.fav-img {
+  width: 200px;
+  height: 70px;
+  object-fit: cover;
+  overflow: clip;
+}
+
+
+.fav-container h3 {
+  margin: 5px 0;
+
+  padding: 0;
+  font-size: 1em;
+}
+
+.fav-container p {
+  margin: 0;
+  padding: 0;
+}
+
+#fav-title {
+  margin:0;
+  padding: 0;
+}
+
