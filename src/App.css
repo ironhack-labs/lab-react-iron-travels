@@ -36,3 +36,20 @@
 .text-iron {
   color: #0a035a;
 }
+
+.TravelPlanCard{
+  display: flex;
+  border-style: solid;
+  width: 900px;
+}
+
+.left-section img{
+  width: 500px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.right-section h2, p {
+  text-align: center;
+  margin-left: 20px;
+}
