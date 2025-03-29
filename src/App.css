@@ -36,3 +36,25 @@
 .text-iron {
   color: #0a035a;
 }
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.travel-card {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+  text-align: left;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 24px;
+}
+
+.travel-image {
+  width: 20em;
+}
