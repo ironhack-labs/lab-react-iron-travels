@@ -66,3 +66,22 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.TravelList {
+ border: 1px solid black;
+ display:flex;
+ flex-direction: row;
+ margin: 50px;
+ padding: 20px;
+}
+
+.travel-img {
+  width: 500px;
+  height: auto;
+  margin: 20px;
+}
+
+.list-title {
+  text-align: justify;
+}
