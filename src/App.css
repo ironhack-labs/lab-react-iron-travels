@@ -1,15 +1,9 @@
-#root {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1.5rem;
-  text-align: center;
-}
-
 .logo {
   height: 5em;
   padding: 0.1rem 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  margin-top: 30px;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -31,8 +25,4 @@
   .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.text-iron {
-  color: #0a035a;
 }
