@@ -36,3 +36,36 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-card {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  max-width: 70%;
+  margin: auto;
+  align-items: stretch;
+  padding: 2rem;
+  gap: 1rem;
+}
+.travel-image {
+  width: 100%;
+  max-width: 60%;
+  height: 300px;
+  max-height: 60%;
+  object-fit: cover;
+}
+.travel-details {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: space-between;
+}
+.travel-info {
+  font-size: 0.5rem;
+}
+.travel-title {
+  margin: 0;
+}
