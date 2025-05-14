@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -65,4 +65,41 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.travel-list {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.travel-list-desc {
+  padding: 20px;
+}
+
+.great-deal {
+  background-color: rgb(80, 80, 170);
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+   margin: 5px;
+}
+
+.premium {
+  background-color: rgb(80, 80, 170);
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.all-inclusive {
+    background-color: rgb(1, 167, 15);
+  color: rgb(0, 0, 0);
+  padding: 3px;
+  border-radius: 5px;
+   margin: 5px;
 }
