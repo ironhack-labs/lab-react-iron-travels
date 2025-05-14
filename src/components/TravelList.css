@@ -1,0 +1,68 @@
+#voyage-container {
+  border: 2px solid black;
+  display: flex;
+  margin: 30px 10px;
+  width: 90%;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+  padding: 30px 30px;
+}
+
+#description {
+  font-style: italic;
+}
+
+span {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#tout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#all-voyage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#labels {
+  display: flex;
+  gap: 14px;
+}
+
+#great-deal {
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+#Premium,
+#All-Inclusive {
+  background-color: #0a40fb;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+#delete-btn {
+  background-color: grey;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: aliceblue;
+  border: none;
+  margin-top: 60px;
+  width: 90px;
+  height: 30px;
+}
