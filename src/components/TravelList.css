@@ -1,0 +1,57 @@
+.travel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.travel-card {
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+.travel-card-place-image {
+    width: 200px;
+}
+
+.travel-card-content {
+    font-size: 12px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.travel-id-content {
+    display: flex;
+    gap: 10px;
+
+}
+
+.travel-premium {
+    border: 1px solid black;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(93, 93, 227);
+    width: fit-content;
+    padding: 2px;
+}
+
+.travel-deal {
+   border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    background-color: rgb(73, 162, 49);
+    width: fit-content;
+    padding: 2px;
+}
+
+.delete-button {
+    border: 0px solid black;
+    border-radius: 3px;
+    color: black;
+    background-color: rgb(172, 178, 170);
+    width: fit-content;
+    padding: 4px;
+}
