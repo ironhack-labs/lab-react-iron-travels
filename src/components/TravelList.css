@@ -1,0 +1,55 @@
+.travel-card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  max-width: 610px;
+  margin-inline: auto;
+  gap: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.travel-image {
+  width: 300px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.travel-info {
+  text-align: left;
+}
+
+.labels {
+  margin-bottom: 0.8rem;
+}
+
+.label {
+  display: inline-block;
+  padding: 4px 10px;
+  margin-right: 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.label.premium {
+  background-color: #3b5bdb;
+}
+
+.label.deal {
+  background-color: green;
+}
+
+.label.inclusive {
+  background-color: #676b6c;
+}
+
+.delete-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+}

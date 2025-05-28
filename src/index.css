@@ -4,14 +4,12 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(33, 53, 71, 0.87); /* cor mais escura para texto */
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+ 
 }
 
 a {
@@ -26,8 +24,16 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  justify-content: center;       /* centraliza conteúdo */
+  padding: 2rem 1rem;            /* espaço interno */
   min-width: 320px;
   min-height: 100vh;
+  background-color: #f5f5f5;     /* cor de fundo clara */
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px;             /* limite de largura */
 }
 
 h1 {
