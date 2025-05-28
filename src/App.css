@@ -36,3 +36,55 @@
 .text-iron {
   color: #0a035a;
 }
+
+.box {
+  margin: 20px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.box img {
+  width: 50%;
+  padding: 30px 20px;
+}
+
+.box section {
+  font-size: smaller;
+  width: 50%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.box button {
+  margin-top: 20px;
+  font-weight: 700;
+  background-color: rgb(220, 217, 217);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.labels {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.deal {
+  padding: 2px 5px;
+  background-color: rgb(156, 226, 156);
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+.price {
+  margin: 2px;
+  padding: 2px 5px;
+  color: white;
+  background-color: rgb(69, 154, 240);
+  font-weight: 800;
+  border-radius: 5px;
+}
