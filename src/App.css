@@ -36,3 +36,50 @@
 .text-iron {
   color: #0a035a;
 }
+
+
+
+/* Contenedor completo de cada tarjeta ----------------------------- */
+.travel-card {
+  display: flex;           /* pone img y texto en la misma fila      */
+  align-items: stretch;    /* que ambos ocupen la altura completa     */
+  margin-bottom: 1rem;
+  border: 2px solid white; /* ← aquí va el borde blanco */
+  border-radius: 8px;       /* opcional: bordes redondeados */
+  overflow: hidden;
+}
+
+/* Imagen ----------------------------------------------------------- */
+.travel-card__img {
+  flex: 0 0 50%;           /* nunca crecer ni encoger ‑ 50 % exacto   */
+  max-width: 50%;
+  object-fit: cover;       /* recorta sin deformar                    */
+}
+
+/* Bloque de texto -------------------------------------------------- */
+.travel-card__content {
+  flex: 1;                 /* ocupa el resto (≈ 50 %)                 */
+  padding: 1rem;
+  display: flex;           /* apila los elementos verticalmente       */
+  flex-direction: column;
+  justify-content: center; /* centra el texto dentro                  */
+}
+
+.label {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  background: #ffffff;  /* fondo blanco para encajar con tu borde */
+  color: #222;
+  border: 1px solid #ddd;
+}
+
+/* Espacio entre bloque de etiquetas y resto del contenido */
+.travel-card__labels {
+  margin: 0.25rem 0 0.75rem;
+}
