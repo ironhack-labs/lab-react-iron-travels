@@ -66,3 +66,68 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.plan {
+  display: flex;
+  border: 2px solid #1a1a1a;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 24px;
+  background-color: #f8f8f8;
+}
+
+.textContent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: left;
+}
+
+
+.textOneLine{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planDescrip{
+  font-style: italic;
+  font-weight: normal;
+}
+
+.cost{
+  font-weight: normal;
+}
+
+.amountDays{
+  margin-left: 10px;
+}
+
+.planImg{
+  width: 900px;
+  height: auto;
+}
+
+.labelTag{
+  border: 1px solid #1a1a1a;
+  width: 100px;
+  text-align: center;
+  background-color: #535bf2;
+  color: white
+}
+
+.deleteBtn{
+  border: 1px solid #1a1a1a;
+  width: 100px;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  margin-top: 20px;
+  
+}
+
+.favItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
