@@ -18,6 +18,52 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  border: 1px solid #0a035a;
+  text-align: left;
+  width: 50rem;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+
+.card h2 {
+  margin: 0;
+}
+
+.card img {
+  max-width: 30rem;
+  height: auto;
+}
+
+.card div {
+  padding: 10px;
+}
+
+.tag-container {
+  display: flex;
+}
+
+.tag {
+  background-color: #0a035a;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.tag2 {
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
