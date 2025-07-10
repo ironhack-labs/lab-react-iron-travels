@@ -36,3 +36,83 @@
 .text-iron {
   color: #0a035a;
 }
+
+.plan-box div {
+  text-align: left;
+}
+
+.plan-box h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.plan-box p {
+  margin: 4px 0;
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.plan-box {
+  display: flex;
+  border: 1px solid #ccc;   
+  padding: 16px;             
+  margin: 20px auto;         
+  max-width: 800px;
+  width: 90%;
+  
+  
+}
+
+
+.plan-box {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 20px auto;
+  max-width: 800px;
+  width: 90%;
+  text-align: left;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Card image */
+.plan-box img {
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Badge styles */
+.deal {
+  background-color: rgb(85, 238, 85);
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  padding: 4px 8px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.premium {
+  background-color: rgb(84, 151, 238);
+  color: white;
+  border-radius: 5px;
+  padding: 4px 8px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.all-inc {
+  background-color: rgb(84, 151, 238);
+  color: white;
+  border-radius: 5px;
+  padding: 4px 8px;
+  display: inline-block;
+}
