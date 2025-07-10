@@ -36,3 +36,25 @@
 .text-iron {
   color: #0a035a;
 }
+
+span {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 2px 8px;
+  background-color: #0bda27;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+button {
+  background-color: #dda5a3;
+  color: rgb(204, 16, 16);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c9302c;
+}
