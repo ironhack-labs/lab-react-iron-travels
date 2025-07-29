@@ -36,3 +36,21 @@
 .text-iron {
   color: #0a035a;
 }
+
+label {
+  background-color: green;
+}
+.displayHotels {
+  display: flex;
+  justify-content: space-around;
+}
+
+.destinationImage {
+  height: 300px;
+  width: 300px;
+}
+
+.favouriteImg {
+  display: flex;
+  flex-direction: column;
+}
