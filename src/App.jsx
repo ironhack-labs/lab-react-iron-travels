@@ -1,5 +1,16 @@
 import logo from "./assets/logo.png";
 import "./App.css";
+import TravelList from './components/TravelList';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Iron Travels</h1>
+      <TravelList />
+    </div>
+  );
+}
+
 
 function App() {
   return (
