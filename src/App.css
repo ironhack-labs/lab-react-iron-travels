@@ -38,20 +38,22 @@
 }
 
 .card-travel {
+  justify-self: center; /*To center all cards in the website*/
   display: flex;
   justify-content: center;
-  justify-self: center;
-  width: 600px;
+  width: 700px;
   height: 200px;
   border: 1px solid black;
   border-radius: 5px;
   margin: 1rem;
-  padding: 2rem 3rem 2rem 0;
+  padding: 2rem 0;
   gap: 1rem;
 }
 
 .card-travel img {
-  width: 50%;
+  display: flex;
+  width: 300px;
+  height: 200px;
 }
 
 .card-text p {
@@ -64,6 +66,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   height: fit-content;
+  width: 50%;
   gap: 0.7rem;
   /* border: 1px solid black; */
 }
@@ -71,6 +74,8 @@
 .travel-destination {
   font-weight: bold;
   font-size: 1.2rem;
+  text-align: left;
+  /* border: 1px solid black; */
 }
 
 .travel-description {
@@ -79,5 +84,24 @@
 }
 
 .travel-price > span {
+  font-weight: bold;
+}
+
+.label-row {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.label {
+  border-radius: 5px;
+  padding: 0 0.4rem;
+  background-color: #366bca;
+  color: white;
+  /* border: 1px solid black; */
+}
+
+.great-deal {
+  background-color: #77bc77;
+  color: black;
   font-weight: bold;
 }
