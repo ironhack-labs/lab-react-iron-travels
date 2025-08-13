@@ -1,0 +1,23 @@
+import travelPlans from "../assets/travel-plans.json"
+
+function TravelList() {
+
+  return (
+    <div>
+        {
+            travelPlans.map(travel => (
+                <div className="card-travel" key={travel.id}>
+                    <img src={travel.image} alt="" />
+                    <div className="card-text">
+                        <p className="travel-destination">{travel.destination} ({travel.days} Days)</p>
+                        <p className="travel-description">{travel.description}</p>
+                        <p className="travel-price"><span>Price: </span>{travel.totalCost} €</p>
+                    </div>
+                </div>
+            ))
+
+        }
+    </div>
+  )
+}
+export default TravelList
