@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -64,5 +64,113 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+.travel-container {
+  display: flex;
+  .travel-list {
+    .travel-item {
+      display: flex;
+      gap: 10px;
+  
+      border: solid 1px black;
+      border-radius: 2px;
+      margin: 10px 15px 10px 50px;
+      padding: 20px 15px;
+  
+      .travel-image {
+        align-self: center;
+        height: 175px;
+        width: 250px; 
+        object-fit: cover;
+      }
+  
+      .travel-info{
+        text-align: left;
+        *{
+          margin: 0;
+          padding: 0;
+          margin-bottom: 10px;
+        }
+        
+        .travel-description{
+          font-style: italic;
+        }
+  
+        .travel-price{
+          font-weight: 500;
+  
+          span {
+            font-weight: 400;
+          }
+        }
+        
+        .label-container {
+          display: flex;
+          gap: 10px;
+  
+          .travel-label {
+            font-size: 0.7em;
+            font-weight: 700;
+            background-color: #366bca;
+            color: white;
+            border-radius: 3px;
+            padding: 2px 5px;
+          }
+  
+          .great-deal-label {
+            background-color: #77bc77;
+            color: black;
+          }
+        }
+      }
+      
+      .buttons-container {
+        display: flex;
+        justify-content: space-between;
+        .delete-travel-btn {
+          background-color: #aba9ab;
+          color: black;
+          padding: 5px 10px;
+          font-size: 0.8em;
+        }
+    
+        .fav-plan-btn {
+          background-color: #aba9ab;
+          color: black;
+          padding: 5px 8px;
+          font-size: 0.8em;
+        }
+      }
+    }
+  }
+
+  .fav-list{
+    display: flex;
+    flex-direction: column;
+
+    .fav-travel-item {
+      border: solid 1px black;
+      margin: 10px;
+
+      .fav-travel-image {
+        align-self: center;
+        height: 75px;
+        width: 200px; 
+        object-fit: cover;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .fav-travel-info {
+        font-size: 0.7em;
+        padding-bottom: 20px;
+      }
+    }
+
   }
 }
