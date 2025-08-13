@@ -36,3 +36,71 @@
 .text-iron {
   color: #0a035a;
 }
+
+.card{
+  width: 30%;
+  height: 300px;
+  border: solid;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+
+}
+
+.imgContainer {
+width: 50%;
+height: auto;
+  padding: 30px 0px 30px 0px;
+
+  ;
+}
+
+img{
+  max-height: 100%;
+  max-width: 100%;
+
+}
+
+.textBox {
+  text-align: left;
+  padding: 10px 0px 0px 0px;
+  margin: 0px;
+
+}
+
+p{
+  font-size: 10px;
+}
+
+.italic{
+  font-style: italic;
+}
+
+span{
+  font-weight: bold;
+}
+.labels{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px 30px;
+
+}
+
+.label{
+  padding: 5px;
+  font-size: 12px;
+  max-width: fit-content;
+  min-width: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: #1d6fcd;
+}
+
+.greatDeal{
+  background-color: green;
+  color: black;
+}
+
