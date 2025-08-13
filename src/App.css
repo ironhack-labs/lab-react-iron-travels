@@ -36,3 +36,78 @@
 .text-iron {
   color: #0a035a;
 }
+
+.card-travel {
+  justify-self: center; /*To center all cards in the website*/
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+.card-travel img {
+  display: flex;
+  width: 300px;
+  height: 200px;
+}
+
+.card-text p {
+  margin: 0;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+  gap: 0.7rem;
+  padding-bottom: 0;
+  /* border: 1px solid black; */
+}
+
+.travel-destination {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: left;
+  /* border: 1px solid black; */
+}
+
+.travel-description {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.travel-price > span {
+  font-weight: bold;
+}
+
+.label-row {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.label {
+  border-radius: 5px;
+  padding: 0 0.4rem;
+  background-color: #366bca;
+  color: white;
+  /* border: 1px solid black; */
+}
+
+.great-deal {
+  background-color: #77bc77;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-delete {
+  background-color: #aba9ab;
+  padding: 0.3rem 0.8rem;
+  margin-top: auto;
+}
