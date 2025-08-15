@@ -66,3 +66,39 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.travelCard {
+  display: flex; 
+  justify-content: space-around;
+  border: 1px, solid, black; 
+  margin: 20px; 
+  padding: 10px; 
+
+}
+
+.travelPic {
+  width: 200px; 
+  height: auto; 
+  margin: 10px; 
+
+}
+
+.premium-label {
+  background-color: blue;
+  color: white; 
+  margin: 5px; 
+  padding: 10px; 
+}
+
+.deal-label {
+  background-color: seagreen;
+  color: black; 
+  margin: 5px; 
+  padding: 10px; 
+}
+
+  .delete-btn {
+    background-color: lightgrey;
+    margin: 5px; 
+
+  }
