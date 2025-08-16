@@ -1,8 +1,6 @@
 #root {
-  width: 100%;
-  margin: 0 auto;
+  width: 100%; 
   padding: 1.5rem;
-  text-align: center;
 }
 
 .logo {
@@ -35,4 +33,79 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.travelCard {
+    display: grid;
+    grid-template-columns: 250px 1fr; /* 2 columns: fixed img + flexible content */
+    gap: 1rem 1.25rem;                /* row / column gap */
+    align-items: start;               /* top-align items */
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: left;                 /* override any global centering */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 220px;
+    width: fit-content;
+}
+
+.image {
+  border-radius: 8px;
+  float: left;
+  height: 200px ;     /* keep image left, fixed width */
+  width: 300px;
+  max-width: 100%;
+  margin-right: 1rem;
+}
+
+.parts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.cardBody {
+  display: grid;
+  gap: 0.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.greatDeal {
+  color: white;
+  background-color: green;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.premDeal {
+  color: white;
+  background-color: blue;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.allInclusive {
+  color: white;
+  background-color: blue;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.delete-button {
+  width:fit-content;
+  background-color:dimgray;
+  color: white;
 }
