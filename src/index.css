@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(13, 24, 175, 0.87);
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,55 +14,51 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+.main-container {
+  text-align: center;
   display: flex;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.each-card {
+  border: solid 1px black;
+  text-align: center;
+  width: 600px;
+  margin: 10px;
+  display: flex;
+  padding: 25px 15px;
+  gap: 20px;
+  color: black;
+  text-align: left;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.each-card img {
+  width: 250px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.each-card h3 {
+  margin: 0;
 }
+
+.each-card p span {
+  font-weight: bold;
+}
+
+.label {
+  border: solid 1px;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  font-size: small;
+}
+
+.greatDeal-btn {
+  background-color: green;
+}
+
+.premium-btn, .allInclusive-btn {
+  background-color: blue;
+}
+
