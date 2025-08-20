@@ -36,3 +36,79 @@
 .text-iron {
   color: #0a035a;
 }
+.items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.item-container:hover {
+  transform: scale(1.02);
+}
+.item-container {
+  width: 60rem;
+  height: 30rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image-container {
+  width: 30rem;
+  height: 30rem;
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.item-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 30rem;
+  height: 30rem;
+}
+.item-description h3 {
+  margin: 0 0 1rem 1rem;
+}
+.item-description p {
+  margin: 1rem 1rem;
+}
+.description {
+  font-style: italic;
+  color: grey;
+}
+.price {
+  font-weight: bold;
+}
+.item-description span {
+  font-weight: normal;
+}
+.labels p {
+  background-color: rgb(142, 113, 248);
+  color: white;
+  margin: 0 0 0 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.great-deal {
+  color: black;
+  background-color: rgb(159, 248, 33);
+  font-weight: bold;
+  margin: 0 0 0 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.delete-btn {
+  background-color: rgb(221, 221, 221);
+}
+.labels {
+  display: flex;
+}
