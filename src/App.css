@@ -36,3 +36,67 @@
 .text-iron {
   color: #0a035a;
 }
+
+#destinations {
+  border: 3px solid #0a035a;
+  margin-bottom: 20px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+li {
+  list-style: none;
+  gap: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#country-Imgs {
+  height: 200px;
+  width: 350px;
+
+  flex-shrink: 0; /* prevents image from squishing */
+}
+
+.label {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px; /* instead of gap */
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.great-deal {
+  background-color: green;
+}
+
+.premium {
+  background-color: darkblue;
+}
+
+.all-inclusive {
+  background-color: darkblue;
+}
+
+.delete-btn {
+  background-color: rgb(237, 55, 55);
+  width: 35px;
+  height: 35px;
+  font-size: 10px;
+}
+
+.delete-btn:hover {
+  background-color: rgb(255, 0, 0);
+  width: 35px;
+  height: 35px;
+  font-size: 10px;
+}
