@@ -66,3 +66,72 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.card {
+  margin: 20px auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  padding: 30px 20px;
+  width: 50%;
+}
+
+.card img {
+  width: 50%;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
+.card article {
+  text-align: left;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h3 {
+  margin: 0;
+  line-height: 1;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.description {
+  font-style: italic;
+}
+
+.labels {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+.labels label {
+  padding: 2px 6px;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.blue {
+  background-color: #535bf2;
+  color: white;
+}
+
+.green {
+  background-color: rgba(1, 146, 1, 0.78);
+  color: black;
+  font-weight: 500;
+}
+
+button.delete {
+  background-color: rgb(209, 209, 209);
+  width: 40%;
+}
