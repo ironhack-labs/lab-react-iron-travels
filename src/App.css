@@ -36,3 +36,16 @@
 .text-iron {
   color: #0a035a;
 }
+.travel{
+   display: inline-flex; 
+   margin: 10px;
+    border: 3px solid #000;
+  }
+.imagen{
+ padding: 10px;
+}
+.texto{
+  align-content: center;
+  padding: 10px;
+  margin: 10px;
+}
