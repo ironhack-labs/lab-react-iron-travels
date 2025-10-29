@@ -1,38 +1,82 @@
-#root {
+.travel-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+}
+
+.travel-card {
+  width: 600px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.travel-card:hover {
+  transform: scale(1.02);
+}
+
+.travel-image {
   width: 100%;
-  margin: 0 auto;
-  padding: 1.5rem;
-  text-align: center;
+  height: 250px;
+  object-fit: cover;
 }
 
-.logo {
-  height: 5em;
-  padding: 0.1rem 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.travel-details {
+  padding: 16px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.travel-details h2 {
+  margin-bottom: 8px;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.description {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
 }
 
-.text-iron {
-  color: #0a035a;
+.labels {
+  margin: 10px 0;
+}
+
+.label {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 6px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+}
+
+.label.great-deal {
+  background-color: #27ae60;
+}
+
+.label.premium {
+  background-color: #2980b9;
+}
+
+.label.all-inclusive {
+  background-color: #8e44ad;
+}
+
+button {
+  background-color: #bbb;
+  border: none;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #999;
 }
