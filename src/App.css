@@ -62,3 +62,38 @@ li {
 	padding: 0.2rem 0.5rem;
 	width: fit-content;
 }
+.list {
+	display: flex;
+	gap: 2rem;
+}
+.fav {
+	border: 1px solid #ddd;
+}
+.btn {
+	margin: 1rem;
+}
+.btn-purple {
+	background-color: purple;
+	color: white;
+}
+
+.btn-blue {
+	background-color: blue;
+	color: white;
+}
+.btn-green {
+	background-color: green;
+	color: white;
+}
+.btn-yellow {
+	background-color: yellow;
+	color: black;
+}
+.btn-orange {
+	background-color: orange;
+	color: black;
+}
+.btn-red {
+	background-color: red;
+	color: white;
+}

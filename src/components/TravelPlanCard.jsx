@@ -1,6 +1,18 @@
 import { FaRegTrashAlt } from 'react-icons/fa'
+import { FaRegHeart } from 'react-icons/fa'
+import { useState } from 'react'
 
-const TravelPlanCard = ({ plan, handleClick }) => {
+const TravelPlanCard = ({ plan, handleClick, handleFav }) => {
+	const colors = ['purple', 'blue', 'green', 'yellow', 'orange', 'red']
+	const [color, setColor] = useState('purple')
+
+	const colIndex = () => {
+		return Math.floor(Math.random() * colors.length)
+	}
+	const handleFavClick = (id) => {
+		setColor(colors[colIndex()])
+		handleFav(id)
+	}
 	return (
 		<div>
 			<li key={plan.id}>
@@ -18,7 +30,7 @@ const TravelPlanCard = ({ plan, handleClick }) => {
 							{plan.destination}
 							{' ('}
 							{plan.days}
-							{')'}
+							{' Days)'}
 						</h2>
 						<p>{plan.description}</p>
 						<p>Price: {plan.totalCost}</p>
@@ -27,6 +39,12 @@ const TravelPlanCard = ({ plan, handleClick }) => {
 						{plan.allInclusive && <p className="label">All Inclusive</p>}{' '}
 						<button onClick={() => handleClick(plan.id)}>
 							<FaRegTrashAlt />
+						</button>
+						<button
+							className={`btn btn-${color}`}
+							onClick={() => handleFavClick(plan.id)}
+						>
+							<FaRegHeart />
 						</button>
 					</div>
 				</div>
