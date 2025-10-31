@@ -66,3 +66,51 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.travel-list {
+  padding: 20px;
+}
+
+.travel-list h2 {
+  margin-bottom: 20px;
+}
+
+.travel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.2s ease;
+}
+
+.travel-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.travel-item img {
+  width: 150px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.travel-details h3 {
+  margin: 0 0 8px 0;
+}
+
+.travel-details p {
+  margin: 4px 0;
+}
+
+.all-inclusive {
+  color: green;
+  font-weight: bold;
+}
+
+.not-inclusive {
+  color: gray;
+}
