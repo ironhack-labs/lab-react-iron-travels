@@ -36,3 +36,91 @@
 .text-iron {
   color: #0a035a;
 }
+
+/* Travel List Styles */
+.travel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.travel-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.travel-card img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.travel-info {
+  padding: 1rem;
+  text-align: left;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.travel-info h3 {
+  margin: 0 0 0.5rem 0;
+  color: #0a035a;
+}
+
+.travel-info p {
+  margin: 0.25rem 0;
+  color: #333;
+}
+
+.travel-labels {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.label {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.great-deal {
+  background-color: #4CAF50;
+}
+
+.premium {
+  background-color: #FF9800;
+}
+
+.all-inclusive {
+  background-color: #2196F3;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
