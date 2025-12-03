@@ -26,8 +26,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  min-width: 320px;
-  min-height: 100vh;
+ 
 }
 
 h1 {
@@ -35,24 +34,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -61,8 +43,49 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  
 }
+/* TravelList.css */
+
+.card {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.card img {
+  width: 300px;
+}
+
+.labels-container {
+  margin-top: 10px;
+}
+
+.cost-label {
+  background-color: #40f040;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.all-inclusive-label {
+  background-color: #40c0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.deleteButton{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #f9f9f9;
+  margin-top: 1em;
+}
+
