@@ -54,6 +54,30 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.card {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  
+}
+
+.card img {
+ 
+  width: 300px;
+  height: 200px;
+
+  
+}
+
+.label {
+  padding: 4px 8px;
+  background-color: #eee;
+  border-radius: 6px;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -66,3 +90,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
