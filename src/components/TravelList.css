@@ -1,0 +1,40 @@
+.travel-list {
+  width: 750px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.travel-card {
+  display: flex;             /* ← Hace el layout horizontal */
+  gap: 20px;                 /* Espacio entre imagen y texto */
+  border: 1px solid #d6d6d6;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  background: white;
+}
+
+.travel-img {
+  width: 350px;              /* Tamaño ideal para el ejemplo */
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.travel-info {
+  flex: 1;                   /* Ocupa todo el espacio a la derecha */
+}
+
+.travel-info h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.description {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
