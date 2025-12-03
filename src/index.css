@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color:white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,9 +25,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  min-width: 320px;
-  min-height: 100vh;
+
 }
 
 h1 {
@@ -54,15 +52,41 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.card {
+  
+  width: 700px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  color: black;
+  gap: 1rem; /* opcional, da aire */
 }
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.photo {
+  height: 200px;
+}
+
+.label {
+  display: inline-block;
+  background:#535bf2;
+  padding: 4px 10px;
+  border-radius: 8px;
+  margin-right: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.inclusive {
+  background: lightgreen;
+}
+
