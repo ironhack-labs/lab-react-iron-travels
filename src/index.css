@@ -54,6 +54,23 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+img{
+  width: 300px;
+}
+
+label{
+  background-color: blueviolet;
+  color: white;
+  margin: 0px 5px 0px 0px;
+  border-radius: 5px;
+  font-size: 10pt;
+  padding: 1% 2%;
+}
+
+.favorites{
+  min-width: 350px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
