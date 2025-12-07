@@ -9,13 +9,22 @@ function TravelList () {
                     {
                         <img src={ data.image } 
                             className="rounded m-3 d-flex justify-content-start" 
-                            style={{ width:'280px', height:'190px' }}/>
+                            style={{ width:'280px', height:'210px' }}/>
                     }
                     {
                         <div>
                             <p className="d-flex mt-3 fw-bold fs-5"> { data.destination } { `(${ data.days } Days)` }  </p>
                             <p className="d-flex fs-6 fw-light fst-italic"> { data.description } </p>
                             <p className="d-flex fs-6"> <strong className="me-1">Price:  </strong> { `${ data.totalCost } €` } </p>
+                            {data.totalCost <= 350 && 
+                                (<h5 className="d-flex justify-content-start p-0">
+                                    <span class="badge text-bg-success text-black">Great Deal</span></h5>)}
+                            {data.totalCost >= 1500 && 
+                                (<h5 className="d-flex justify-content-start p-0">
+                                    <span class="badge text-bg-primary">Premiun</span></h5>)}
+                            {data.allInclusive && 
+                                (<h5 className="d-flex justify-content-start p-0">
+                                    <span class="badge text-bg-primary">All-Inclusive</span></h5>)}
                         </div>
                     }
                 </div>
