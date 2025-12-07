@@ -1,10 +1,18 @@
+import { useState } from "react";
 import travelPlansData from "../assets/travel-plans.json";
 
 function TravelList () {
 
+    const [dataTravel, setDataTravel] = useState(travelPlansData);
+
+    function deleteTravel(id) {
+        const dataFilterTravel = dataTravel.filter((travel) => travel.id !== id);
+        setDataTravel([...dataFilterTravel]);
+    }
+
     return (
         <div className="container">
-            {travelPlansData.map((data) => (
+            {dataTravel.map((data) => (
                 <div className="d-flex border my-3 mx-5 " key={data.id}>
                     {
                         <img src={ data.image } 
@@ -17,14 +25,18 @@ function TravelList () {
                             <p className="d-flex fs-6 fw-light fst-italic"> { data.description } </p>
                             <p className="d-flex fs-6"> <strong className="me-1">Price:  </strong> { `${ data.totalCost } €` } </p>
                             {data.totalCost <= 350 && 
-                                (<h5 className="d-flex justify-content-start p-0">
-                                    <span class="badge text-bg-success text-black">Great Deal</span></h5>)}
+                                (<h6 className="d-flex justify-content-start p-0">
+                                    <span className="badge text-bg-success text-black">Great Deal</span></h6>)}
                             {data.totalCost >= 1500 && 
-                                (<h5 className="d-flex justify-content-start p-0">
-                                    <span class="badge text-bg-primary">Premiun</span></h5>)}
+                                (<h6 className="d-flex justify-content-start p-0">
+                                    <span className="badge text-bg-primary">Premiun</span></h6>)}
                             {data.allInclusive && 
-                                (<h5 className="d-flex justify-content-start p-0">
-                                    <span class="badge text-bg-primary">All-Inclusive</span></h5>)}
+                                (<h6 className="d-flex justify-content-start p-0">
+                                    <span className="badge text-bg-primary">All-Inclusive</span></h6>)}
+                            <button
+                                onClick={ () => deleteTravel(data.id) } 
+                                type="button" 
+                                className="btn btn-secondary btn-sm d-flex justify-content-start mt-3">Delete</button>
                         </div>
                     }
                 </div>
