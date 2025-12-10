@@ -1,0 +1,168 @@
+.travel-container {
+  display: flex;
+  gap: 32px;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.travel-list {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.travel-plan {
+  border: 1px solid #333;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 750px;
+}
+
+.travel-plan img {
+  width: 350px;
+  min-width: 350px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.plan-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.plan-details h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.plan-details p {
+  margin: 0 0 8px 0;
+  color: #666;
+}
+
+.labels {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.label {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: white;
+}
+
+.label.great-deal {
+  background-color: #28a745;
+}
+
+.label.premium {
+  background-color: #007bff;
+}
+
+.label.all-inclusive {
+  background-color: #17a2b8;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.btn-delete {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+.btn-favorite {
+  padding: 4px 8px;
+  background-color: transparent;
+  color: #dc3545;
+  border: 2px solid #dc3545;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.btn-favorite:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-favorite.filled {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-favorite.filled:hover {
+  background-color: transparent;
+  color: #dc3545;
+}
+
+.favorites-section {
+  flex: 1;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+.favorites-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.favorite-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.favorite-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.favorite-info {
+  padding: 12px;
+  text-align: center;
+}
+
+.favorite-info h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.favorite-info p {
+  margin: 8px 0;
+  font-weight: bold;
+  color: #666;
+}
