@@ -1,0 +1,139 @@
+/* MAIN LAYOUT FOR LIST + FAVORITES */
+.layout-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  width: 95%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+/* MAIN TRAVEL LIST */
+.travel-list {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* FAVORITES LIST */
+.favorites-list {
+  width: 30%;
+  padding: 16px;
+  background: #fafafa;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.favorites-list h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.favorite-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.favorite-item:last-child {
+  border-bottom: none;
+}
+
+/* TRAVEL CARD */
+.travel-card {
+  display: flex;
+  gap: 20px;
+  padding: 16px;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  align-items: flex-start;
+}
+
+.travel-image {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* TEXT DETAILS */
+.travel-details h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.description {
+  font-style: italic;
+  margin: 8px 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+.price {
+  font-weight: bold;
+  margin-top: 6px;
+  color: #1a4d8f;
+}
+
+/* LABELS */
+.labels {
+  display: flex;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.label {
+  background-color: #e3f2fd;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0d47a1;
+  border: 1px solid #90caf9;
+}
+
+.label.inclusive {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+}
+
+/* BUTTONS INSIDE CARD */
+.card-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.delete-btn,
+.favorite-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+  background-color: #ff4444;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
+
+/* FAVORITE BUTTON */
+.favorite-btn {
+  color: white;
+  font-size: 18px;
+}
