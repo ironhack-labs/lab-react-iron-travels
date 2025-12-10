@@ -1,38 +1,113 @@
-#root {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1.5rem;
+/* General layout */
+body {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header with logo and titles */
+.app-header {
   text-align: center;
+  margin: 30px;
 }
 
 .logo {
-  height: 5em;
-  padding: 0.1rem 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .text-iron {
-  color: #0a035a;
+  margin: 5px 0;
 }
+
+/* Container for the list of trips */
+.trip-list {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Individual trip card */
+.trip-card {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 15px 0;
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Trip image */
+.trip-card img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+/* Text block next to image */
+.trip-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* Title and description styles */
+.trip-info h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.trip-info p {
+  margin: 5px 0;
+}
+
+/* Labels styles */
+.label {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.label.deal {
+  background-color: #28a745; /* verde */
+}
+
+.label.premium {
+  background-color: #dc3545; /* rojo */
+}
+
+.label.inclusive {
+  background-color: #ffc107; /* amarillo */
+  color: black;
+}
+
+/* Delete button styles */
+.delete-button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
