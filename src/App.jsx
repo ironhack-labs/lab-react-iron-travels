@@ -1,8 +1,18 @@
+import { useState } from "react";
+
 import logo from "./assets/logo.png";
 import "./App.css";
 import TravelList from "./components/TravelList";
+import travelsPlansData from "./assets/travel-plans.json";
 
 function App() {
+  const [trips, setTrips] = useState(travelsPlansData);
+
+  function handleDelete(tripId) {
+    const filteredTrips = trips.filter((trip) => trip.id !== tripId);
+    console.log("delete button pressed.", tripId);
+    setTrips(filteredTrips);
+  }
   return (
     <>
       <div>
@@ -12,7 +22,7 @@ function App() {
       <h3 className="text-iron">Tailored Travel Plans for Ironhackers</h3>
 
       {/* RENDER YOUR LIST COMPONENT HERE */}
-      <TravelList />
+      <TravelList trips={trips} handleDelete={handleDelete} />
     </>
   );
 }
