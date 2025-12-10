@@ -36,3 +36,56 @@
 .text-iron {
   color: #0a035a;
 }
+
+.trip {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  padding: 10px;
+  gap: 15px;
+}
+.trip img {
+  width: 40%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.allInclusive {
+  background-color: #0a035a;
+
+  color: white;
+
+  padding: 10px;
+
+  border-radius: 8px;
+}
+
+.greatDeal {
+  background-color: #185a12;
+
+  color: white;
+
+  padding: 10px;
+
+  border-radius: 8px;
+}
+
+.deals {
+  display: flex;
+
+  gap: 10px;
+
+  align-items: center;
+}
+
+.delete {
+  background-color: gray;
+  color: #000;
+}
