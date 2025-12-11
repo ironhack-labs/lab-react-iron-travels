@@ -36,3 +36,10 @@
 .text-iron {
   color: #0a035a;
 }
+
+.list {
+  height: 44vh;
+}
+.list img{
+  width: 200px;
+}
