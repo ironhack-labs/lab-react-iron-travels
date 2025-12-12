@@ -1,19 +1,15 @@
-import logo from "./assets/logo.png";
-import "./App.css";
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import "./index.css";
+import App from "./App";
 
-function App() {
-  return (
-    <>
-      <div>
-        <img src={logo} className="logo" alt="App logo" />
-      </div>
-      <h1 className="text-iron">Iron Travels</h1>
-      <h3 className="text-iron">Tailored Travel Plans for Ironhackers</h3>
+const root = createRoot(document.getElementById("root"));
 
-      {/* RENDER YOUR LIST COMPONENT HERE */}
-      
-    </>
-  );
-}
-
-export default App;
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
