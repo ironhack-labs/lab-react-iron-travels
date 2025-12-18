@@ -36,3 +36,31 @@
 .text-iron {
   color: #0a035a;
 }
+
+.image {
+  height: 20vh
+}
+
+.travelContainer {
+  display: flex;
+  border: 1px solid white;
+  margin: 15px;
+}
+
+.TagContainer {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.Premium {
+  padding: 5px;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.Great {
+  padding: 5px;
+  background-color: green;
+  border-radius: 5px;
+}
