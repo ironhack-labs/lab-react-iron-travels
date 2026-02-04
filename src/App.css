@@ -1,3 +1,298 @@
+@media (max-width: 1000px) {
+  .goldmonkey-journeys {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .goldmonkey-journeys {
+    padding: 0;
+  }
+  .hero-bg, .hero-section, .search-section, .filters-wrapper, .recent-searches, .results-list {
+    max-width: 100vw !important;
+    border-radius: 0 !important;
+    padding-left: 0.2rem !important;
+    padding-right: 0.2rem !important;
+  }
+  .flagship-cards, .filters-wrapper, .recent-searches-list {
+    flex-direction: column !important;
+    gap: 0.7rem !important;
+    align-items: stretch !important;
+  }
+  .experience-card, .recent-searches-card, .result-card {
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+}
+.cta input:focus, .cta textarea:focus {
+  outline: 2px solid #a88c4a;
+  background: #fffbe6;
+  transition: background 0.2s, outline 0.2s;
+}
+.cta button {
+  box-shadow: 0 2px 8px 0 #a88c4a22;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+}
+.cta button:active {
+  transform: scale(0.97);
+  box-shadow: 0 1px 4px 0 #a88c4a33;
+}
+.experience-card {
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+.experience-card:hover {
+  transform: translateY(-6px) scale(1.025);
+  box-shadow: 0 8px 32px 0 #a88c4a33;
+}
+.experience-image {
+  transition: filter 0.2s;
+}
+.experience-card:hover .experience-image {
+  filter: brightness(1.08) saturate(1.1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;600&display=swap');
+
+.hero-bg {
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80');
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.hero-overlay {
+  background: rgba(255,255,255,0.68);
+  border-radius: 1.5rem;
+  padding: 3.5rem 2.5rem 2.5rem 2.5rem;
+  color: #181818;
+  max-width: 600px;
+  margin: 2.5rem auto 2rem auto;
+  box-shadow: 0 4px 32px 0 #e6e2d8cc;
+  text-align: center;
+  backdrop-filter: blur(2px);
+}
+.hero-overlay h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.7rem;
+  color: #181818;
+}
+.hero-overlay h2 {
+  font-family: 'Lora', serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #a88c4a;
+  margin-bottom: 1.2rem;
+}
+.hero-sub {
+  font-family: 'Lora', serif;
+  font-size: 1.08rem;
+  color: #444;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+.goldmonkey-journeys {
+  font-family: 'Lora', 'Montserrat', serif;
+  background: linear-gradient(135deg, #faf9f6 70%, #f7e7b4 100%);
+  color: #181818;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(120deg, #faf9f6 70%, #f7e7b4 100%);
+}
+
+/* Jungle and monkey SVG background for Hero */
+.hero-bg {
+  position: relative;
+  z-index: 1;
+}
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: url('https://svgshare.com/i/14kA.svg'), linear-gradient(135deg, rgba(168,140,74,0.08) 0%, rgba(24,24,24,0.01) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.22;
+  pointer-events: none;
+}
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.hero {
+  padding: 4rem 1rem 2rem 1rem;
+  background: #fff;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.5rem;
+}
+.hero h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #a88c4a;
+  margin-bottom: 0;
+}
+
+.manifesto {
+  margin: 2.5rem auto 1.5rem auto;
+  max-width: 500px;
+  font-size: 1.1rem;
+}
+.manifesto ul {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+.manifesto li {
+  color: #a88c4a;
+  font-weight: 500;
+}
+
+.what-we-do {
+  margin: 2rem auto 2rem auto;
+  max-width: 600px;
+}
+.what-we-do h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+}
+.what-we-do ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.what-we-do li {
+  background: #f3efe6;
+  border-radius: 2rem;
+  padding: 0.5rem 1.2rem;
+  color: #a88c4a;
+  font-weight: 500;
+}
+
+.flagship-experiences {
+  margin: 3rem auto 2rem auto;
+  max-width: 1100px;
+}
+.flagship-experiences h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+.flagship-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.experience-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 16px 0 #e6e2d8cc;
+  max-width: 320px;
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  text-align: left;
+  transition: box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experience-card:hover {
+  box-shadow: 0 4px 32px 0 #a88c4a33;
+}
+.experience-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.experience-card h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.3rem 0;
+}
+.experience-card p {
+  font-size: 1rem;
+  color: #444;
+  margin: 0;
+}
+
+.cta {
+  margin: 3rem auto 2rem auto;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px 0 #e6e2d8cc;
+  padding: 2rem 1.5rem;
+}
+.cta h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.cta form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.cta input, .cta textarea {
+  border: 1px solid #e6e2d8;
+  border-radius: 0.7rem;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #faf9f6;
+}
+.cta button {
+  background: #a88c4a;
+  color: #fff;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cta button:hover {
+  background: #181818;
+}
+.cta p {
+  margin-top: 1.2rem;
+  font-size: 0.95rem;
+}
+.cta a {
+  color: #a88c4a;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .flagship-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 #root {
   width: 100%;
   margin: 0 auto;

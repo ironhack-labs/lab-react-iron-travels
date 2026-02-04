@@ -1,0 +1,32 @@
+export const experiences = [
+  {
+    id: 1,
+    image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=300&q=80",
+    name: "São Paulo (SAO) → Madrid (MAD)",
+    description: "16 Apr - 3 adults, Economy, Direct",
+    price: 520,
+    badge: "Premium",
+    isEco: false,
+    discount: 0,
+  },
+  {
+    id: 2,
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=300&q=80",
+    name: "São Paulo (SAO) → Lisbon (LIS)",
+    description: "17 Apr - 3 adults, Economy, 1 stop",
+    price: 480,
+    badge: "Eco",
+    isEco: true,
+    discount: 30,
+  },
+  {
+    id: 3,
+    image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=300&q=80",
+    name: "Campinas (VCP) → Lisbon (LIS)",
+    description: "16 Apr - 2 adults, Business, Direct",
+    price: 950,
+    badge: "Favorite",
+    isEco: false,
+    discount: 100,
+  },
+];
