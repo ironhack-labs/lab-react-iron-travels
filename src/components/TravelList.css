@@ -1,0 +1,41 @@
+.travel-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  border: 1px black solid;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  max-width: 100%;
+}
+.img img {
+  width: 250px;
+  height: auto;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  align-items: flex-start;
+  line-height: 10px;
+}
+.labels {
+  display: flex;
+  gap: 5px;
+}
+.label {
+  display: flex;
+  background-color: rgb(87, 87, 238);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.great-label {
+  display: flex;
+  background-color: rgb(67, 139, 67);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
