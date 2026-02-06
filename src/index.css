@@ -66,3 +66,78 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.travel-card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 13px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #fff;
+}
+
+.travel-card-container img {
+  width: 280px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.travel-card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.travel-card-container h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  text-align: start;
+
+}
+
+
+.travel-card-container p {
+  margin: 4px 0;
+  color: #444;
+  text-align: start;
+
+}
+
+.travel-card-container button {
+  margin-top: 12px;
+  margin-right: auto;
+  padding: 6px 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.travel-card-container button:hover {
+  background-color: #c0392b;
+}
+
+.labels {
+  margin: 6px 0;
+  text-align: left;
+}
+
+.label {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  background-color: #eee;
+  font-weight: 600;
+}
+
+.label.all-inclusive {
+  background-color: #27ae60;
+  color: white;
+}
