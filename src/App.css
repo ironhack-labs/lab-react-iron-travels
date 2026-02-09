@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: white;
+  color: #0a035a
 }
 
 .logo {
@@ -35,4 +37,74 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.trip-card {
+  border: 2px solid #0a035a;
+  width: 700px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.trip-card img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 25px;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.pill-container {
+  display: flex;
+  gap: 8px;
+}
+
+.card-pill {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: max-content;   
+}
+
+.green-pill{
+  background-color: #34a853;
+}
+
+.blue-pill {
+  background-color: #1a73e8;
+}
+
+.btn-component{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-delete,
+.btn-fav {
+  background-color: gray;
+  color: #0a035a;
+  width: max-content;   
+  margin-top: 20px;
 }
