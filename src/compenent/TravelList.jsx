@@ -15,7 +15,7 @@ const deletePlan = (id) => {
 };
     return (
         <div>
-          {travelPlansData.map((plan) => {
+          {travelList.map((plan) => {
             return (
                 <div key={plan.id}>
                   <h2>{plan.destination}</h2>
@@ -24,7 +24,11 @@ const deletePlan = (id) => {
 
                   {plan.totalCost <= 350 && <span>Great Deal</span>}
                   {plan.totalCost >= 1500 && <span>Premium</span>}
-                  {plan.totalCost && <span>All Inclusive</span>}
+                  {plan.allInclusive && <span>All Inclusive</span>}
+
+                  <br />
+
+            <button onClick={() => deletePlan(plan.id)}>Delete</button>
                 </div>  
             );
           })}
