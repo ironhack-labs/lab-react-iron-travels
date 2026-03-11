@@ -1,0 +1,30 @@
+#all-container{
+    display: flex;
+}
+
+#travels-container{
+    width: 65%;
+    margin-right: 20px;
+}
+
+.card{
+    display: flex;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#img-container{
+    margin-right: 30px;
+}
+
+#img-container img{
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+}
+
+#favourites-container{
+    width: 30%;
+}
