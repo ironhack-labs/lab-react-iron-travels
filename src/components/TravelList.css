@@ -1,0 +1,27 @@
+.travel-card {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+	border: 4px solid black;
+	max-width: 600px;
+	padding: 25px;
+	border-radius: 15px;
+	margin-bottom: 30px;
+}
+
+.travel-card img {
+	max-width: 400px;
+}
+
+.total-container {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	border: 2px solid black;
+	width: 30%;
+}
+
+.label {
+	text-align: center;
+}
