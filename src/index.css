@@ -3,10 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -30,19 +26,24 @@ body {
   min-height: 100vh;
 }
 
+p{
+  margin: 5px 0;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
 button {
+  margin-top: 10px;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #AAAAAC;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -56,7 +57,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: grey;
     background-color: #ffffff;
   }
   a:hover {
@@ -65,4 +66,76 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+.card{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  padding: 20px;
+  width: calc(50vw - 40px)
+}
+
+.card-favorite{
+  width: 298px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.card-image{
+  width:  20vw;
+  height: 250px;
+}
+
+.card-image-favorite{
+  width: 300px;
+}
+
+.card-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 20px;
+  width: calc(50vw - 460px);
+}
+
+.card-details-favorite{
+  width: 300px;
+}
+
+.premium,
+.all-inclusive{
+  background-color: #366BCA;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: 450;
+  margin-top: 10px;
+}
+
+.great-deal{
+  background-color: #77BC77;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.labels {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-buttons{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
