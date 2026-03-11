@@ -1,0 +1,21 @@
+
+
+.travels-container{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.favorites-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    overflow: hidden;
+}
