@@ -36,3 +36,86 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-plan {
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap:20px;
+  width: 50vw;
+  height: 40vh;
+  margin: auto;
+}
+
+.travel-plan-child {
+  flex: 1;
+}
+
+.travel-plan img {
+  width: 22vw;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.travel-plan-info {
+  text-align: left;
+}
+
+.label {
+  display: inline-block;
+  margin: 0px 5px 5px 0px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.green {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.blue {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.favorite-button {
+  align-self: end;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.favorite-travel-plan {
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.favorite-travel-plan img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.travel-list-container {
+  display: flex;
+  gap: 5%;
+}
+
+.travel-plans-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: start;
+  align-items: start;
+}
