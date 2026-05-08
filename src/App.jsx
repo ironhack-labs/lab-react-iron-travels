@@ -1,18 +1,17 @@
 import logo from "./assets/logo.png";
 import "./App.css";
+import TravelList from "./components/TravelList.jsx";
 
 function App() {
   return (
-    <>
-      <div>
-        <img src={logo} className="logo" alt="App logo" />
-      </div>
-      <h1 className="text-iron">Iron Travels</h1>
-      <h3 className="text-iron">Tailored Travel Plans for Ironhackers</h3>
+    <div className="App">
+      <img src={logo} className="logo" alt="App logo" style={{ width: "100px" }} />
+      <h1 className="text-3xl font-bold underline">Iron Travels</h1>
+      <h3>Tailored Travel Plans for Ironhackers</h3>
 
-      {/* RENDER YOUR LIST COMPONENT HERE */}
-      
-    </>
+      {/* Renderizar a lista aqui */}
+      <TravelList />
+    </div>
   );
 }
 

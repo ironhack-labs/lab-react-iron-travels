@@ -129,40 +129,40 @@ import travelPlansData from "../assets/travel-plans.json";
 
 <br>
 
-### Iteration 2 | Conditional Rendering - Labels
+  ### Iteration 2 | Conditional Rendering - Labels
 
-Update the `TravelList` component to display labels based on the cost (`totalCost` property) of each travel plan. Here’s how you should implement it:
+  Update the `TravelList` component to display labels based on the cost (`totalCost` property) of each travel plan. Here’s how you should implement it:
 
-- Travel plans that cost **`350` or less** should have a label **Great Deal**.
+  - Travel plans that cost **`350` or less** should have a label **Great Deal**.
 
-- Travel plans that cost **`1500` or more** should have the label **Premium**.
+  - Travel plans that cost **`1500` or more** should have the label **Premium**.
 
-  <br>
+    <br>
 
-  
+    
 
-Additionally, if the travel plan includes an all-inclusive package (`allInclusive` property), render a label **All Inclusive** in addition to the cost label.
-
-<br>
-
-<details>
-
-  <summary><b>Expected Result</b></summary>
-
-  <p align="center">
-    <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-iron-travels/02-labels.png" alt="TravelList items with labels" width="700">
-  </p>
+  Additionally, if the travel plan includes an all-inclusive package (`allInclusive` property), render a label **All Inclusive** in addition to the cost label.
 
   <br>
 
-  <hr>
+  <details>
 
-</details>
+    <summary><b>Expected Result</b></summary>
+
+    <p align="center">
+      <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-react-iron-travels/02-labels.png" alt="TravelList items with labels" width="700">
+    </p>
+
+    <br>
+
+    <hr>
+
+  </details>
 
 
-----
+  ----
 
-<br>
+  <br>
 
 ### Iteration 3 | Removing Items - Delete Button
 
