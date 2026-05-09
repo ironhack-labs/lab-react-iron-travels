@@ -1,38 +1,196 @@
-#root {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1.5rem;
-  text-align: center;
+/* ── Global reset ───────────────────────────────────────────── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+  background-color: #f5f6fa;
+  color: #333;
+}
+
+/* ── App header ─────────────────────────────────────────────── */
 .logo {
-  height: 5em;
-  padding: 0.1rem 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+  width: 80px;
+  margin: 30px auto 10px;
+  display: block;
 }
 
 .text-iron {
-  color: #0a035a;
+  color: #3b4fce;
+  text-align: center;
+}
+
+/* ── Two-column layout ──────────────────────────────────────── */
+.travel-layout {
+  display: flex;
+  gap: 30px;
+  padding: 30px 40px;
+  align-items: flex-start;
+}
+
+.plans-column {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.favorites-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.favorites-heading {
+  color: #3b4fce;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.favorites-empty {
+  color: #999;
+  text-align: center;
+  font-style: italic;
+}
+
+/* ── Main card (horizontal layout) ─────────────────────────── */
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.card__image {
+  width: 260px;
+  min-height: 200px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.card__body {
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card__title {
+  color: #3b4fce;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.card__description {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+}
+
+.card__price {
+  font-size: 0.95rem;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+/* ── Labels ─────────────────────────────────────────────────── */
+.card__labels {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.label {
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.label--premium {
+  background-color: #3b4fce;
+}
+
+.label--great-deal {
+  background-color: #27ae60;
+}
+
+.label--all-inclusive {
+  background-color: #3b4fce;
+}
+
+/* ── Action buttons ─────────────────────────────────────────── */
+.card__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 8px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.btn-delete {
+  background: none;
+  border: none;
+  color: #444;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.btn-delete:hover {
+  color: #c0392b;
+}
+
+.btn-favorite {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  color: #aaa;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.btn-favorite:hover {
+  color: #e74c3c;
+}
+
+/* ── Compact card (favorites panel — vertical layout) ────────── */
+.card--compact {
+  flex-direction: column;
+}
+
+.card__image--compact {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.card__compact-body {
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.card__compact-title {
+  color: #3b4fce;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.card__compact-price {
+  color: #555;
+  font-size: 0.85rem;
+  margin: 0;
 }
