@@ -36,3 +36,88 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-page {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.travel-list {
+  width: 650px;
+}
+
+.travel-card {
+  display: flex;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 25px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.travel-card img {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.travel-info {
+  flex: 1;
+}
+
+.travel-info h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.description {
+  font-style: italic;
+}
+
+.label {
+  background-color: #0d6efd;
+  color: white;
+  padding: 7px;
+  border-radius: 4px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.travel-info button {
+  margin-top: 30px;
+  padding: 10px 20px;
+}
+
+.favorites {
+  width: 260px;
+  border-left: 1px solid black;
+  padding-left: 30px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.favorite-card {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.favorite-card img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.favorite-card h3 {
+  font-size: 14px;
+}
+
+.favorite-card p {
+  font-weight: bold;
+}
