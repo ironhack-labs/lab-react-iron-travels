@@ -1,7 +1,7 @@
 #root {
   width: 100%;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 5rem;
   text-align: center;
 }
 
@@ -35,4 +35,87 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.container-item-list {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.travel-and-favorites {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 100%;
+}
+
+.travel-column {
+  flex: 1;
+  min-width: 0;
+}
+
+.favorites-column {
+  width: 320px;
+  text-align: left;
+}
+
+.favorites-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.favorites-item {
+  border: solid azure 1px;
+  padding: 0.75rem 1rem;
+}
+
+.item-list-image-description-days-price {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 3rem;
+  border: solid azure 1px;
+  padding: 3rem;
+}
+
+.plan-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+.btn-delete,
+.btn-favorite {
+  width: fit-content;
+}
+
+.btn-favorite {
+  min-width: 44px;
+}
+.item-list-image {
+  width: 40%;
+}
+
+.labels-great {
+  background-color: green;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 5px 8px;
+}
+
+.labels-premium,
+.labels-all-inclusive {
+  background-color: rgba(0, 38, 255, 0.473);
+  border-radius: 8px;
+  width: fit-content;
+  padding: 5px 8px;
+  display: flex;
 }
