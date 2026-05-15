@@ -1,0 +1,71 @@
+.targets {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex: 1;
+}
+
+
+.travels {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.travelsFav {
+    margin-right: 15px;
+}
+.cards {
+    display:flex;
+    flex-direction: row;
+    border: 2px solid black;
+    margin: 5px; 
+    padding: 5px;
+    width: 700px;
+    height: auto;
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.images {
+    width: 100%;
+    padding: 2px;
+    margin-right: 15px;
+}
+
+span {
+    display: inline-block;
+    margin: 2px; 
+
+}
+.granOferta {
+    background-color: rgb(72, 222, 72);
+    border: 2px solid rgb(4, 67, 4); 
+    padding: 2px;
+    color: black;
+    
+
+}
+.premium{
+    background-color: rgb(72, 72, 209);
+    border: 2px solid rgb(2, 2, 50);
+    padding: 2px;
+    color: white; 
+
+}
+.allInclusive {
+    background-color: rgb(203, 89, 89);
+    border: 2px solid rgb(72, 8, 8);
+    padding: 2px;
+    color: white; 
+}
+.btnDel {
+    background-color: grey;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(47, 45, 45); 
+    border: 2px solid black;
+    border-radius: 999px;
+}
