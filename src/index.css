@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #dce9ff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -54,15 +54,37 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.destination-component {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #0c1d6a;
+  gap: 3em;
+  margin: 2em 0;
+  padding: 2em;
+  border: 0.1em #0c1d6a solid;
 }
+
+.destination-component img {
+  width: 20em;
+}
+
+#destination-details {
+  text-align: left;
+}
+
+#destination-details h3 {
+   margin: 0;
+   font-size: 1.5rem;
+}
+
+#destination-details p:first-of-type{
+  font-style: italic;
+}
+
+#destination-details p:nth-of-type(2){
+  font-weight: 800;
+}
+
+
+
