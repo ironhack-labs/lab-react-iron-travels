@@ -14,6 +14,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+*{
+  margin:0;
+  padding: 0;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -24,7 +29,6 @@ a:hover {
 }
 
 body {
-  margin: 0;
   display: flex;
   min-width: 320px;
   min-height: 100vh;
@@ -32,7 +36,7 @@ body {
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+  line-height: 2;
 }
 
 button {
