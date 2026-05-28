@@ -1,0 +1,136 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    grid-auto-rows: 1fr;
+    height: auto;
+    margin-top: 50px;
+}
+
+.favorites-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.favorites-container .favorite {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.278);
+    width: 60%;
+}
+
+.favorite .img-container {
+    height: 56%;
+    overflow: hidden;
+}
+
+.favorite .img-container>img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 70px;
+}
+
+.favorite p,
+.favorite h3 {
+    margin-top: 10px;
+}
+
+.card {
+    border: 1px solid rgba(255, 255, 255, 0.278);
+    max-width: 80%;
+    height: 250px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-content: center;
+    column-gap: 10px;
+}
+
+.card .img-container {
+    grid-row: 1 / -1;
+    overflow: hidden;
+}
+
+.img-container>img {
+    width: auto;
+    height: 115%;
+}
+
+.infos-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.infos-flex > p:first-of-type {
+    font-style: italic;
+}
+
+.infos-flex > p > span {
+    font-weight: bold;
+}
+
+.card .infos {
+    text-align: left;
+}
+
+.card .pastille-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.pastille-container .pastille {
+    background-color: #7dc0ff;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.great-deal.pastille {
+    background-color: green;
+}
+
+.card .btn-container {
+    position: relative;
+}
+
+.btn-container .buttons {
+    background-color: rgb(82, 82, 82);
+    border: none;
+}
+
+.btn-container .buttons:first-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.btn-container .buttons:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.btn-container .buttons:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+#sorry {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 50px;
+}
