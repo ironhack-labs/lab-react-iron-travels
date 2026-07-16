@@ -36,3 +36,154 @@
 .text-iron {
   color: #0a035a;
 }
+
+/* Layout: main list on the left, favorites column on the right */
+
+.travel-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.travel-main {
+  flex: 3;
+  min-width: 0;
+}
+
+.travel-favorites {
+  flex: 1;
+  min-width: 0;
+}
+
+.travel-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Travel plan card */
+
+.travel-plan {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 0 1.5rem;
+  text-align: left;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.travel-plan-image {
+  grid-row: 1 / 3;
+  width: 260px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.travel-plan-body {
+  grid-column: 2;
+}
+
+.travel-plan-title {
+  margin: 0 0 0.75rem;
+}
+
+.travel-plan-description {
+  font-style: italic;
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem;
+}
+
+.travel-plan-price {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+}
+
+.travel-plan-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.label {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.label-premium,
+.label-inclusive {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.label-deal {
+  background-color: #5cb85c;
+  color: #14231b;
+}
+
+/* Buttons */
+
+.travel-plan-actions {
+  grid-column: 2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-delete {
+  background-color: #d7d7d7;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.btn-favorite {
+  color: #fff;
+}
+
+/* Favorites column */
+
+.favorite-card {
+  padding: 0;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.favorite-image {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  display: block;
+}
+
+.favorite-title {
+  margin: 0.75rem 0;
+  font-size: 0.95rem;
+}
+
+.favorite-price {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.travel-empty {
+  color: #888;
+  font-size: 0.9rem;
+}
