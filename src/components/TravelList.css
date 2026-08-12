@@ -1,0 +1,60 @@
+.travel-list {
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.travel-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+.travel-card img {
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.travel-card h2 {
+  margin: 0 0 8px;
+}
+
+.travel-card p {
+  margin: 5px 0;
+}
+
+.labels {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.labels span {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #0a035a;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.delete-button {
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  border-color: #646cff;
+}
