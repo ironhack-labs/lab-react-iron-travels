@@ -28,7 +28,10 @@ function TravelList() {
             <p>${plan.totalCost}</p>
             <p>{plan.description}</p>
 
-            <button onClick={() => handleDelete(plan.id)}>
+            <button
+              className="delete-button"
+              onClick={() => handleDelete(plan.id)}
+            >
               Delete
             </button>
           </div>
