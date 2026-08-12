@@ -36,3 +36,72 @@
 .text-iron {
   color: #0a035a;
 }
+
+#travel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.travel-list-entry {
+  /* height: 150px; */
+  padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  border: 1px solid #FFFFFF;
+}
+
+.travel-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.travel-details h3, .travel-details p {
+  margin: 0;
+  padding: 0;
+}
+
+.travel-details-label {
+  font-weight: bold;
+}
+
+.travel-list-entry > img {
+  width: 300px;
+  height: 200px;
+}
+
+.entry-tags {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.geat-deal-tag, .premium-tag, .all-inclusive-tag {
+  padding: 1px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.premium-tag, .all-inclusive-tag {
+  color: #FFFFFF;
+  background-color: #366bca;
+}
+
+.geat-deal-tag {
+  color: #000000;
+  background-color: #77bc77;
+}
+
+.delete-button {
+  margin-top: 10px;
+  color: #000000;
+  background-color: #aba9ab;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+}
