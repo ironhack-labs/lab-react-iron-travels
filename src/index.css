@@ -66,3 +66,40 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+ul {
+  list-style: none;
+}
+#cards{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  width:800px;
+
+}
+#cardImg{
+  width:300px;
+  margin-left: 50px;
+  height: 200px;
+  padding: 10px;
+}
+#des{
+  font-size: 30px;
+}
+body{
+  background-color: rgb(230, 232, 197);
+}
+#btn{
+  margin: 5px;
+}
+#main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#fav{
+display: flex;
+flex-direction: row;
+align-items: center;}
