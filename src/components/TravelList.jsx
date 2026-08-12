@@ -5,6 +5,10 @@ import "./TravelList.css";
 function TravelList() {
   const [travelPlans, setTravelPlans] = useState(travelPlansData);
 
+  const handleDelete = (id) => {
+    setTravelPlans(travelPlans.filter((plan) => plan.id !== id));
+  };
+
   return (
     <div className="travel-list">
       {travelPlans.map((plan) => (
@@ -23,6 +27,10 @@ function TravelList() {
             <p>{plan.days} days</p>
             <p>${plan.totalCost}</p>
             <p>{plan.description}</p>
+
+            <button onClick={() => handleDelete(plan.id)}>
+              Delete
+            </button>
           </div>
         </div>
       ))}
