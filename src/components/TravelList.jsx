@@ -10,10 +10,20 @@ function TravelList() {
       {travelPlans.map((plan) => (
         <div className="travel-card" key={plan.id}>
           <img src={plan.image} alt={plan.destination} />
-          <h2>{plan.destination}</h2>
-          <p>{plan.days} days</p>
-          <p>${plan.totalCost}</p>
-          <p>{plan.description}</p>
+
+          <div>
+            <h2>{plan.destination}</h2>
+
+            <div className="labels">
+              {plan.totalCost <= 350 && <span>Great Deal</span>}
+              {plan.totalCost >= 1500 && <span>Premium</span>}
+              {plan.allInclusive && <span>All Inclusive</span>}
+            </div>
+
+            <p>{plan.days} days</p>
+            <p>${plan.totalCost}</p>
+            <p>{plan.description}</p>
+          </div>
         </div>
       ))}
     </div>
