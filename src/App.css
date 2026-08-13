@@ -36,3 +36,108 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-plan {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.travel-plan img {
+  width: 550px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.travel-plan-info {
+  text-align: left;
+  flex: 1;
+}
+
+.label {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.great-deal {
+  background-color: green;
+  color: white;
+}
+
+.premium {
+  background-color: gold;
+  color: black;
+}
+
+.all-inclusive {
+  background-color: purple;
+  color: white;
+}
+
+.travel-plan button {
+  margin-top: 15px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e74c3c;
+  color: white;
+  cursor: pointer;
+}
+
+.travel-plan button:hover {
+  background-color: #c0392b;
+}
+
+.travel-lists {
+  display: flex;
+  gap: 30px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.travel-list {
+  flex: 2;
+  min-width: 0;
+}
+
+.favorites {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.favorite-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.favorite-card img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.favorite-card h3 {
+  margin: 0 0 5px;
+}
+
+.favorite-card p {
+  margin: 3px 0;
+}
