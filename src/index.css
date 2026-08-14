@@ -66,3 +66,94 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* ----------- travel-card ------------ */
+
+#travelCard{
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  gap: 20px;
+  background-color: rgba(234, 233, 239, 0.56);
+  width: 100%;
+  border-radius: 8px;
+}
+
+#card-content-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items:left;
+  gap: 20px;
+}
+
+#card-header{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+#image-wrapper{
+  /* height: 100%; Only the image gets a fixed height */
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+
+p{
+  text-align: left;
+  margin: 0;
+}
+
+h2{
+  text-align: left;
+}
+/* ----------- badges ------------ */
+
+.badge{
+  padding: 8px;
+  border-radius: 6px;
+  color: #1565c0;
+}
+
+#badge-all-inclusive{
+  padding: 8px;
+  border-radius: 6px;
+  background-color: #1565c0;
+  color: white;
+}
+
+#badge-wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.badge p{
+  color: white;
+}
+
+/* ----------- list ------------ */
+
+#list-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  align-self: center;
+  margin: 0 auto; 
+
+}
+
+/* ----------- button ------------ */
+
+
+button{
+  display: flex;
+  width:fit-content;
+  background-color: #cacfd4;
+  }
