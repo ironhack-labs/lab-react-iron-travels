@@ -18,6 +18,23 @@ function TravelList() {
             <p>
               {plan.days} days - ${plan.totalCost}
             </p>
+            <div className="TravelPlanCard__labels">
+              {plan.totalCost <= 350 && (
+                <span className="TravelPlanCard__label TravelPlanCard__label--great-deal">
+                  Great Deal
+                </span>
+              )}
+              {plan.totalCost >= 1500 && (
+                <span className="TravelPlanCard__label TravelPlanCard__label--premium">
+                  Premium
+                </span>
+              )}
+              {plan.allInclusive && (
+                <span className="TravelPlanCard__label TravelPlanCard__label--all-inclusive">
+                  All Inclusive
+                </span>
+              )}
+            </div>
           </div>
         </div>
       ))}

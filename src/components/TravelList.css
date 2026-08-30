@@ -38,3 +38,30 @@
 .TravelPlanCard__content p {
     margin: 0;
 }
+
+.TravelPlanCard__labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.TravelPlanCard__label {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.TravelPlanCard__label--great-deal {
+    background-color: #59d18d;
+    color: black;
+}
+
+.TravelPlanCard__label--premium {
+    background-color: #5f83ec;
+}
+
+.TravelPlanCard__label--all-inclusive {
+    background-color: #5f83ec;
+}
