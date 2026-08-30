@@ -1,0 +1,40 @@
+.TravelList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.TravelPlanCard {
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 15px;
+}
+
+.TravelPlanCard__img-container {
+    flex: 0 0 200px;
+}
+
+.TravelPlanCard__img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.TravelPlanCard__content {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.TravelPlanCard__content h2 {
+    margin: 0;
+}
+
+.TravelPlanCard__content p {
+    margin: 0;
+}
