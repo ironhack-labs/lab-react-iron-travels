@@ -5,6 +5,10 @@ import './TravelList.css';
 function TravelList() {
   const [travelPlans, setTravelPlans] = useState(travelPlansData);
 
+  const handleDelete = (id) => {
+    setTravelPlans(travelPlans.filter((plan) => plan.id !== id));
+  };
+
   return (
     <div className="TravelList">
       {travelPlans.map((plan) => (
@@ -35,6 +39,14 @@ function TravelList() {
                 </span>
               )}
             </div>
+            <div>
+                <button
+                  className="TravelPlanCard__delete-btn"
+                  onClick={() => handleDelete(plan.id)}
+                >
+                  Delete
+                </button>
+              </div>
           </div>
         </div>
       ))}
