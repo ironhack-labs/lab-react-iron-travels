@@ -1,0 +1,82 @@
+.TravelList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.TravelPlanCard {
+    position: relative;
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 15px;
+}
+
+.TravelPlanCard__delete-btn {
+    padding: 4px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #aaaaaa;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.TravelPlanCard__delete-btn:hover {
+    background-color: #888888;
+}
+
+.TravelPlanCard__img-container {
+    flex: 0 0 200px;
+}
+
+.TravelPlanCard__img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.TravelPlanCard__content {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.TravelPlanCard__content h2 {
+    margin: 0;
+}
+
+.TravelPlanCard__content p {
+    margin: 0;
+}
+
+.TravelPlanCard__labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.TravelPlanCard__label {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.TravelPlanCard__label--great-deal {
+    background-color: #59d18d;
+    color: black;
+}
+
+.TravelPlanCard__label--premium {
+    background-color: #5f83ec;
+}
+
+.TravelPlanCard__label--all-inclusive {
+    background-color: #5f83ec;
+}
