@@ -36,154 +36,131 @@
 .text-iron {
   color: #0a035a;
 }
-
-/* Layout: main list on the left, favorites column on the right */
-
-.travel-layout {
+/* travel list */
+.travel-container {
   display: flex;
-  gap: 2rem;
-  align-items: flex-start;
   justify-content: center;
-  margin-top: 2rem;
-}
-
-.travel-main {
-  flex: 3;
-  min-width: 0;
-}
-
-.travel-favorites {
-  flex: 1;
-  min-width: 0;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
 }
 
 .travel-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  width: 600px;
 }
 
-/* Travel plan card */
-
-.travel-plan {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: 1fr auto;
-  gap: 0 1.5rem;
-  text-align: left;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-
-.travel-plan-image {
-  grid-row: 1 / 3;
-  width: 260px;
-  height: 190px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-.travel-plan-body {
-  grid-column: 2;
-}
-
-.travel-plan-title {
-  margin: 0 0 0.75rem;
-}
-
-.travel-plan-description {
-  font-style: italic;
-  font-size: 0.9rem;
-  margin: 0 0 0.75rem;
-}
-
-.travel-plan-price {
-  margin: 0 0 0.75rem;
-  font-size: 0.9rem;
-}
-
-.travel-plan-labels {
+.travel-card {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.travel-img {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.travel-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.travel-info h2 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.travel-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.labels {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
 }
 
 .label {
-  padding: 0.2rem 0.5rem;
+  padding: 3px 7px;
   border-radius: 4px;
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: bold;
 }
 
-.label-premium,
-.label-inclusive {
-  background-color: #0d6efd;
-  color: #fff;
+.label.blue {
+  background-color: #0068c9;
+  color: white;
 }
 
-.label-deal {
+.label.green {
   background-color: #5cb85c;
-  color: #14231b;
+  color: black;
 }
 
-/* Buttons */
-
-.travel-plan-actions {
-  grid-column: 2;
+.card-buttons {
   display: flex;
-  align-items: flex-end;
   justify-content: space-between;
+  margin-top: auto;
 }
 
-.btn {
-  border: none;
-  border-radius: 6px;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  font-size: 0.9rem;
+.btn-delete,
+.btn-fav {
+  background-color: #b0b0b0;
+  color: black;
+  padding: 6px 14px;
 }
 
-.btn-delete {
-  background-color: #d7d7d7;
-  color: #1a1a1a;
-  font-weight: 600;
+/* favorites */
+.favorites {
+  width: 240px;
 }
 
-.btn-favorite {
-  color: #fff;
+.favorites h2 {
+  margin-top: 0;
+  font-size: 20px;
 }
-
-/* Favorites column */
 
 .favorite-card {
-  padding: 0;
-  margin-bottom: 1.5rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 16px;
   overflow: hidden;
 }
 
-.favorite-image {
+.favorite-card img {
   width: 100%;
-  height: 110px;
+  height: 80px;
   object-fit: cover;
-  display: block;
 }
 
-.favorite-title {
-  margin: 0.75rem 0;
-  font-size: 0.95rem;
+.favorite-card p {
+  font-size: 13px;
+  margin: 8px;
 }
 
-.favorite-price {
-  margin: 0 0 0.75rem;
-  font-size: 0.95rem;
-  font-weight: 600;
-}
+@media (max-width: 900px) {
+  .travel-container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.travel-empty {
-  color: #888;
-  font-size: 0.9rem;
+  .travel-list,
+  .favorites {
+    width: 100%;
+  }
+
+  .travel-card {
+    flex-direction: column;
+  }
+
+  .travel-img {
+    width: 100%;
+  }
 }
