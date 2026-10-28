@@ -66,3 +66,45 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.premium,.allInclusive{
+
+  background-color: #3769c9;
+  color: white;
+  padding:6px;
+  margin-right: 5px;
+}
+
+.greatDeal{
+
+  background-color: lightgreen;
+  color:black;
+  padding:6px;
+}
+
+.travelImage{
+
+   width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.delete{
+
+  margin-top: 15px;
+}
+
+.travelDetail{
+  text-align: left;
+}
+
+.travelCard {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+h3{
+  margin-top: 0;
+}
