@@ -36,3 +36,59 @@
 .text-iron {
   color: #0a035a;
 }
+
+.superDiv {
+  width: 800px;
+  display: flex;
+}
+.listContainer {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.favContainer {
+width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#favDiv {
+  border: solid black 1px;
+  width: 200px;
+  margin: 10px;
+}
+
+#styleOuterDiv {
+  display: flex;
+  border: solid, 1px;
+  margin: 5px;
+  padding: 10px;
+}
+#styleOuterDiv img {
+  width: 250px;
+  height: auto;
+  padding: 10px;
+}
+
+#styleText {
+  text-align: left;
+  margin-left: 5px;
+}
+
+#styleLabelBlue {
+  background: #006eb1;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+}
+
+#styleLabelGreen {
+  background: #00d100;
+  color: black;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+
