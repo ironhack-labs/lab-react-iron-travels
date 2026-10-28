@@ -36,3 +36,27 @@
 .text-iron {
   color: #0a035a;
 }
+
+.label {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.great-deal {
+  background-color: #82c991;
+  color: #183b20;
+}
+
+.premium {
+  background-color: #4779d6;
+  color: white;
+}
+
+.all-inclusive {
+  background-color: #4779d6;
+  color: white;
+
+}
