@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 1.5rem;
   text-align: center;
+  background-color: #f8f9fa;
 }
 
 .logo {
@@ -11,9 +12,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -35,4 +38,72 @@
 
 .text-iron {
   color: #0a035a;
+}
+
+.travel-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.card {
+  display: flex;
+  width: 650px;
+  border: 1px solid #ccc;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+}
+
+.card img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label {
+  display: inline-block;
+  padding: 4px 10px;
+  margin-right: 6px;
+  margin-top: 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.label.green {
+  background-color: #28a745;
+}
+
+.label.blue {
+  background-color: #0d6efd;
+}
+
+.btn-delete {
+  background-color: #b0b0b0;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.btn-delete:hover {
+  background-color: #909090;
 }
