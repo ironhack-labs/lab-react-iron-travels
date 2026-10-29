@@ -66,3 +66,47 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+h3,
+h2,
+h4,
+p {
+  color: rgb(56, 99, 56);
+}
+
+h1 {
+  color: #535bf2;
+}
+
+.destinationPhotos {
+  width: 15%;
+  height: 15%;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  flex-direction: column;
+}
+
+.travelList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.travelTainer {
+  margin: 3%;
+  padding: 3%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
