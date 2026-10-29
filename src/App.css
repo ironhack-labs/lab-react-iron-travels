@@ -36,3 +36,50 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel-plan-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #777;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 16px;
+  text-align: left;
+  flex-direction: column;
+}
+
+.travel-plan-card img {
+  width: 300px;
+  height: 190px;
+  object-fit: cover;
+}
+
+.travel-plan-card h2 {
+  margin-top: 0;
+}
+
+body { background-color: white;
+  color: black;
+}
+
+.great-deal {
+  background-color: green; 
+  color: white; 
+  border-radius: 300px;
+  padding: 10px; 
+}
+
+.premium, .all-inclusive {
+  background-color: darkblue;
+  color: white;
+  border-radius: 300px;
+  padding: 10px;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
