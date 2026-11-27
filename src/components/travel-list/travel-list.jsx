@@ -15,20 +15,19 @@ function TravelList () {
 
     const handleFavorite = (id) => {
         setFavorites([...favorites, travelPlans.filter((plan) => plan.id === id)[0]])
-        handleDelete(id)
     }
 
 
     return <div className="ironTravel">
         <ul>
-            {travelPlans.map((plan) => <TravelPlanCard key={crypto.randomUUID} plan={plan} handleDelete={handleDelete} handleFavorite={handleFavorite} />
+            {travelPlans.map((plan) => <TravelPlanCard key={plan.id} plan={plan} handleDelete={handleDelete} handleFavorite={handleFavorite} />
             )}
         </ul>
         <div className="favorites">
             <h1> Favorites </h1>
             <ul>
                 {favorites ? favorites.map((plan) => (
-                    <div className="fav" key={crypto.randomUUID}>
+                    <div className="fav" key={crypto.randomUUID()}>
                         <img className="favImg" src={plan.image} />
                         <p className="favDestination"> {plan.destination} ({plan.days} Days) </p>
                         <p className="favCost"> {plan.totalCost}€ </p>

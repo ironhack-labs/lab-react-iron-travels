@@ -1,6 +1,17 @@
+import { useState } from "react"
 import "./travel-plan-card.css"
 
 function TravelPlanCard ({plan, handleDelete, handleFavorite}) {
+
+
+    const buttonColors = ["purple", "blue", "green", "yellow", "orange", "red"]
+    const [indexColor, setIndexColor] = useState(0)
+
+    const buttonStyle = {
+        backgroundColor: buttonColors[indexColor % buttonColors.length],
+    }
+
+
     return <li className="destination">
             
             <img className="img" src={plan.image} />
@@ -14,8 +25,8 @@ function TravelPlanCard ({plan, handleDelete, handleFavorite}) {
                     {plan.allInclusive && <label className="allInclusive"> All-Inclusive </label>}
                 </div> 
                 <div className="buttons">
-                    <button onClick={() => handleDelete(plan.id)}> Delete </button>
-                    <button onClick={() => handleFavorite(plan.id)}> ♡ </button>
+                    <button className="deleteButton" onClick={() => handleDelete(plan.id)}> Delete </button>
+                    <button onClick={() => {setIndexColor(indexColor + 1); handleFavorite(plan.id)}} style={buttonStyle} > ♡ </button>
                 </div>
                     
             </div>

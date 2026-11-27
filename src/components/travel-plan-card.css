@@ -85,10 +85,13 @@
 button {
     height: 32px;
     font-size: 0.8rem;
-    background-color: rgb(172, 170, 170);
     border-radius: 4px;
     margin-top: 20px;
     color: black;
     font-weight: bold;
+}
+
+.deleteButton {
+    background-color: rgb(172, 170, 170);
 }
 
