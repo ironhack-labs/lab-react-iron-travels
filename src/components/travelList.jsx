@@ -3,47 +3,52 @@ import travelPlansData from "../assets/travel-plans.json"
 import TravelPlanCard from "./travelPlanCard"
 import { useState } from "react"
 
-function TravelList () {
-
+function TravelList() {
   const [travels, setTravels] = useState(travelPlansData)
   const [favorites, setFavorites] = useState([])
 
   const handleLike = (plan) => {
-    setFavorites(
-      [...favorites, plan]
-    )
-
+    if (!favorites.some(favorite => favorite.id === plan.id)) {
+      setFavorites([...favorites, plan])
+    }
   }
 
   const handleDelete = (id) => {
-    setTravels(
-      travels.filter(travel => (id !== travel.id))
-    )
+    setTravels(travels.filter(travel => id !== travel.id))
   }
 
-return (
-  <div>
-    <ul className="ul">
-      {travels.map(travel => (
-        <TravelPlanCard key={travel.id} plan={travel} handleDelete={handleDelete} handleLike={handleLike}/>
-      ))}
-    </ul>
-    <div className="li">
-      <h2>Favorites</h2>
+  return (
+    <div className="travelContainer">
       <ul className="ul">
-        {favorites.map(favorite => (
-          <li className="information" key={favorite.id}>
-          <img className="img" src={favorite.image}/>
-          <h4>
-          {favorite.destination}
-          </h4>
-          <p>{favorite.totalCost}€</p>
-          </li>
+        {travels.map(travel => (
+          <TravelPlanCard
+            key={travel.id}
+            plan={travel}
+            handleDelete={handleDelete}
+            handleLike={handleLike}
+          />
         ))}
       </ul>
+
+      <div className="favorites">
+        <h2>Favorites</h2>
+
+        {favorites.length === 0 && <p>No favorites yet</p>}
+
+        <ul className="favoritesList">
+          {favorites.map(favorite => (
+            <li className="favoriteCard" key={favorite.id}>
+              <img src={favorite.image} alt={favorite.destination} />
+              <div>
+                <h4>{favorite.destination}</h4>
+                <p>{favorite.totalCost}€</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
-  </div>
-)
+  )
 }
 
 export default TravelList
