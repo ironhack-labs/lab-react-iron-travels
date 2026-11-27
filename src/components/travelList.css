@@ -66,9 +66,19 @@
   margin-right: 10px;
 }
 .buttons{
-
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .delete{
   padding: 5px 15px;
   background-color: grey;
+}
+.like{
+  padding: 5px 10px;
+  background-color: red;
+}
+
+.favorites{
+  color: black;
 }

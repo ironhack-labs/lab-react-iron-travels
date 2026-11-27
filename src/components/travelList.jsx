@@ -1,9 +1,19 @@
 import "./travelList.css"
 import travelPlansData from "../assets/travel-plans.json"
+import TravelPlanCard from "./travelPlanCard"
 import { useState } from "react"
+
 function TravelList () {
 
   const [travels, setTravels] = useState(travelPlansData)
+  const [favorites, setFavorites] = useState([])
+
+  const handleLike = (plan) => {
+    setFavorites(
+      [...favorites, plan]
+    )
+
+  }
 
   const handleDelete = (id) => {
     setTravels(
@@ -11,29 +21,29 @@ function TravelList () {
     )
   }
 
-  return (
+return (
+  <div>
     <ul className="ul">
       {travels.map(travel => (
-      <li key={travel.id} className="li">
-        <div className="img">
-          <img src={travel.image} />
-        </div>
-        <div className="information">
-          <h1>{travel.destination} ({travel.days} Days)</h1>
-          <p className="description">{travel.description}</p>
-          <p><strong>Price:</strong> {travel.totalCost}€</p>
-          <div>
-            {travel.totalCost <= 350 && <span className="greatDeal">Great Deal</span>}
-            {travel.totalCost >= 1500 && <span className="label">Premium</span>}
-            {travel.allInclusive && <span className="label">All-Inclusive</span>}
-          </div>
-          <div className="buttons">
-            <button className="delete" onClick={() => handleDelete(travel.id)}>Delete</button>
-          </div>
-        </div>
-      </li>))}
+        <TravelPlanCard key={travel.id} plan={travel} handleDelete={handleDelete} handleLike={handleLike}/>
+      ))}
     </ul>
-  )
+    <div className="li">
+      <h2>Favorites</h2>
+      <ul className="ul">
+        {favorites.map(favorite => (
+          <li className="information" key={favorite.id}>
+          <img className="img" src={favorite.image}/>
+          <h4>
+          {favorite.destination}
+          </h4>
+          <p>{favorite.totalCost}€</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+)
 }
 
 export default TravelList
