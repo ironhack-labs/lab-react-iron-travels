@@ -19,6 +19,7 @@
   padding: 30px;
   margin-bottom: 50px;
   width: 700px;
+  height: auto;
   color: black;
 }
 
@@ -26,15 +27,15 @@
   width: 50%;
 }
 .information{
+  height: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   width: 50%;
 }
 
 .information h1{
-  margin-bottom: 10px;
   font-size: 24px;
 }
 
@@ -43,11 +44,11 @@
 }
 
 .information p{
-  margin-bottom: 10px;
 }
 
 .img img{
   width: 100%;
+  object-fit: cover;
 }
 
 .label{
@@ -63,4 +64,11 @@
   padding: 3px 15px;
   border-radius: 7px;
   margin-right: 10px;
+}
+.buttons{
+
+}
+.delete{
+  padding: 5px 15px;
+  background-color: grey;
 }

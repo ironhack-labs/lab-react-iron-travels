@@ -5,6 +5,12 @@ function TravelList () {
 
   const [travels, setTravels] = useState(travelPlansData)
 
+  const handleDelete = (id) => {
+    setTravels(
+      travels.filter(travel => (id !== travel.id))
+    )
+  }
+
   return (
     <ul className="ul">
       {travels.map(travel => (
@@ -20,6 +26,9 @@ function TravelList () {
             {travel.totalCost <= 350 && <span className="greatDeal">Great Deal</span>}
             {travel.totalCost >= 1500 && <span className="label">Premium</span>}
             {travel.allInclusive && <span className="label">All-Inclusive</span>}
+          </div>
+          <div className="buttons">
+            <button className="delete" onClick={() => handleDelete(travel.id)}>Delete</button>
           </div>
         </div>
       </li>))}
