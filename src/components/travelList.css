@@ -49,3 +49,18 @@
 .img img{
   width: 100%;
 }
+
+.label{
+  background-color: blue;
+  color: white;
+  padding: 3px 15px;
+  border-radius: 7px;
+  margin-right: 10px;
+}
+.greatDeal{
+  background-color: rgb(54, 250, 54);
+  color: black;
+  padding: 3px 15px;
+  border-radius: 7px;
+  margin-right: 10px;
+}

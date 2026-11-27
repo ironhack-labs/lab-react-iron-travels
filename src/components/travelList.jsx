@@ -5,7 +5,6 @@ function TravelList () {
 
   const [travels, setTravels] = useState(travelPlansData)
 
-
   return (
     <ul className="ul">
       {travels.map(travel => (
@@ -17,7 +16,11 @@ function TravelList () {
           <h1>{travel.destination} ({travel.days} Days)</h1>
           <p className="description">{travel.description}</p>
           <p><strong>Price:</strong> {travel.totalCost}€</p>
-          <span>{travel.allInclusive ? "All-Inclusive" : null}</span>
+          <div>
+            {travel.totalCost <= 350 && <span className="greatDeal">Great Deal</span>}
+            {travel.totalCost >= 1500 && <span className="label">Premium</span>}
+            {travel.allInclusive && <span className="label">All-Inclusive</span>}
+          </div>
         </div>
       </li>))}
     </ul>
