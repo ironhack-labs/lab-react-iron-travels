@@ -3,12 +3,23 @@ import travelPlansData from "../assets/travel-plans.json"
 import { useState } from "react"
 function TravelList () {
 
-  const [travel, setTravel] = useState(travelPlansData)
+  const [travels, setTravels] = useState(travelPlansData)
 
 
   return (
-    <ul>
-      {travel.map(tr => <li key={crypto.randomUUID}><img src={tr.image}></img></li>)}
+    <ul className="ul">
+      {travels.map(travel => (
+      <li key={travel.id} className="li">
+        <div className="img">
+          <img src={travel.image} />
+        </div>
+        <div className="information">
+          <h1>{travel.destination} ({travel.days} Days)</h1>
+          <p className="description">{travel.description}</p>
+          <p><strong>Price:</strong> {travel.totalCost}€</p>
+          <span>{travel.allInclusive ? "All-Inclusive" : null}</span>
+        </div>
+      </li>))}
     </ul>
   )
 }
