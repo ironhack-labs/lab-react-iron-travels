@@ -1,0 +1,94 @@
+* p {
+    margin: 0;
+}
+
+.destination {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    height: 200px;
+    width: auto;
+    align-items: center;
+}
+
+.img {
+    height: 200px;
+    width: 260px;
+    margin-right: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 200px;
+}
+
+.days {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.cost {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.cost span {
+    font-weight: 800;
+}
+
+.greatDeal {
+    background-color: rgb(82, 171, 82);
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.premium {
+    background-color: rgb(63, 71, 228);
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.allInclusive {
+    margin-left: 4px;
+    background-color: rgb(63, 71, 228);
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;  
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    height: 32px;
+    font-size: 0.8rem;
+    background-color: rgb(172, 170, 170);
+    border-radius: 4px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+}
+
